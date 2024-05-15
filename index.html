@@ -1,10 +1,119 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Diablo 2 Resurgence</title>
+  <meta name="description" content="Landing page for Diablo 2 Resurgence mod">
+  <meta name="author" content="resurgencedevs">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+
+
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon_32x32.png">
+
+</head>
 <body>
 
-<h1>Resurgence</h1>
 
-<p>A Diablo II: Lord of Destruction and Diablo II: Resurrected mod.</p>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="u-full-width" id="topbar">
+      </div>
+    </div>
+    <div class="row">
+      <div class="u-full-width" id="banner">
+      </div>
+    </div>
+    <div class="row">
+      <div id="navbar">
+        <ul class="intro_navbar">
+          <li><a href="#">Top</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="row">
+        <div class="u-full-width">
+          <h1 style="text-align: center;">Welcome to Resurgence</h1>
+          <div style="margin-left: 10%;margin-right: 10%; text-align: justify;">
+            <p>
+              Resurgence is a Diablo II mod that introduces many changes to promote character balance and diversity while staying true to the original Diablo feel.  Join us online for regular ladder resets and servers around the world.  Single player supported too.
+            </p>
+          </div>
+          <div id="play-container">
+            <a href="https://github.com/DoctorWoot420/resurgence-launcher/releases/download/v1.0.0/Resurgence.Launcher.msi" target="_blank"><div id="play-button">PLAY NOW</div></a>
+          </div>
+        </div>
+      </div>
+      <div class="row separator"></div>
+      <div class="row" style="text-align: center;"><h3>Same Feel, New Challenge</h3></div>
+      <div class="row">
+        <div class="six columns" style="text-align: justify">
+          <p>
+            Preserving the atmosphere of the original Diablo II game is a key element of Resurgence. The majority of changes are centered around providing a fair game for all skills and classes. Players shouldn’t feel bad for building non-traditional characters because ‘meta’ builds such as Blizzard Sorceress and Blessed Hammer Paladin are so much more powerful in comparison.
+          </p>
+          <p>
+            These changes are made through a number of ways:
+            <ul>
+              <li>Skill and synergy overhauls</li>
+              <li>Innovative new items and effects</li>
+              <li>New zones and end game content</li>
+              <li>Robust new crafting and charm systems</li>
+              <li>Storage and quality of life upgrades</li>
+            </ul>
+          </p>
+        </div>
+      </div>       
+      <div class="row separator"></div>
+    </div>
+  </div>    
+  <div id="footer">
+  </div>
 
+  <!-- Sticky the navigation -->
+  <script>
+    window.onscroll = function() { scrollFunction() };
+    
+    var navbar = document.getElementById("navbar");
+    var content = document.getElementById("content");
+    var sticky = navbar.offsetTop;
+    
+    function scrollFunction() {
+      if (window.pageYOffset >= sticky - 40) {
+        navbar.classList.add("sticky")
+        content.classList.add("stickycontent")
+      } else {
+        navbar.classList.remove("sticky");
+        content.classList.remove("stickycontent")
+      }
+    }
+    </script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
