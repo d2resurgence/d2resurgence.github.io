@@ -193,8 +193,8 @@ div#banner  {
     position: relative;
     width: 100vw;
     max-width: 1024px;
-    height: 240px;
-    background-image: url("../images/banner_1024x320.png");
+    height: 372px;
+    background-image: url("../images/new_banner_1.png");
     background-repeat: no-repeat; 
     background-position: center bottom; /* Center the background image */
     z-index: 1 !important; 
