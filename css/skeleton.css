@@ -4,9 +4,8 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -256,6 +255,13 @@ hr {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Cardo Italic";
+  src: url("../files/Cardo-Italic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #font-face {
   font-family: "Cardo Regular";
   src: url("../files/Cardo-Regular.ttf");
@@ -294,8 +300,8 @@ div#banner {
   position: relative;
   width: 100vw;
   max-width: 1024px;
-  height: 391px;
-  background-image: url("../images/topbanner.png");
+  height: 364px;
+  background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   /* Center the background image */
@@ -336,12 +342,34 @@ div#banner {
   margin-top: 25px;
 }
 
+#skills_row {
+  display: flex;
+}
+
+#skills_panel {
+  display: flex;
+  width: 580px;
+}
+
 .intro_row {
   display: flex;
 }
 
 .intro_row #intro_text {
-  width: 525px;
+  font-size: 20px;
+}
+
+#content #fancy_intro {
+  font-family: "Cardo Italic";
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#resurgence_title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .intro_panel {
@@ -355,7 +383,7 @@ div#banner {
   background-repeat: no-repeat;
 }
 
-.intro_panel > div {
+.intro_panel>div {
   margin-top: 43px;
   margin-bottom: 16px;
 }
@@ -376,9 +404,13 @@ div#banner {
 
 .intro_panel .download_buttons {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  
+}
+
+.intro_panel #windows_installer_logo {
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .intro_panel .d2_logo_column {
@@ -393,6 +425,7 @@ div#banner {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 35px;
   width: 237px;
   height: 61px;
   background-image: url("../images/button_grey_1.png");
@@ -405,6 +438,11 @@ div#banner {
   text-shadow: 1px 1px 1px #111;
 }
 
+.fancy_divider {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
