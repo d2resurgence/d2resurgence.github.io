@@ -6,7 +6,7 @@
                       "deprecated":  false,
                       "content_length":  317787,
                       "crc":  "b0424bb5",
-                      "last_modified":  "2024-05-16T15:41:12.9857349-07:00"
+                      "last_modified":  "2024-05-16T15:41:12.0000000-07:00"
                   },
                   {
                       "ignore_crc":  false,
@@ -14,7 +14,7 @@
                       "deprecated":  false,
                       "content_length":  1324032,
                       "crc":  "9c5a5078",
-                      "last_modified":  "2024-05-01T07:33:08.4302217-07:00"
+                      "last_modified":  "2024-05-01T07:33:08.0000000-07:00"
                   },
                   {
                       "ignore_crc":  false,
@@ -22,7 +22,7 @@
                       "deprecated":  false,
                       "content_length":  12428,
                       "crc":  "aff95d31",
-                      "last_modified":  "2024-04-18T21:28:32.9741550-07:00"
+                      "last_modified":  "2024-04-18T21:28:32.0000000-07:00"
                   },
                   {
                       "ignore_crc":  false,
@@ -30,7 +30,7 @@
                       "deprecated":  false,
                       "content_length":  85377,
                       "crc":  "b8d9dfdf",
-                      "last_modified":  "2024-04-30T15:00:23.0904149-07:00"
+                      "last_modified":  "2024-04-30T15:00:23.0000000-07:00"
                   }
               ]
 }
