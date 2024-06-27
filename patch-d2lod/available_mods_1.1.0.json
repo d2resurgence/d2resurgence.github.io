@@ -1,0 +1,11 @@
+{
+    "hd": [
+        "2.0",
+		"3.0"
+    ],
+    "maphack": [
+		"default",
+		"cosmic",
+		"cosmic-lite"
+    ]
+}

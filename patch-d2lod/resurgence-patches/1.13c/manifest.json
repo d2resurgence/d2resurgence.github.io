@@ -1,0 +1,236 @@
+{
+    "files":  [
+                  {
+                      "ignore_crc":  false,
+                      "name":  "binkw32.dll",
+                      "deprecated":  false,
+                      "content_length":  200704,
+                      "crc":  "5934b4a7",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Bnclient.dll",
+                      "deprecated":  false,
+                      "content_length":  139264,
+                      "crc":  "a4cd6743",
+                      "last_modified":  "2023-11-28T01:45:46.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "BNUpdate.exe",
+                      "deprecated":  false,
+                      "content_length":  237568,
+                      "crc":  "aeef06d9",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2.LNG",
+                      "deprecated":  false,
+                      "content_length":  1536,
+                      "crc":  "b1e8e528",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Client.dll",
+                      "deprecated":  false,
+                      "content_length":  1093632,
+                      "crc":  "e07177d4",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2CMP.dll",
+                      "deprecated":  false,
+                      "content_length":  163840,
+                      "crc":  "e999ac9d",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Common.dll",
+                      "deprecated":  false,
+                      "content_length":  679936,
+                      "crc":  "34f3b1f6",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2DDraw.dll",
+                      "deprecated":  false,
+                      "content_length":  69632,
+                      "crc":  "320947a3",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Direct3D.dll",
+                      "deprecated":  false,
+                      "content_length":  110592,
+                      "crc":  "64ad16a0",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Game.dll",
+                      "deprecated":  false,
+                      "content_length":  1138688,
+                      "crc":  "abb59ee3",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Gdi.dll",
+                      "deprecated":  false,
+                      "content_length":  53248,
+                      "crc":  "e080e0d9",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2gfx.dll",
+                      "deprecated":  false,
+                      "content_length":  77824,
+                      "crc":  "f1e0baf6",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Glide.dll",
+                      "deprecated":  false,
+                      "content_length":  98304,
+                      "crc":  "385dc521",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Lang.dll",
+                      "deprecated":  false,
+                      "content_length":  77824,
+                      "crc":  "1d5e3144",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Launch.dll",
+                      "deprecated":  false,
+                      "content_length":  167936,
+                      "crc":  "d3b564f0",
+                      "last_modified":  "2023-11-28T01:45:46.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2MCPClient.dll",
+                      "deprecated":  false,
+                      "content_length":  49152,
+                      "crc":  "480a9856",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Multi.dll",
+                      "deprecated":  false,
+                      "content_length":  126976,
+                      "crc":  "2631b2db",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Net.dll",
+                      "deprecated":  false,
+                      "content_length":  49152,
+                      "crc":  "d0940c0f",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2sound.dll",
+                      "deprecated":  false,
+                      "content_length":  98304,
+                      "crc":  "a1c34b29",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2VidTst.exe",
+                      "deprecated":  false,
+                      "content_length":  184320,
+                      "crc":  "5ccab009",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2Win.dll",
+                      "deprecated":  false,
+                      "content_length":  147456,
+                      "crc":  "c1bd836d",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Diablo II.exe",
+                      "deprecated":  false,
+                      "content_length":  36864,
+                      "crc":  "33d0d3ee",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Fog.dll",
+                      "deprecated":  false,
+                      "content_length":  212992,
+                      "crc":  "0a17388d",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Game.exe",
+                      "deprecated":  false,
+                      "content_length":  61440,
+                      "crc":  "ea2f0e6e",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "ijl11.dll",
+                      "deprecated":  false,
+                      "content_length":  180224,
+                      "crc":  "c00fe21d",
+                      "last_modified":  "2023-11-28T01:45:46.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "License.html",
+                      "deprecated":  false,
+                      "content_length":  136745,
+                      "crc":  "7efacd54",
+                      "last_modified":  "2024-04-16T17:36:53.0613258-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Patch.txt",
+                      "deprecated":  false,
+                      "content_length":  96306,
+                      "crc":  "955c6c24",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "Patch_D2.mpq",
+                      "deprecated":  false,
+                      "content_length":  10445319,
+                      "crc":  "30fc25bc",
+                      "last_modified":  "2023-11-28T01:45:45.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SmackW32.dll",
+                      "deprecated":  false,
+                      "content_length":  95232,
+                      "crc":  "614a9406",
+                      "last_modified":  "2023-11-28T01:45:44.0000000-08:00"
+                  }
+              ]
+}

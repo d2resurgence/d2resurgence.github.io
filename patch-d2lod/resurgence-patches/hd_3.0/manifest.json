@@ -1,0 +1,76 @@
+{
+    "files":  [
+                  {
+                      "ignore_crc":  false,
+                      "name":  "D2HD.dll",
+                      "deprecated":  false,
+                      "content_length":  24576,
+                      "crc":  "c1f7d42c",
+                      "last_modified":  "2023-12-01T00:45:28.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "rapidjson - license.txt",
+                      "deprecated":  false,
+                      "content_length":  5209,
+                      "crc":  "fe17f953",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes - CHANGELOG.md",
+                      "deprecated":  false,
+                      "content_length":  10152,
+                      "crc":  "49f45032",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes - COPYING",
+                      "deprecated":  false,
+                      "content_length":  35181,
+                      "crc":  "c40203e1",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes - LICENSE.md",
+                      "deprecated":  false,
+                      "content_length":  10230,
+                      "crc":  "e2a2760e",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes - README.md",
+                      "deprecated":  false,
+                      "content_length":  4262,
+                      "crc":  "73f0bcfe",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes.dll",
+                      "deprecated":  false,
+                      "content_length":  320512,
+                      "crc":  "385a1231",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "SGD2FreeRes.mpq",
+                      "deprecated":  false,
+                      "content_length":  1254845,
+                      "crc":  "46d47397",
+                      "last_modified":  "2023-11-29T13:15:11.0000000-08:00"
+                  },
+                  {
+                      "ignore_crc":  true,
+                      "name":  "SGD2FreeResolution.json",
+                      "deprecated":  false,
+                      "content_length":  703,
+                      "crc":  "5714a24e",
+                      "last_modified":  "2024-04-23T08:01:07.6290691-07:00"
+                  }
+              ]
+}

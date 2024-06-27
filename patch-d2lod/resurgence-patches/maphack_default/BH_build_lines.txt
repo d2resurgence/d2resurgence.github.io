@@ -1,0 +1,833 @@
+// BASES BY BUILD
+// ------
+// This is just a list of lines to find items relevent to specific builds.
+// Copy/paste them into your bh.cfh under // CUSTOM BUILD LINES
+
+
+// START Jewel Alchs
+	//aquamarine jewel - splash alch
+	//ItemDisplay[(NMAG) (jw5 AND ILVL>32)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//rose jewel - tear alch (astra too)
+	//ItemDisplay[(NMAG) (jw6 AND ILVL>70 AND CLVL>85)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+// START Void Zon
+	//craftable armor
+	ItemDisplay[(MAG || NMAG || RARE) (urs || ucl || utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//craftable apex quiver
+	ItemDisplay[(MAG) (aq6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//ES quiver alch - penetrating bolt quiver
+	ItemDisplay[(NMAG) (bq4)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//wire fleece 
+	ItemDisplay[(NMAG || MAG) (utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//myrmidon greaves - astranox alch
+	ItemDisplay[(NMAG) (uhb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+// START Javazon
+	// Shieldmaiden valor alch: Twitchthroe, Thunderstroke, Blackoak 
+	ItemDisplay[(NMAG) AND ((stu AND ILVL>14) || (lrg AND ILVL>19) || (am5 AND ILVL>15))]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//myrmidon greaves - astranox alch
+	ItemDisplay[(NMAG) (uhb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//craftable armor
+	ItemDisplay[(MAG || NMAG || RARE) (urs || ucl || utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//matriarchal javelin for crafting
+	ItemDisplay[(MAG || RARE) (amf)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//maiden javelin and cerimonial javelin for crafting || anything early
+	ItemDisplay[(MAG) (ama || am5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//craftable gloves
+	ItemDisplay[(NMAG || MAG || RARE) (ag1 || ag2 || ag3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+
+	//Rockstopper alch
+	ItemDisplay[(NMAG) (xkp) {ILVL>17)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//archon plate - endless fog alch
+	ItemDisplay[(NMAG AND ILVL>79) (utp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Dungo alch
+	ItemDisplay[(NMAG !SUP !INF) (ILVL>23) (tbl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Diadem - Griff alch and craft
+	ItemDisplay[(NMAG || MAG) (ILVL>75) (ci2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+// START Phys Bowzon
+	// Matriarch alch: Lance of Iridia, lycander's Aim, Valkyrie Wing
+	ItemDisplay[NMAG am4 CLVL>26]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[NMAG am2 CLVL>20]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[NMAG ghm CLVL>14]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//craftable hydra bow
+	ItemDisplay[(NMAG || MAG || RARE) (6lw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+
+	//craftable crusader bow
+	ItemDisplay[(NMAG || MAG || RARE) (6l7)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	//craftable elite bows
+	ItemDisplay[(NMAG || MAG || RARE) (amc || 6cb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	//craftable gloves
+	ItemDisplay[(NMAG || MAG || RARE) (ag1 || ag2 || ag3 || ag4 || ag5 || ag6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	//Rockstopper alch 1.4
+	ItemDisplay[(NMAG) (xkp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	//craftable quiver
+	ItemDisplay[(MAG) (aq1 || aq2 || aq3 || aq4 || aq5 || aq6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+	//craftable vampire bone gloves
+	ItemDisplay[(NMAG || MAG) (uvg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+	
+// START Ground Slam Zon
+
+	//Matriarchal Pike - crafting and dank rares
+	ItemDisplay[( (!SUP !INF NMAG) || MAG || RARE) (ame)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Matriarch Bracers - crafting and dank rares
+	ItemDisplay[( (!SUP !INF NMAG) || MAG || RARE) (ag5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Fletcher Mitts - crafting and dank rares
+	ItemDisplay[( (!SUP !INF NMAG) || MAG || RARE) (ag2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+// START Shockwave Druid  
+
+	//poleaxe - count's judgement alch
+	ItemDisplay[(!SUP !INF NMAG) (ILVL>23) (pax)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//War Pikes - Crafting
+	ItemDisplay[(MAG || NMAG || RARE) (7p7)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Stygian Pike - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7tr)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Thresher - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7s8)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ghost Spear - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7st)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Cryptic Axe - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7pa)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Colossus Voulge - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (7vo)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ogre Axe - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (7o7)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Colo Crossbow - crafting
+	ItemDisplay[(NMAG || MAG) (6hx)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Blunt-point quiver - crafting
+	ItemDisplay[(MAG) (bq2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//serrated-point quiver - crafting
+	ItemDisplay[(MAG) (bq3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//penetrating-point quiver - crafting
+	ItemDisplay[(MAG) (bq4)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Ballista - low lvl crafting
+	ItemDisplay[(MAG) (6hx AND CLVL<60)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//sacred armor for coh
+	ItemDisplay[(NMAG AND SOCK=4) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//sacred armor - Templar's might alch || crafting
+	ItemDisplay[(NMAG || MAG) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//wire fleece 
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//great hauberk
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (urs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//scarlett jewels - rolling dmg jewels || alching the 4/20 god jewel
+	ItemDisplay[(NMAG || MAG) (jw2) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//War trav alch - battle boots
+	ItemDisplay[(NMAG !INF !SUP) (xtb) (ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+	
+	//ogre gauntlets - crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (uhg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//craftable zon ED gloves
+	ItemDisplay[(NMAG || MAG || RARE) (ag5 || ag6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+
+	//myrmidon greaves - astranox alch
+	ItemDisplay[(!INF !SUP NMAG) (uhb) (ILVL>91)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//colo girdle
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (uhc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//shaman valor alch
+	ItemDisplay[(!INF !SUP NMAG) (dr1 || dw1 || au1)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Druid pelt - Norm/Excep
+	ItemDisplay[(MAG) (dr3 || dr4 || dr5 || dr1 || dr2 || dr6 || dr7 || dr8 || dr9 || dra)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//bone rings - crafting
+	ItemDisplay[(MAG AND ILVL>80) (rg5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[(MAG) (rg5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+// START Ele Druid   
+	//Druid caster weapon - Elite
+	ItemDisplay[(MAG || RARE) (dwc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Druid caster weapon - Norm/Excep
+	ItemDisplay[(MAG || RARE) (dwa || dwb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Druid pelt - elite
+	ItemDisplay[(MAG) (drf || dre || drd || drc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//monarch
+	ItemDisplay[(NMAG || MAG || RARE) (uit)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//wire fleece 
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//great hauberk
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (urs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//shaman valor alch
+	ItemDisplay[(!INF !SUP NMAG) (dr1 || dw1 || au1)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Flail - 4 Socket Hoto Base
+	ItemDisplay[(NMAG) (SOCK=4) (fla)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+// START Fury Druid  
+	//Druid fury weapon - Elite
+	ItemDisplay[(NMAG || MAG || RARE) (dw6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Cerberus Valor Alchs - 
+		// Steelhorn - Antlers
+		ItemDisplay[(NMAG !SUP !INF) (dr3) (ILVL>19)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+			
+		// Doomfang - Wild Staff
+		ItemDisplay[(NMAG !SUP !INF) (dw7) (ILVL>18)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//Lew's Thirst - Pike
+		ItemDisplay[(NMAG !SUP !INF) (pik) (ILVL>34)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+// START Assassin   
+	//Madness base - early psychic hammer
+	ItemDisplay[(NMAG AND SOCK=3) (9ar || 9lw || 9tw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Jade magic ammy 
+	ItemDisplay[(MAG AND ILVL>80) (au4)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//saboteur alchs
+	ItemDisplay[NMAG (ab4 || (rg4 LVLREQ=70 ) || vbl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Smog claws 
+	//Low lvl
+	ItemDisplay[(MAG) (9xf)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%] 
+	//War fist
+	ItemDisplay[(NMAG || MAG) (7xf)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%] 
+	
+	//Feral claws
+	ItemDisplay[(NMAG || MAG || RARE) (7lw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%] 
+	
+	//Battle Cestus
+	ItemDisplay[(NMAG || MAG || RARE) (7cs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%] 
+
+	//Dushara alch
+	ItemDisplay[(NMAG AND ILVL>24) (btl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Magic BLADES for crafting fire shiz
+	ItemDisplay[(MAG AND ILVL>74) (7bl || 9bl || bld)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite Scissors Suwayyah
+	ItemDisplay[(MAG || NMAG) (7qr)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Scissors Suwayyah - Rebirth of Isidore Alch
+	ItemDisplay[(MAG || NMAG || RARE) (7qr) (ILVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Sciccors Quhab - Rebirth of Isidore up and Alch
+	ItemDisplay[(MAG || NMAG || RARE) (9qr) (ILVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite Suwayyah
+	ItemDisplay[(MAG AND ILVL>74) (7ar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite Wrist Sword
+	ItemDisplay[(MAG AND ILVL>74) (7wb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Exc Greater Claws - Crystal Burst
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (9lw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite Feral Claws - Crystal Burst
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (7lw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[(7lw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//4os armor for coh
+	ItemDisplay[(NMAG AND SOCK=4) (utu || uui || uea || urs || aca)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//armor for coh
+	ItemDisplay[(NMAG) (urs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ass boots crafting
+	ItemDisplay[(MAG) (ab6 || ab2 || ab5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Crusader gauntlet bases - touch alch and crafting base
+	ItemDisplay[(NMAG || MAG) (utg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Wyrmhide Boots - Goje's Momentum Alch
+	ItemDisplay[(NMAG !SUP !INF) (ulb) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//4os armor for coh
+	ItemDisplay[(NMAG AND SOCK=4 AND SUP) (utu || uui || uea || urs || aca)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+//Start Paladin
+	//Any 4os pally shield
+	ItemDisplay[CL3 NMAG SOCK=4]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Any pally shield when low level
+	ItemDisplay[CL3 (NMAG || MAG || RARE) (CLVL<30)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Any good res pal shield
+	ItemDisplay[CL3 NMAG RES>35]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Any elite pally shield
+	ItemDisplay[(NMAG || MAG) (paf || pae || pad || pac || pab || paa || pag)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Hammerdin
+		//quilted armor - greyform alch
+		ItemDisplay[(NMAG) (qui) (ILVL>3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//bone shield - lidless alch
+		ItemDisplay[(NMAG) (bsh) (ILVL>12)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//templar coat - guardian angel alch
+		ItemDisplay[(NMAG) (xlt) (ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//balrog skin - arkaines alch
+		ItemDisplay[(NMAG) (upl) (ILVL>86)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//troll nest - crafting
+		ItemDisplay[(NMAG || MAG) (ush)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		// Diamond Amulet - Mara's alch
+		ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//archon plate - endless fog alch
+		ItemDisplay[(NMAG AND ILVL>79) (utp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//war+divine scepter for low lvl crafting
+		ItemDisplay[(NMAG || MAG) (wsp || 9ws) (CLVL<95)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//caduceus for crafting
+		ItemDisplay[(NMAG || MAG) (7ws)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//lich wand - edryem odyssey alch
+		ItemDisplay[(NMAG) (7bw) (ILVL>75)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//shadow plate - gloaming alch
+		ItemDisplay[(NMAG) (uul) (ILVL>79)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//Opal rings - soj alch
+		ItemDisplay[(NMAG) (ILVL>28) (rg2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		///bramble mitts - crafting
+		ItemDisplay[(NMAG || MAG) (ulg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//mirrored boots - akarat alch
+		ItemDisplay[(NMAG) (utb) (CLVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//ogre gauntlets - akarat alch
+		ItemDisplay[(NMAG) (uhg) (CLVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//light plated boots - zakarum's pace alch
+		ItemDisplay[(NMAG) (tbt) (CLVL>14)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//Sapphire amulet crafting
+		ItemDisplay[(MAG) (au2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+	//Regulardin
+		//crown of ages alch
+		ItemDisplay[(NMAG AND ILVL>81) (urn)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Rockstopper alch
+		ItemDisplay[(NMAG AND ILVL>22) (fhl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Dungo alch
+		ItemDisplay[(NMAG AND ILVL>23) (tbl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Phase blade
+		ItemDisplay[(NMAG || MAG || RARE) (7cr)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Zerker axe crescent moon
+		ItemDisplay[(NMAG) (7wa AND SOCK=3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Carnage heart alch - bone ring 30+
+		ItemDisplay[(NMAG) (rg5 AND ILVL>29)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Ironfist alch - war gauntlets 53+
+		ItemDisplay[(NMAG) (xhg AND ILVL>52)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Templar valor alchs
+		ItemDisplay[(NMAG) (9ws AND ILVL>54)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[(NMAG) (pc1 AND ILVL>19)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[(NMAG) (xlt AND ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		// Justicar valor alchs - The Revered, The Redeemer, Bane of Acheron
+		ItemDisplay[NMAG !SUP !INF pc4 ILVL>17]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF scp ILVL>8]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF plt ILVL>22]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		// Inquisitor valor alchs - Goldstrike Fletch, Last Rites, Aemyr's Order
+		ItemDisplay[NMAG !SUP !INF lwb ILVL>35]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF bax ILVL>16]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF pa5 ILVL>27]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//crown shield - aemyr's alch
+		ItemDisplay[(NMAG) (pa5 AND ILVL>27)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Crescent Moon Bases - 3os Axes/Swords
+		ItemDisplay[(NMAG AND SOCK=3) (7wa || 72a || 7wd || 7ls || 7bs || 7sm || 7sb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Voice of Reason Bases - 4os Maces/Swords
+		ItemDisplay[(NMAG AND SOCK=4) (7fl || 7mt || 7ma || 7wd || 7ls || 7bs || 7sm || 7sb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Bone Bases - 3os Armor Bases
+		ItemDisplay[(NMAG AND SOCK=3) (uld || upl || ucl || uea || uul || uhn)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//lavagout alch
+		ItemDisplay[(NMAG) (xtg AND ILVL>47)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//Kaja alch
+		ItemDisplay[(NMAG) (pad AND ILVL>72)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//spellbender alch
+		ItemDisplay[(NMAG) (pa2 AND ILVL>12)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		//purifying flame alch
+		ItemDisplay[(NMAG) (pc3 AND ILVL>86)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		//Garnet rings - moh set alch
+		ItemDisplay[(NMAG AND ILVL>80) (rg3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+//Start Sorceress
+	//Other orbs
+	ItemDisplay[(MAG) (oba || obc || obd)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite orb - dimensional shard 
+	ItemDisplay[(NMAG || MAG) (obf)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Lacquered plate alch for tals
+	ItemDisplay[(NMAG) (uth) (ILVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//mithril coil alch for tals || craft
+	ItemDisplay[(NMAG || MAG || RARE) (umc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Shako alch for tals
+	ItemDisplay[(uap) (uth) (ILVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+
+	//troll nest
+	ItemDisplay[(NMAG || MAG) (ush)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Large Shield Blackoak alch - mage valor
+	ItemDisplay[(NMAG AND ILVL>15) (lrg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Blade Spectral Shard alch - mage valor
+	ItemDisplay[(NMAG AND ILVL>29) (bld)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Tiara Kira's Guardian alch - mage valor
+	ItemDisplay[(NMAG AND ILVL>51) (ci1)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//plated belt alch
+	ItemDisplay[(NMAG AND ILVL>24) (hbl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Garnet rings - lorrel alch
+	ItemDisplay[(NMAG AND ILVL>54) (rg3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Topaz ammy alch for tals 
+	ItemDisplay[(NMAG) (au3) (ILVL>84)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Topaz magic ammy 
+	ItemDisplay[(MAG) (au3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Conquest sword - ammuit alch
+	ItemDisplay[(NMAG !SUP !INF) (7bs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Crusader gauntlet bases - touch alch and crafting base
+	ItemDisplay[( (NMAG !INF !SUP) || MAG ) (utg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//archon plate - endless fog alch
+	ItemDisplay[(NMAG AND ILVL>79) (utp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Opal rings - crafting
+	ItemDisplay[(MAG AND ILVL>80) (rg2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Burning stone - dragon tamer alch
+	ItemDisplay[(NMAG) (sf2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ruby amulet - rising sun alch
+	ItemDisplay[(NMAG) (au1) (ILVL>62)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//arcane stone - tear of elyssia alch
+	ItemDisplay[(NMAG) (sf4) (ILVL>79)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//arcane stone - tear of elyssia alch
+	ItemDisplay[(NMAG) (sf4) (ILVL>16) !INF !SUP]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+//Start Voltaic Sorc
+	//Heavenly Stone and Eldritch Orbs for crafting
+	ItemDisplay[(NMAG || MAG) (obb || obc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Vortex Orbs for crafting
+	ItemDisplay[(NMAG || MAG || RARE) (obe)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Lich wands for crafting
+	ItemDisplay[(NMAG || MAG || RARE) (7bw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Walking stick for crafting
+	ItemDisplay[(NMAG || MAG) (6ss)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Elder Staff for crafting
+	ItemDisplay[(NMAG || MAG) (6cs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Blade barrier for crafting
+	ItemDisplay[(NMAG || MAG) (upk)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Hyperion for crafting
+	ItemDisplay[((NMAG !INF !SUP) || MAG) (urg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//cloudy sphere - Amm's Absolution Alch
+	ItemDisplay[(NMAG) (ob8) (ILVL>47)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+	
+	//Crusader gauntlet bases - touch alch and crafting base
+	ItemDisplay[(NMAG || MAG || RARE) (utg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Diadem - Griff alch and craft
+	ItemDisplay[((!INF !SUP NMAG) || MAG || RARE) (ILVL>75) (ci2)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+//Start Melee Sorc
+	//Ward shield - phoenix base
+	ItemDisplay[(NMAG || MAG || RARE) (uts)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ancient Armor - hadriels alch
+	ItemDisplay[(NMAG) (aar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Great Poleaxe || Thresher - Infinity base
+	ItemDisplay[(NMAG) (7h7 || 7s8 || 7pa)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Hyperion - Wind of the Frozen Domain alch
+	ItemDisplay[(NMAG !SUP !INF) (ILVL>75) (urg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Gauntlets - Frostburn alch
+	ItemDisplay[(NMAG !SUP !INF) (ILVL>16) (hgl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Olive Jewel - Endurance alch
+	ItemDisplay[((NMAG !SUP !INF)) (ILVL>91) (jw3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Agate Jewel - Oscillation alch
+	ItemDisplay[(NMAG !SUP !INF) (ILVL>91) (jw4)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+//Start Totem Barb
+	//Elite barb axe
+	ItemDisplay[(MAG) (bw6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Conq alch
+	ItemDisplay[NMAG ((rg5 ED>19 LVLREQ=37) || wax || xsk)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Elite barb helms - crafting
+	ItemDisplay[(NMAR || MAG) (baf || bae || bad || bac || bab)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//colo girdle
+	ItemDisplay[(NMAG || MAG) (uhc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Craftable armor for baba
+	//dia mail
+	ItemDisplay[(MAG) (ung)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//great hauberk
+	ItemDisplay[(MAG) (urs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//loricated mail
+	ItemDisplay[(MAG || NMAG) (ucl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//ogre gauntlets - crafting
+	ItemDisplay[(NMAG || MAG) (uhg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Crafting amulets - sapphire, jade, diamond
+	ItemDisplay[(MAG) (au2 || au4 || au5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Dirk - Diggler Alch
+	ItemDisplay[(NMAG !SUP !INF) (dir) (ILVL>11)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ancient Armor - hadriels alch
+	ItemDisplay[( (NMAG !SUP !INF) || MAG) (aar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Legend Spike - Crafting
+	ItemDisplay[7bl MAG]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Conquest sword - Blade of Ammuit alch
+	ItemDisplay[(NMAG !SUP !INF) (7bs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Field Plate - Goliath Alch
+	ItemDisplay[ ( (NMAG !INF !SUP ILVL>24) || (MAG ILVL>25) ) AND (fld)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+//Start WW Barb
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//eviscerator - crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (bw3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+	
+	//War Pikes - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7p7)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Stygian Pike - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7tr)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Thresher - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7s8)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//poleaxe - count's judgement alch
+	ItemDisplay[(NMAG AND ILVL>23) (pax)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ghost Spear - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7st)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Cryptic Axe - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (7pa)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Colossus Voulge - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (7vo)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ogre Axe - Crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG || RARE) (7o7)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//sacred armor - Templar's might alch || crafting
+	ItemDisplay[(NMAG || MAG) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//scarlett jewels - rolling dmg jewels || alching the 4/20 god jewel
+	ItemDisplay[(NMAG || MAG) (jw2) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//War trav alch - battle boots
+	ItemDisplay[(NMAG !INF !SUP) (xtb) (ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+	
+	//ogre gauntlets - crafting
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (uhg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//craftable zon ED gloves
+	ItemDisplay[(NMAG || MAG || RARE) (ag5 || ag6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+
+	//myrmidon greaves - astranox alch
+	ItemDisplay[(NMAG) (uhb) (ILVL>91)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//colo girdle
+	ItemDisplay[(NMAG || MAG) (uhc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[( (NMAG !INF !SUP) || MAG) (uhc)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//bone rings - crafting
+	ItemDisplay[(MAG AND ILVL>80) (rg5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[(MAG) (rg5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Elite barb helms - crafting
+	ItemDisplay[(NMAG || MAG) (baf || bae || bad || bac || bab)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//sacred armor for coh
+	ItemDisplay[(NMAG AND SOCK=4) (uar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Warlord Alchs
+		//Goregash - Disemboweler
+		ItemDisplay[(NMAG !INF !SUP) (bw1) (ILVL>22)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Warlord's Trust - Military Axe
+		ItemDisplay[(NMAG !INF !SUP) (gla) (ILVL>42)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Griswold's Edge - Broad Sword
+		ItemDisplay[(NMAG !INF !SUP) (bsd) (ILVL>11)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Titan Alchs
+		//Verdungo's Heart - Heavy Belt
+		ItemDisplay[(NMAG !INF !SUP) (tbl) (ILVL>17)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//The Doombringer - Bastard Sword
+		ItemDisplay[(NMAG !INF !SUP) (bsd) (ILVL>20)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Goliath - Field Plate
+		ItemDisplay[(NMAG !INF !SUP) (fld) (ILVL>24)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//Slayer Alchs - Carnage Heart, Deathspade, Rakkmir
+		//Carnage Heart - Bone Ring
+		ItemDisplay[(NMAG !INF !SUP) (rg5) (ILVL>25)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Death spade - War Axe
+		ItemDisplay[(NMAG !INF !SUP) (wax) (ILVL>13)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Rakkmir - Death Mask
+		ItemDisplay[(NMAG !INF !SUP) (xsk) (ILVL>50)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+//Start Ethereal Throw Ethrow Barb
+	///bramble mitts - crafting
+	ItemDisplay[(MAG) (ulg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Wyrmhide Boots - Goje's Momentum Alch
+	ItemDisplay[(NMAG !SUP !INF) (ulb) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Dark Slippers - Crafting to Angelic
+	ItemDisplay[(NMAG || MAG) (ab6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Flying Axe - crafting
+	ItemDisplay[(NMAG || MAG) (7ta)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Start Frenzy Barb
+    //Berserker Axe - Crafting
+    ItemDisplay[( (NMAG !SUP !INF) || MAG || RARE) (7wa)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+    
+    //Elite barb axe
+    ItemDisplay[( (NMAG !SUP !INF) || MAG || RARE) (bw6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+    //Sup Phase blade
+    ItemDisplay[(NMAG !SUP !INF) (7cr) (SUP)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+    
+    //Ironfist alch - war gauntlets 53+
+    ItemDisplay[(NMAG !SUP !INF) (xhg AND ILVL>52)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+    
+    //craftable vampire bone gloves
+    ItemDisplay[( (NMAG !SUP !INF) || MAG) (uvg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
+    
+    //lavagout alch
+    ItemDisplay[(NMAG !SUP !INF) (xtg AND ILVL>47)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+    
+    //La Morte Alch - colossus blade
+    ItemDisplay[(NMAG !SUP !INF) (7fb AND ILVL>86)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+    
+    //boneweave boots
+    ItemDisplay[( (NMAG !SUP !INF) || MAG) (umb)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]``
+	
+	//Wyrmhide Boots - Goje's Momentum Alch
+	ItemDisplay[(NMAG) (ulb) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Dark Slippers - Crafting to Angelic
+	ItemDisplay[(NMAG || MAG) (ab6)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//loricated mail
+	ItemDisplay[(MAG || NMAG) (ucl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Ancient Armor - hadriels alch
+	ItemDisplay[(NMAG) (aar)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Crusader gauntlet bases - touch alch and crafting base
+	ItemDisplay[(NMAG || MAG) (utg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Conquest sword - ammuit alch
+	ItemDisplay[(NMAG) (7bs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+	//Garnet rings - moh set alch
+	ItemDisplay[(NMAG AND ILVL>80) (rg3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Rockstopper alch
+	ItemDisplay[(NMAG AND ILVL>22) (fhl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Dungo alch
+	ItemDisplay[(NMAG AND ILVL>23) (tbl)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Sup Phase blade
+	ItemDisplay[(NMAG) (7cr) (SUP)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//5os Phase blade
+	ItemDisplay[(NMAG) (7cr) (SOCK=5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Zerker axe crescent moon
+	ItemDisplay[(NMAG) (7wa AND SOCK=3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+//Start Necromancer Boner
+	//2 socket leveling necro headers for rhyme
+	ItemDisplay[NMAG (ne1 || ne2 || ne3 || ne4 || ne5 || ne6 || ne7 || ne8 || ne9 || nea || neb || ned || neg || nee || nef) CLVL<69 SOCK=2]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Grim's Burning Dead Alch - War Scythe
+	ItemDisplay[(NMAG !INF !SUP) (wsc) (ILVL>35)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Crystal sword - 6os base
+	ItemDisplay[((NMAG !INF !SUP) || MAG || RARE) crs]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Suicide Branch Alch - Polished Wand
+	ItemDisplay[((NMAG !INF !SUP) || MAG || RARE) (7wn) (ILVL>70)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Succubus Skull - crafting for magic to phys dmg
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (nee)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Polished Wand - crafting for curse effect
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (7wn)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Unearthed Wand - crafting for +1 golem
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (7gw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Sapphire amulet crafting
+	ItemDisplay[MAG au2]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	///bramble mitts - crafting
+	ItemDisplay[((NMAG !INF !SUP) || MAG || RARE) ulg]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Shadow Cloth - Horror Helm alch
+	ItemDisplay[(NMAG !INF !SUP) na1 ILVL>21]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//tomb wand - edryem odyssey alch
+	ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	//lich wand - edryem odyssey alch
+	ItemDisplay[(NMAG !INF !SUP) 7bw ILVL>75]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//shadow plate - gloaming alch
+	ItemDisplay[(NMAG !INF !SUP) uul ILVL>79]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Wyrmhide Boots - Goje's Momentum alch
+	ItemDisplay[(NMAG !INF !SUP) (ulb) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Radiant Crest - Visions from the Aether alch
+	ItemDisplay[(NMAG !INF !SUP) (ach) (ILVL>91)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[(MAG) (ach) (ILVL>92)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	ItemDisplay[RARE (ach) (ILVL>93)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	// Warlock Valor Alchs: 
+		//Warlock's Ward - L22 Unraveller Head
+		ItemDisplay[(NMAG !INF !SUP) (ne3) (ILVL>21)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Blackhand Key - L45 Grave Wand
+		ItemDisplay[(NMAG !INF !SUP) (9gw) (ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Hand of King Leoric - L19 Bone Wand
+		ItemDisplay[(NMAG !INF !SUP) (bwn) (ILVL>18)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	// Occultist Valor Alchs:
+		//Mendeln's Nascency - L28 Bone Plate
+		ItemDisplay[(NMAG !INF !SUP) (na4) (ILVL>27)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Dark Whispers - L26 Gargoyle Head
+		ItemDisplay[(NMAG !INF !SUP) (ne4) (ILVL>25)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		//Lidless Wall - L17 Bone Shield
+		ItemDisplay[(NMAG !INF !SUP) (bsh) (ILVL>16)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+//Start Necromancer Poison Nova	
+	//Ass boots crafting
+	ItemDisplay[(MAG) (ab6 || ab2 || ab5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Bloodlord Skull - crafting for 2% life regen
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (nef)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Hellspawn Skull / Overseer Skull - crafting for 4% max fire res
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (neg || ned)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Polished Wand - crafting for curse effect
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (7wn)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Unearthed Wand - crafting for +1 golem
+	ItemDisplay[((MAG || RARE) || (NMAG !INF !SUP)) (7gw)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//Crusader gauntlet bases - crafting
+	ItemDisplay[(NMAG || MAG) (utg)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
+	
+	//Topaz magic ammy 
+	ItemDisplay[(MAG) (au3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Emerald magic ammy 
+	ItemDisplay[(MAG) (au4) (ILVL>92)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Voulge - Plague Bearer alch
+	ItemDisplay[(NMAG) (vou) (ILVL>15)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//Wyrmhide Boots - Goje's Momentum Alch
+	ItemDisplay[(NMAG !SUP !INF) (ulb) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	
+	//scarlett jewels - alching the 4/20 god jewel scarlett dreams
+	ItemDisplay[(NMAG) (jw2) (ILVL>80)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]

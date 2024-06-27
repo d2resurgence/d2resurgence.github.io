@@ -1,0 +1,36 @@
+{
+    "files":  [
+                  {
+                      "ignore_crc":  false,
+                      "name":  "BH.cfg",
+                      "deprecated":  false,
+                      "content_length":  310201,
+                      "crc":  "211fa12a",
+                      "last_modified":  "2024-05-16T15:41:16.5439413-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "BH.dll",
+                      "deprecated":  false,
+                      "content_length":  1324032,
+                      "crc":  "95f9b6b8",
+                      "last_modified":  "2024-04-30T20:54:53.1906276-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "BH_settings.cfg",
+                      "deprecated":  false,
+                      "content_length":  12429,
+                      "crc":  "5d1c9522",
+                      "last_modified":  "2024-04-18T21:33:16.7508433-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
+                      "name":  "buffs.mpq",
+                      "deprecated":  false,
+                      "content_length":  85377,
+                      "crc":  "b8d9dfdf",
+                      "last_modified":  "2024-04-30T15:00:23.0904149-07:00"
+                  }
+              ]
+}
