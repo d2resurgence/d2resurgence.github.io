@@ -74,22 +74,6 @@
                   },
                   {
                       "ignore_crc":  false,
-                      "name":  "D2Template.dll",
-                      "deprecated":  false,
-                      "content_length":  12800,
-                      "crc":  "e3cfdcf3",
-                      "last_modified":  "2024-04-20T08:40:09.2037514-07:00"
-                  },
-                  {
-                      "ignore_crc":  false,
-                      "name":  "D2Template_PlugY.dll",
-                      "deprecated":  false,
-                      "content_length":  10240,
-                      "crc":  "cc9d85fe",
-                      "last_modified":  "2022-06-11T10:47:03.4809187-07:00"
-                  },
-                  {
-                      "ignore_crc":  false,
                       "name":  "D2Win.dll",
                       "deprecated":  false,
                       "content_length":  147456,
