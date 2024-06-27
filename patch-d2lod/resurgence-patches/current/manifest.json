@@ -66,6 +66,14 @@
                   },
                   {
                       "ignore_crc":  false,
+                      "name":  "D2Resurgence.dll",
+                      "deprecated":  false,
+                      "content_length":  14336,
+                      "crc":  "90214ba6",
+                      "last_modified":  "2024-06-26T21:08:38.0905479-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
                       "name":  "D2Template.dll",
                       "deprecated":  false,
                       "content_length":  12800,
@@ -98,6 +106,14 @@
                   },
                   {
                       "ignore_crc":  false,
+                      "name":  "Fog.dll",
+                      "deprecated":  false,
+                      "content_length":  212992,
+                      "crc":  "f2c02543",
+                      "last_modified":  "2024-06-26T21:08:38.0915480-07:00"
+                  },
+                  {
+                      "ignore_crc":  false,
                       "name":  "glide3x.dll",
                       "deprecated":  false,
                       "content_length":  2838528,
@@ -116,9 +132,9 @@
                       "ignore_crc":  false,
                       "name":  "Patch_D2.mpq",
                       "deprecated":  false,
-                      "content_length":  23629733,
-                      "crc":  "0ff8bd81",
-                      "last_modified":  "2024-05-08T20:33:35.1963144-07:00"
+                      "content_length":  23764410,
+                      "crc":  "d23006d6",
+                      "last_modified":  "2024-06-26T21:08:38.1965473-07:00"
                   },
                   {
                       "ignore_crc":  false,
