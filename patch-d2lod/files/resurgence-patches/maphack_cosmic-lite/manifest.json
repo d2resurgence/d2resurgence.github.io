@@ -4,9 +4,9 @@
                       "ignore_crc":  false,
                       "name":  "BH.cfg",
                       "deprecated":  false,
-                      "content_length":  310201,
-                      "crc":  "211fa12a",
-                      "last_modified":  "2024-05-16T15:41:16.0000000-07:00"
+                      "content_length":  306241,
+                      "crc":  "71cea99a",
+                      "last_modified":  "2024-07-18T21:47:23.5408169-07:00"
                   },
                   {
                       "ignore_crc":  false,
@@ -20,9 +20,9 @@
                       "ignore_crc":  false,
                       "name":  "BH_settings.cfg",
                       "deprecated":  false,
-                      "content_length":  12429,
-                      "crc":  "5d1c9522",
-                      "last_modified":  "2024-04-18T21:33:16.0000000-07:00"
+                      "content_length":  12126,
+                      "crc":  "13ea784c",
+                      "last_modified":  "2024-07-18T21:42:34.8025123-07:00"
                   },
                   {
                       "ignore_crc":  false,

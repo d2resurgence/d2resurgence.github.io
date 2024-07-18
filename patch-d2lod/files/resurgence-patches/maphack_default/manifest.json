@@ -4,9 +4,9 @@
                       "ignore_crc":  false,
                       "name":  "BH.cfg",
                       "deprecated":  false,
-                      "content_length":  100860,
-                      "crc":  "ca84d46b",
-                      "last_modified":  "2024-04-18T16:17:10.6163977-07:00"
+                      "content_length":  99224,
+                      "crc":  "52c35d90",
+                      "last_modified":  "2024-07-18T21:54:16.1145554-07:00"
                   },
                   {
                       "ignore_crc":  false,
@@ -20,17 +20,17 @@
                       "ignore_crc":  false,
                       "name":  "BH_build_lines.txt",
                       "deprecated":  false,
-                      "content_length":  37306,
-                      "crc":  "1ce4a7f5",
-                      "last_modified":  "2024-02-03T07:57:58.6418534-08:00"
+                      "content_length":  36473,
+                      "crc":  "ebdda494",
+                      "last_modified":  "2024-07-18T21:54:24.9667448-07:00"
                   },
                   {
                       "ignore_crc":  false,
                       "name":  "BH_settings.cfg",
                       "deprecated":  false,
-                      "content_length":  12443,
-                      "crc":  "f18cf9b7",
-                      "last_modified":  "2024-04-18T16:13:26.6414668-07:00"
+                      "content_length":  12139,
+                      "crc":  "6a40a3a6",
+                      "last_modified":  "2024-07-18T21:54:21.0946276-07:00"
                   }
               ]
 }
