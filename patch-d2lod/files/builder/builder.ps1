@@ -1,3 +1,15 @@
+#
+#
+#
+#
+# ------- DEPRECATED -------
+# This was the old powershell script that was run manually before pushing files to the launcher.
+# This is now replaced by generate_manifest_and_html_files.py which is automatically executed by github actions.
+#
+#
+#
+#
+
 # Define an array of file names with ignore_crc set to true
 $fileNamesToIgnoreCRC = @(
     "d2gl.ini",
