@@ -4,8 +4,6 @@
 		"3.0"
     ],
     "maphack": [
-		"default",
-		"cosmic",
-		"cosmic-lite"
+		"default"
     ]
 }
