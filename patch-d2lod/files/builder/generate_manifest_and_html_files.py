@@ -8,6 +8,7 @@ file_names_to_ignore_crc = [
     "d2gl.ini",
     "d2fps.ini",
     "SGD2FreeResolution.json",
+    "bh_settings.cfg",
     "bh.cfg" # Added with config generator - if they want to re-sync default they should delete bh.cfg and update
 ]
 
