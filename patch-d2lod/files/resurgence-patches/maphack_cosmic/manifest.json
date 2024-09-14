@@ -1,34 +1,34 @@
 {
     "files": [
         {
-            "name": "BH.cfg",
-            "crc": "9e678077",
-            "last_modified": "2024-08-24T02:31:30.136805Z",
-            "content_length": 331770,
+            "name": "BH_settings.cfg",
+            "crc": "a4214ecd",
+            "last_modified": "2024-09-14T16:23:46.551569Z",
+            "content_length": 11734,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "BH.dll",
             "crc": "9c5a5078",
-            "last_modified": "2024-08-24T02:31:30.144805Z",
+            "last_modified": "2024-09-14T16:23:46.551569Z",
             "content_length": 1324032,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "buffs.mpq",
-            "crc": "b8d9dfdf",
-            "last_modified": "2024-08-24T02:31:30.144805Z",
-            "content_length": 85377,
+            "crc": "2b76abd7",
+            "last_modified": "2024-09-14T16:23:46.551569Z",
+            "content_length": 130,
             "ignore_crc": false,
             "deprecated": false
         },
         {
-            "name": "BH_settings.cfg",
-            "crc": "a4214ecd",
-            "last_modified": "2024-08-24T02:31:30.144805Z",
-            "content_length": 11734,
+            "name": "BH.cfg",
+            "crc": "9e678077",
+            "last_modified": "2024-09-14T16:23:46.543569Z",
+            "content_length": 331770,
             "ignore_crc": false,
             "deprecated": false
         }
