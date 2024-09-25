@@ -1,0 +1,687 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>License</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+		<script type="text/javascript" language="javascript1.2"><!--
+			var primaryLocale = "enUS";
+
+			// locale codes
+			var locs = new Array( "enUS", "enGB", "deDE", "esES", "frFR", "itIT", "jaJP", "koKR", "plPL", "zhCN", "zhTW" );
+
+			// text before the selection box
+			var loc1 = new Array();
+			loc1["enUS"] = "View EULA in";
+			loc1["enGB"] = loc1["enUS"];
+			loc1["deDE"] = "EULA anzeigen auf";
+			loc1["esES"] = "Consulte el EULA en";
+			loc1["frFR"] = "Voir le CLUF en";
+			loc1["itIT"] = "Legga l'EULA in";
+			loc1["jaJP"] = "ライセンスを";
+			loc1["koKR"] = "사용권 계약 보기";
+			loc1["plPL"] = "Zobacz licencjê w jêzyku";
+			loc1["zhCN"] = "阅读许可协议";
+			loc1["zhTW"] = "使用";
+
+			// text after the selection box
+			var loc2 = new Array();
+			loc2["enUS"] = "";
+			loc2["enGB"] = loc2["enUS"];
+			loc2["deDE"] = "";
+			loc2["esES"] = "";
+			loc2["frFR"] = "";
+			loc2["itIT"] = "";
+			loc2["jaJP"] = "で表示する";
+			loc2["koKR"] = "";
+			loc2["plPL"] = "";
+			loc2["zhCN"] = "";
+			loc2["zhTW"] = "檢視協議";
+
+			function hide(x) { document.getElementById(x).style.display = "none"; }
+			function show(x) { document.getElementById(x).style.display = "inline";
+							   document.getElementById("before").innerHTML = loc1[x];
+							   document.getElementById("after").innerHTML = loc2[x]; }
+			function hideAll() { for (x in locs) { hide(locs[x]); } }
+			function showJust(x) { hideAll(); show(x); }
+
+			function choose(locale,i) {
+				document.theForm.localeSelect.options[i].selected = true;
+				showJust(locale);
+				return 1;
+			}
+
+			function tryLocale(x) {
+				var control = document.theForm.localeSelect;
+				var maxLocales = control.length;
+				var match = 0;
+				for (var i=0; i<maxLocales; i++) {
+					var locale = control.options[i].value;
+					if (locale == x) { choose(locale,i); match = 1; break; }
+				}
+				return match;
+			}
+
+			function Init() {
+				// Try parametric language, then try primary language, then US English.
+				tryLocale(location.search.substring(1, location.search.length)) || tryLocale(primaryLocale) || choose("enUS",0);
+			}
+			//-->
+		</script>
+		<style type="text/css">
+		<!--
+		body           { font-family:arial; }
+		h1             { font-size:14pt; text-align:center; font-weight:bold; }
+		form,p,li,span { font-size:10pt; }
+		.hidable       { display:none; }
+		-->
+		</style>
+	</head>
+
+	<body onLoad="Init()">
+	<noscript><p>Please enable JavaScript.</p></noscript>
+	<form name="theForm" action="License.html" style="text-align:right">
+		<span id="before"></span>&nbsp;
+		<select name="localeSelect" onchange="showJust(this.value);">
+			<option value="enUS">English (US)</option>
+			<option value="deDE">Deutsch</option>
+			<option value="enGB">English (EU)</option>
+			<option value="esES">Español</option>
+			<option value="frFR">Français</option>
+			<option value="itIT">Italiano</option>
+			<option value="jaJP">日本語</option>
+			<option value="koKR">한국어</option>
+			<option value="plPL">Polski</option>
+			<option value="zhCN">简体中文
+			<option value="zhTW">繁體中文</option>
+		</select>&nbsp;
+		<span id="after"></span>
+	</form>
+
+	<div id="enUS" class="hidable">
+		<p>﻿YOU SHOULD CAREFULLY READ THE FOLLOWING END USER LICENSE AGREEMENT BEFORE INSTALLING THIS SOFTWARE PROGRAM. BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PROGRAM, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, PROMPTLY RETURN THE UNUSED SOFTWARE PROGRAM TO THE PLACE OF PURCHASE OR CONTACT BLIZZARD ENTERTAINMENT CUSTOMER SERVICE AT (949) 955-1382 FOR A FULL REFUND OF THE PURCHASE PRICE WITHIN THIRTY (30) DAYS OF THE ORIGINAL PURCHASE.</p>
+<p>This software program (the "Program"), any printed materials, any on-line or electronic documentation, and any and all copies and derivative works of such software program and materials are the copyrighted work of Blizzard Entertainment, Inc., a Delaware corporation. All use of the Program is governed by the terms of the End User License Agreement which is provided below ("License Agreement"). The Program is solely for use by end users according to the terms of the License Agreement. Any use, reproduction or redistribution of the Program not in accordance with the terms of the License Agreement is expressly prohibited.
+</p>
+<h1>END USER LICENSE AGREEMENT</h1>
+<p>1. Limited Use License. Blizzard Entertainment, Inc. ("Blizzard") hereby grants, and by installing the Program you thereby accept, a limited, non-exclusive license and right to install and use one (1) copy of the Program for your use on either a home, business or portable computer. In addition, the Program has a multi-player capability that allows users to utilize the Program over the Internet via Blizzard's online game network Battle.net. Use of the Program over Battle.net is subject to your acceptance of Battle.net's Terms of Use Agreement. Blizzard t reserves the right to update, modify or change the Battle.net Terms of Use Agreement at any time. </p>
+<p>2. Ownership. All title, ownership rights and intellectual property rights in and to the Program and any and all copies thereof (including but not limited to any titles, computer code, themes, objects, characters, character names, stories, dialog, catch phrases, locations, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, any related documentation, and "applets" incorporated into the Program) are owned by Blizzard or its licensors. The Program is protected by the copyright laws of the United States, international copyright treaties and conventions and other laws. All rights are reserved. The Program contains certain licensed materials and Blizzard's licensors may protect their rights in the event of any violation of this Agreement.</p>
+<p>3. Responsibilities of End User.</p>
+<p>	A. Subject to the Grant of License hereinabove, you may not, in whole or in part, copy, photocopy, reproduce, translate, reverse engineer, derive source code, modify, disassemble, decompile, create derivative works based on the Program, or remove any proprietary notices or labels on the Program without the prior consent, in writing, of Blizzard.</p>
+<p>	B. The Program is licensed to you as a single product. Its component parts may not be separated for use on more than one computer. </p>
+<p>	C. You are entitled to use the Program for your own use, but you are not entitled to:</p>
+<p>		(i) sell or grant a security interest in or transfer reproductions of the Program to other parties in any way, nor to rent, lease or license the Program to others without the prior written consent of Blizzard.</p>
+<p>		(ii) exploit the Program or any of its parts for any commercial purpose including, but not limited to, use at a cyber café, computer gaming center or any other location-based site. Blizzard may offer a separate Site License Agreement to permit you to make the Program available for commercial use; contact Blizzard for details;</p>
+<p>		(iii) host or provide matchmaking services for the Program or emulate or redirect the communication protocols used by Blizzard in the network feature of the Program, through protocol emulation, tunneling, modifying or adding components to the Program, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to network play over the Internet, network play utilizing commercial or non-commercial gaming networks or as part of content aggregation networks without the prior written consent of Blizzard; </p>
+<p>		(iv) create or maintain, under any circumstance, more than one simultaneous connection to Battle.net. All such connections to Battle.net, whether created by the Program or by other tools and utilities, may only be made through methods and means expressly approved by Blizzard. Under no circumstances may you connect, or create tools that allow you to connect to Battle.net's private binary interface or interfaces other than those explicitly provided by Blizzard for public use;</p>
+<p>		(v) utilize “Duplicated Items” on Battle.net including, but not limited to, weapons, armor, rings , amulets, stones, staves, etc., which were created by exploiting or “lag,” programming error, or any other manner that allows you to utilize duplicated characters or items on the Battle.net service, and in the event that Blizzard discovers that you are utilizing such items on Battle.net, you hereby acknowledge that Blizzard may, at its sole discretion, delete such items from  your account on Battle.net.</p>
+<p>4. Program Transfer. You may permanently transfer all of your rights under this License Agreement, provided the recipient agrees to the terms of this License Agreement and you agree to remove the Program from your home, business or portable computer.</p>
+<p>5. Acknowledgements. You hereby acknowledge: (i) that certain games played on Battle.net require electronic files, including, but not limited to, player characters, accounts, statistics, user profiles, weapons, armor, quests and maps (“On-Line Data”), to be stored upon Battle.net for your use when utilizing Battle.net to play these games online.  You hereby agree and acknowledge that Blizzard shall not have any liability to you for the loss of any On-Line Data for any reason whatsoever, including, but not limited to, server failure, telephonic interruption of any kind, defects, viruses  or other harmful components, and negligent acts of Blizzard and/or its affiliates; and (ii) you acknowledge any Hardcore™ Character that you create on Battle.net is created at you own risk and that Blizzard is not liable or responsible for any disruption of service, including, but not limited to, ISP disruptions, network or server lag, software or hardware failures of any other event which may cause a loss of data or disruption of service that results in the permanent death of said Hardcore Character. </p>
+<p>6. Termination. This License Agreement is effective until terminated. You may terminate the License Agreement at any time by destroying the Program. Blizzard may, at its discretion, terminate this License Agreement in the event that you fail to comply with the terms and conditions contained herein. In such event, you must immediately destroy the Program. </p>
+<p>7. Customer Service/Technical Support. Blizzard agrees to provide the Customer Service and Technical Support for this Program until such time as the Program is “Out of Publication.”   The Program is considered to be “Out of Publication” one (1) year following the date that the Program is no longer manufactured and/or distributed by Blizzard, or its licensors. “Customer Service,” as used herein may be provided to you by Blizzard representatives by telephone, and/or by electronic message (e-mail). “Technical Support” may be provided to you by telephone, electronic message (e-mail), or by posting of information related to known technical support issues on a website. Unless otherwise stated in the Program’s packaging or in the Program’s user manual, nothing herein shall be construed so as to place an obligation upon Blizzard to provide Customer Service or Technical Support via a toll free telephone number for an unlimited period of time.</p>
+<p>8. Duration of the Online Component of the Program. This Program contains an on-line component that allows you to utilize the Program over the internet utilizing servers and software maintained by Blizzard.  Blizzard agrees to provide the servers and software technology necessary to utilize the “on-line” component of this Program until such time as the Program is Out of Publication, as defined above. Thereafter, Blizzard, in its sole discretion, may continue to provide the servers and software technology necessary to utilize the “on-line” component of this Program, or Blizzard may license third parties the right to provide the servers and software technology necessary to utilize the “on-line” component of this Program. However, nothing herein shall be construed so as to place an obligation upon Blizzard to provide the servers and software technology necessary to utilize the “on-line” function of the Program beyond the time that the Program is out of publication.</p>
+<p>9. Export Controls. The Program may not be re-exported, downloaded or otherwise exported into (or to a national or resident of) any country to which the U.S. has embargoed goods, or to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Commerce Department's Table of Denial Orders. By installing the Program, you are agreeing to the foregoing and you are representing and warranting that you are not located in, under the control of, or a national or resident of any such country or on any such list.</p>
+<p>10. Limited Warranty. Blizzard expressly disclaims any warranty for the Program and Manual(s). The Program and Manual(s) are provided "as is" without warranty of any kind, either express or implied, including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The entire risk arising out of use or performance of the Program and Manual(s) remains with the User, however Blizzard warrants up to and including 90 days from the date of your purchase of the Program that the media containing the Program shall be free from defects in material and workmanship. In the event that the media proves to be defective during that time period, and upon presentation to Blizzard of proof of purchase of the defective Program, Blizzard will at its option 1) correct any defect, 2) provide you with a product of equal or lesser value, or 3) refund your money. Some states do not allow the exclusion or limitation of implied warranties or liability for incidental damages, so the above limitations may not apply to you.</p>
+<p>11. Limitation of Liability. NEITHER BLIZZARD, ITS PARENT, SUBSIDIARIES OR AFFILIATES SHALL BE LIABLE IN ANY WAY FOR LOSS OR DAMAGE OF ANY KIND RESULTING FROM THE USE OF THE PROGRAM OR USE OF BLIZZARD'S ONLINE GAME NETWORK, BATTLE.NET INCLUDING, BUT NOT LIMITED TO, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES. BLIZZARD FURTHER DISCLAIMS ALL WARRANTIES WITH REGARD TO YEAR 2000 COMPLIANCE OF THE SOFTWARE. SPECIFICALLY, BLIZZARD MAKES NO WARRANTIES THAT THE PERFORMANCE OR FUNCTIONALITY OF THE PROGRAM WILL NOT BE AFFECTED BY DATES PRIOR TO, DURING OR AFTER THE YEAR 2000, OR THAT THE PROGRAM WILL BE CAPABLE OF CORRECTLY PROCESSING, PROVIDING, AND/OR RECEIVING DATE INFORMATION WITHIN AND BETWEEN CENTURIES, INCLUDING THE PROPER EXCHANGE OF DATE INFORMATION BETWEEN PRODUCTS OR APPLICATIONS. ANY WARRANTY AGAINST INFRINGEMENT THAT MAY BE PROVIDED IN SECTION 2-312(3) OF THE UNIFORM COMMERCIAL CODE AND/OR IN ANY OTHER COMPARABLE STATE STATUTE IS EXPRESSLY DISCLAIMED. FURTHER, BLIZZARD SHALL NOT BE LIABLE IN ANY WAY FOR THE LOSS OR DAMAGE TO PLAYER CHARACTERS, ACCOUNTS, STATISTICS OR USER PROFILE INFORMATION STORED ON BATTLE.NET. I UNDERSTAND AND ACKNOWLEDGE THAT BLIZZARD CANNOT AND WILL NOT BE RESPONSIBLE FOR ANY INTERRUPTIONS OF SERVICE ON BATTLE.NET INCLUDING, BUT NOT LIMITED TO ISP DISRUPTIONS, SOFTWARE OR HARDWARE FAILURES OR ANY OTHER EVENT WHICH MAY RESULT IN A LOSS OF DATA OR DISRUPTION OF SERVICE. Some states do not allow the exclusion or limitation of incidental or consequential damages, or allow limitations on how long an implied warranty lasts, so the above limitations may not apply.</p>
+<p>12. Equitable Remedies. You hereby agree that Blizzard would be irreparably damaged if the terms of this License Agreement were not specifically enforced, and therefore you agree that Blizzard shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this License Agreement, in addition to such other remedies as Blizzard may otherwise have available to it under applicable laws. In the event any litigation is brought by either party in connection with this License Agreement, the prevailing party in such litigation shall be entitled to recover from the other party all the costs, attorneys' fees and other expenses incurred by such prevailing party in the litigation.</p>
+<p>13. Limitations on License. Nothing in this License Agreement shall preclude you from making or authorizing the making of another copy or adaptation of the Program provided, however, that (1) such new copy or adaptation is created as an essential step in your utilization of the Program in accordance with the terms of this License Agreement and for NO OTHER PURPOSE; or (2) such new copy or adaptation is for archival purposes ONLY and all archival copies are destroyed in the event of your Transfer of the Program, the Termination of this License Agreement or other circumstances under which your continued use of the Program ceases to be rightful. </p>
+<p>14.  Miscellaneous. This License Agreement shall be deemed to have been made and executed in the State of California and any dispute arising hereunder shall be resolved in accordance with the law of California. You agree that any claim asserted in any legal proceeding by one of the parties against the other shall be commenced and maintained in any state or federal court located in the State of California, County of Los Angeles, having subject matter jurisdiction with respect to the dispute between the parties. This License Agreement may be amended, altered or modified only by an instrument in writing, specifying such amendment, alteration or modification, executed by both parties. In the event that any provision of this License Agreement shall be held by a court or other tribunal of competent jurisdiction to be unenforceable, such provision will be enforced to the maximum extent permissible and the remaining portions of this License Agreement shall remain in full force and effect. This License Agreement constitutes and contains the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior oral or written agreements.
+I hereby acknowledge that I have read and understand the foregoing License Agreement and agree that the action of installing the Program is an acknowledgment of my agreement to be bound by the terms and conditions of the License Agreement contained herein. I also acknowledge and agree that this License Agreement is the complete and exclusive statement of the agreement between Blizzard and I and that the License Agreement supersedes any prior or contemporaneous agreement, either oral or written, and any other communications between Blizzard and myself.
+</p>
+	</div>
+
+	<div id="deDE" class="hidable">
+		<p>﻿LESEN SIE DIE FOLGENDE ENDBENUTZER-LIZENZVEREINBARUNG BITTE SORGFÄLTIG DURCH, BEVOR SIE DIESES SOFTWARE-PROGRAMM INSTALLIEREN. </p>
+<p>Dieses Software-Programm (im folgenden „Programm" genannt), einschließlich aller gedruckten Unterlagen, der gesamten Online- oder elektronischen Dokumentation sowie aller Kopien und aller von diesem Programm und diesen Materialien abgeleiteten Arbeiten sind das  urheberrechtlich geschützte Werk von Blizzard Entertainment, oder seiner Zulieferer. Jede Benutzung des Programms unterliegt den Bestimmungen der folgenden Endbenutzer-Lizenzvereinbarung (im folgenden „Lizenzvereinbarung" genannt). Das Programm darf ausschließlich von Endbenutzern verwendet werden, die mit der Lizenzvereinbarung und den Bedingungen der Lizenzvereinbarung einverstanden sind. Jede Benutzung, jede Reproduktion oder jede Weiterleitung des Programms, die nicht mit den Bedingungen der Lizenzvereinbarung übereinstimmt, ist ausdrücklich verboten.
+</p>
+<h1>ENDBENUTZER-LIZENZVEREINBARUNG</h1>
+<p>1. Beschränkte Benutzerlizenz</p>
+<p>Blizzard Entertainment, (im folgenden „der Lizenzgeber") räumt hiermit - und mit der Installation des Programms erklären Sie sich damit einverstanden – eine beschränkte nicht-exklusive Lizenz ein sowie das Recht, eine (1) Kopie des Programms zu installieren und diese zu Ihrem eigenen Gebrauch auf einem Home- oder einem tragbaren Computer zu benutzen. Die Installation des Programms in einem Netzwerk bzw. die Nutzung der Software auf mehreren Computern auf einmal ist ohne ausdrückliche Erlaubnis im Rahmen der Lizenzvereinbarung untersagt. Sie müssen die dazugehörige Handbücher lesen und die dazugehörige Vereinbarungen akzeptieren, falls:</p>
+<p>a) Das Programm über eine Multiplayer-Funktion verfügt;</p>
+<p>b) Das Programm des weiteren einen Level-Editor (im folgenden „Editor“ genannt) enthält, der es Ihnen erlaubt, Levels eigenen Zuschnitts oder andere Materialien (im folgenden „neue Materialien" genannt) zu Ihrem persönlichen Gebrauch in Verbindung mit dem Programm zu erzeugen. </p>
+<p>Jede Benutzung des Editors oder aller neuer Materialien unterliegen dieser Lizenzvereinbarung;</p>
+<p>Für das Programm wird eine Lizenz erteilt, es gilt nicht als verkauft. Ihre Lizenz verleiht keinen Rechtsanspruch oder den Besitz an dem Programm.</p>
+<p>2. Besitz</p>
+<p>Alle Rechtsansprüche, Besitzrechte und geistigen Eigentumsrechte an dem Programm und auf das Programm sowie alle Kopien davon (dazu gehören unter anderen aber nicht ausschließlich alle Titel, Computercodes, Themen, Objekte, Charaktere, Charakternamen, Stories, Dialoge, Slogans, Ausdrücke, Konzepte, Bildmaterial, Animationen, Geräusche, musikalische Kompositionen, audiovisuelle Effekte, Bedienungsmethoden, moralische Rechte, jede damit im Zusammenhang stehende Dokumentation sowie in das Programm eingebaute „applets" (spezielle Applikationen) sind Eigentum von dem Lizenzgeber. oder seinen Lizenzgebern. Das Programm ist im Rahmen des Urheberrechtsgesetzes der Bundesrepublik Deutschland, internationaler Copyright-Verträge und Konventionen sowie anderer Gesetze geschützt. Alle Rechte sind vorbehalten. Die Lizenzgeber der verschiedenen Komponenten des Programms behalten sich rechtliche Schritte im Falle einer Veletzung dieser Lizenzvereinbarung vor.</p>
+<p>3. Verpflichtungen des Endbenutzers</p>
+<p>A. An die vorstehende Lizenzgewährung gebunden, dürfen Sie weder Kopien, Fotokopien, Reproduktionen, Übersetzungen, Rückentwicklungen, Quellcode-Herleitungen,Modifikationen, Disassemblierungen, Dekompilationen oder abgeleitete Programme bzw. Arbeiten herstellen, die ganz oder in wesentlichen Teilen auf dem Programm basieren, noch irgendwelche Eigentumsanzeigen oder Eigentumsetiketten auf dem Programm anbringen, ohne das vorherige schriftliche Einverständnis von dem Lizenzgeber erhalten zu haben.</p>
+<p>B. Sie haben die Lizenz für das Programm als ein einziges Produkt. Seine Bestandteile dürfen nicht zur Benutzung auf mehr als einem (1) Computer abgetrennt werden.</p>
+<p>C. Sie sind berechtigt, das Programm zu Ihrem eigenen Gebrauch zu verwenden, Sie sind aber nicht berechtigt;</p>
+<p>	(i) ohne das vorherige, schriftliche Einverständnis von dem Lizenzgeber Reproduktionen des Programms in irgendeiner Weise an Dritte zu verkaufen oder zu übergeben, noch diese gegenüber Dritten zur Sicherung von Forderungen zu verwenden, noch an Dritte das Programm zu verleihen, zu vermieten, zu leasen oder die Lizenz daran zu erteilen;</p>
+<p>	(ii) mit dem Programm oder irgendeinem Teil davon (dazu gehören unter anderen Bilder, Sounddateien, Schriften, Grafiken, Cliparts, Animationen, Photos, Datenbanken) eine kommerziellen Zweck zu verfolgen, wozu unter anderem aber nicht ausschließlich seine Verwendung in einem Cyber-Café, in einem Center für Computerspiele oder an irgendeinem anderem ortsgebundenem Standort gehört;</p>
+<p>	(iii) ohne das ausdrückliche schriftliche Einverständnis von dem Lizenzgeber den Editor und die damit geschaffenen Neuen Materialien (dazu gehören unter anderen aber nicht ausschließlich Bilder, Sounddateien, Schriften, Grafiken, Cliparts, Animationen, Photos, Datenbanken) zu kommerziellen Zwecken zu verwenden oder Dritten eine solche Verwendung zu gestatten, wozu unter anderem aber nicht ausschließlich die Verteilung Neuer Materialien auf einer Stand-alone-Basis oder im Paket mit anderer Software oder Hardware über alle Vertriebswege gehört, wozu unter anderem aber nicht ausschließlich der Verkauf im Einzelhandel und der  elektronische Online-Vertrieb gehören sowie</p>
+<p>	(iv) ohne vorheriges schriftliches Einverständnis von Lizenzgeber als Spielleiter (Host) für das Programm zu fungieren oder für dieses Dienste anzubieten, die der Initiierung von Spielen dienen, noch Kommunikationsprotokolle zu emulieren oder weiterzuleiten, die von dem Lizenzgeber im Netzwerk-Feature des Programms verwendet werden, und dazu Methoden wie Protokollemulation, Tunneling, die Modifizierung oder Hinzufügung von Komponenten zum Programm, ein Utility-Programm oder irgendeine andere schon bekannte oder zukünftig entwickelte Technik zu benutzen. Dies gilt für jeden Zweck, dazu gehören unter anderem aber nicht ausschließlich Netzwerkspiele über das Internet, Netzwerkspiele, die kommerzielle oder nicht-kommerzielle Gaming-Netzwerke verwenden oder die zu Content Aggregation-Netzwerken gehören.</p>
+<p>4. Weitergabe des Programms</p>
+<p>Sie dürfen auf Dauer Ihre gesamten Rechte unentgeltlich weiter übertragen, die sich aus dieser Lizenzvereinbarung ergeben, unter der Voraussetzung, daß der Empfängerden Bedingungen dieser Lizenzvereinbarung zustimmt und Sie damit einverstanden sind, das Programm und alle neuen Materialien von Ihrem Home- oder tragbaren Computer zu entfernen.</p>
+<p>5. Ende der Lizenzvereinbarung</p>
+<p>Diese Lizenzvereinbarung läuft auf unbestimmte Zeit, es sei denn, es ist ausdrücklich etwas anderes vereinbart. Sie können die Lizenzvereinbarung jederzeit kündigen, indem Sie das Programm und alle neuen Materialien vernichten. Der Lizenzgeber ist nach eigenem Ermessen unbeschadet sonstiger Rechte berechtigt, die Lizenz bei Verstössen gegen diese Lizenzvereinbarung zu kündigen. In diesem Fall sind Sie verpflichtet, das Programm und alle neue Materialen unverzüglich zu löschen.</p>
+<p>6. U.S.A. Ausfuhrbeschränkungen</p>
+<p>Das Programm darf nicht reexportiert, heruntergeladen oder in anderer Weise in irgendein Land (oder an einen seiner Staatsbürger oder Einwohner) exportiert werden, das von den USA mit einem Embargo für Güter belegt worden ist, oder an jemanden, der sich auf der Liste der „Special Designated Nationals" des U.S. Finanzministeriums oder der „Table of Denial Orders" des U.S. Handelsministeriums befindet. Mit der Installation des Programm stimmen Sie dem Vorstehenden zu, und Sie erklären und garantieren, daß Sie sich nicht in einem solchen Land befinden, kein Staatsbürger oder Einwohner eines solchen sind und nicht der Kontrolle irgendeiner solchen Liste unterliegen.</p>
+<p>7. Beschränkte Gewährleistung</p>
+<p>Der Lizenzgeber lehnt ausdrücklich jede Gewährleistung für das Programm, den Editor und Anleitung(-en) ab. Das Programm, Editor und Anleitung(-en) werden „wie vorliegend" ausgeliefert. DER LIZENZGEBER ERTEILT KEINE GARANTIE, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND, FÜR DIE RICHTIGKEIT, VOLLSTÄNDIGKEIT, UNVERSEHRTHEIT, VERKÄUFLICHKEIT SOWIE DIE EIGNUNG ZU EINEM BESTIMMTEN ZWECK DES PROGRAMMS. WEITERHIN ÜBERNIMMT DER LIZENZGEBER KEINERLEI GARANTIEN BEZÜGLICH DER JAHR 2000-TAUGLICHKEIT DER SOFTWARE. DIES GILT INSBESONDERE FÜR MÖGLICHE AUSWIRKUNGEN AUF DIE LEISTUNG ODER FUNKTIONALITÄT DES PROGRAMMS VOR, WÄHREND ODER NACH DEM JAHR 2000 SOWIE DIE KORREKTE VERARBEITUNG VON DATEN WÄHREND UND NACH DER JAHRESWENDE. DIESER GARANTIEAUSSCHLUSS BEZIEHT SICH FERNER AUF DEN KORREKTEN DATENAUSTAUSCH ZWISCHEN PRODUKTEN ODER ANWENDUNGEN VON DRITTANBIETERN. Sämtliche Risiken, die aus der Verwendung des Programms, des Editors und der Handbücher entstehen können, trägt der Lizenznehmer. Der Lizenzgeber garantiert für einen Zeitraum von 180 Tagen ab dem Kaufdatum des Programms, dass das Programm frei von Material- oder Verarbeitungsfehlern ist und bei normaler Verwendung im wesentlichen gemäß der beiliegenden Dokumentation funktioniert. Sollte sich das Programm in diesem Zeitraum als fehlerhaft erweisen, verpflichtet sich der Lizenzgeber nach eigenem Ermessen und nach Vorlage einer gültigen Rechnung 1) den Fehler zu beheben, 2) den Austausch des fehlerhaften Produktes vorzunehmen, oder 3) dem Lizenznehmer den Kaufpreis zu erstatten.
+Da einige Staaten/Rechtsprechungen zeitliche Beschränkungen implizierter Garantien nicht gestatten, gilt diese Beschränkung für Sie möglicherweise nicht. Sollten Sie ein Produkt beispielsweise im Falle eines Defekts umtauschen oder zurücksenden wollen, folgen Sie bitte der dieser Lizenz beigefügten Vorgehensweise für den Technischen Kundenservice.</p>
+<p>8. Haftungsbeschränkung</p>
+<p>WEDER DER LIZENZGEBER, NOCH SEINE SUBUNTERNEHMER,  TOCHTERGESELLSCHAFTEN ODER LIZENZGEBER HAFTEN FÜR DURCH DIE VERWENDUNG DES PROGRAMMS ODER DES EDITORS ENTSTEHENDE SCHÄDEN. DAZU GEHÖREN UNTERE ANDEREM ARBEITS- UND COMPUTERAUSFÄLLE, FEHLFUNKTIONEN SOWIE ALLE FINANZIELLEN VERLUSTE ODER SCHÄDEN.
+Da einige Staaten/Rechtsprechungen den Haftungsausschluss für Schäden und Folgeschäden bzw. die zeitliche Beschränkung implizierter Garantien nicht gestatten, gilt diese Beschränkung für Sie möglicherweise nicht.</p>
+<p>9. Rechtsansprüche</p>
+<p>Sie stimmen hiermit zu, dass der Lizenzgeber erheblich beschädigt wird, falls diese Lizenzvereinbarung verletzt wird, und infolgedessen dass der Lizenzgeber sich mit dieser Lizenzvereinbarung gegen Schädigungen versichert und zur Wahrung seiner Rechte im Rahmen dieser Lizenzvereinbarung auch ohne Verpflichtung oder andere Sicherheiten oder eine nachweisbare Schädigung entsprechende Rechtsmittel ergreifen kann. Ferner findet die Rechtsprechung der jeweils zuständigen Staaten Anwendung.</p>
+<p>10. Verschiedenes</p>
+<p>Erfüllungsort und Gerichtsstand dieser Lizenzvereinbarung ist Deutschland und deutsche Gesetze sind anwendbar. Nebenabreden zu dieser Lizenzvereinbarung sind nicht getroffen. Änderungen oder Ergänzungen bedürfen zu ihrer Rechtswirksamkeit der Schriftform. Das gleiche gilt für den Verzicht auf das Schriftformerfordernis. Im Falle der Unwirksamkeit einer oder mehrerer Bestimmungen dieser Lizenzvereinbarung bleibt die Wirksamkeit der übrigen Bestimmungen hiervon unberührt. Anstelle der unwirksamen oder nichtigen Bestimmung verpflichten sich die Parteien, die unwirksame Bestimmung durch eine solche zu ersetzen, die in gesetzlich zulässiger Weise der unwirksamen Bestimmung wirtschaftlich am nächsten kommt. Entsprechendes gilt bei der Aufdeckung ergänzungsbedürftiger Vertragslücken. Sie bestätigen hiermit, die vorstehende Lizenzvereinbarung gelesen zu haben, sie zu verstehen und damit einverstanden zu sein, daß die Aktion der Programminstallation eine Bestätigung meines Einverständnisses darstellt, an die Bedingungen gebunden zu sein, die in der Lizenzvereinbarung enthalten sind. Sie bestätigen außerdem und erklären sich einverstanden, daß diese Lizenzvereinbarung die vollständige und ausschließliche vertragliche Abmachung darstellt, die zwischen der Lizenzgeber und Ihnen besteht, und daß die Lizenzvereinbarung jede frühere oder gegenwärtige Vereinbarung, ob schriftlich oder mündlich, und jede andere Mitteilung zwischen der Lizenzgeber und Ihnen aufhebt.
+</p>
+	</div>
+
+	<div id="enGB" class="hidable">
+		<p>﻿YOU SHOULD CAREFULLY READ THE FOLLOWING END USER LICENSE AGREEMENT BEFORE INSTALLING THIS SOFTWARE PROGRAM.</p>
+<p>This software program, any printed materials, any on-line or electronic documentation, and any and all copies and derivative works of such software program and materials (the "Program") are the copyrighted work of Blizzard Entertainment, Inc., its subsidiaries, licensors and/or its suppliers. .All use of the Program is governed by the terms of the End User License Agreement which is provided below ("License").The Program is solely for use by end users according to the terms of the License. Any use, reproduction or redistribution of the Program not in accordance with the terms of the License is expressly prohibited.
+</p>
+<h1>END USER LICENSE AGREEMENT</h1>
+<p>1. Limited Use License.</p>
+<p>Blizzard Entertainment, ("the Licensor") hereby grants, and by installing the Program you thereby accept, a limited, non-exclusive license and right to install and use one (1) copy of the Program for your use on either a home or portable computer. You may not network the Program or otherwise install it or use it on more than one computer at a time, except if expressly authorised otherwise in the applicable documentation which you should refer to if:</p>
+<p>(a) The Program contains a Level Editor ("Editor") that allows you to create custom levels or other materials for your personal use in connection with the Program ("New Materials").</p>
+<p>(b) The Program has a multi-player capability</p>
+<p>The Program is licensed not sold. Your license confers no title or ownership in the Program .</p>
+<p>2. Ownership.</p>
+<p>All title, ownership rights and intellectual property rights in and to the Program and any and all copies thereof (including but not limited to any titles, computer code, themes, objects, characters, character names, stories, dialog, catch phrases, locations, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, any related documentation, and "applets" incorporated into the Program) are owned by the Licensor or its licensors. The Program is protected by the English copyright laws, international copyright treaties and conventions and any other applicable laws. All rights are reserved. The Program may contain certain licensed materials and the Licensor's licensors may act to protect their rights in the event of any violation of this Agreement.</p>
+<p>3. Responsibilities of End User.</p>
+<p>A. Subject to the Grant of License herein above, you may not, in whole or in part, copy, photocopy, reproduce, translate, reverse engineer, derive source code, modify, disassemble, decompile, create derivative works based on the Program, or remove any proprietary notices or labels on the Program without the prior consent, in writing, of the Licensor.</p>
+<p>B. The Program is licensed to you as a single product. Its component parts may not be separated for use on more than one computer.</p>
+<p>C. You are entitled to use the Program for your own use, but you are not be entitled to:</p>
+<p>(i) sell, grant a security interest in or transfer reproductions of the Program to other parties in any way, nor to rent, lease or license the Program to others without the Licensor prior written consent ;</p>
+<p>(ii) publish and/or distribute the computer images, sound, files, fonts, graphics, clipart, animations, photographs, databases or other content of the Program (including without limitation, for resale printed materials for your personal or business use (e.g., flyers and bro c h u res) and on your personal and business website); use any of the computer images related to identifiable individuals or entities in a manner which suggests their association with or endorsement of any product or services;</p>
+<p>(iii) exploit the Program or any of its parts, computer images, sound files, fonts, graphics, clipart, animations, photographs, databases or other
+content in the Program, for any commercial purpose including, but not limited to, use at a cyber café, computer gaming centre or any other location-based site.</p>
+<p>(iv) host or provide matchmaking services for the Program or emulate or redirect the communication protocols used by the Licensor in the network feature of the Program, through protocol emulation, tunnelling, modifying or adding components to the Program, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to network play over the Internet, network play utilising commercial or non-commercial gaming networks or as part of content aggregation networks without the Licensor prior written consent .</p>
+<p>4. Program Transfer.</p>
+<p>You may permanently transfer all of your rights under this License, provided the recipient agrees to the terms of this License and you agree to remove the
+Program from you home or portable computer.</p>
+<p>5. Termination.</p>
+<p>This License is effective until terminated. You may terminate the License at any time by destroying the Program and any New Material. The Licensor may, at its discretion, terminate this License in the event that you fail to comply with the terms and conditions contained herein. In such event, you must immediately destroy the Program and any New Material.</p>
+<p>6. Export Controls .</p>
+<p>The Program may not be re-exported, download or otherwise exported into (or to a national or resident of) any country to which the U.S. has embargoed goods, or anyone on the U.S. Treasury Department’s list of Specially Designated National or the U.S. Treasury Department ’s Table of Denial Orders. By installing the Program, you are agreeing to the foregoing and you are re p resenting and warranting that you are not located in, under the control of, or a national or resident of any such country or on any such list.</p>
+<p>7. Limited Warranty.</p>
+<p>THE LICENSOR EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE PROGRAM, EDITOR, AND MANUAL(S). THE PROGRAM, EDITOR AND MANUAL(S) ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTA BILITY, FITNESS FOR A PA RTICULAR PURPOSE, OR NON-INFRINGEMENT. THE LICENSOR FURTHER DISCLAIMS ALL WARRANTIES WITH REGARD TO YEAR 2000 COMPLIANCE OF THE SOFTWARE. SPECIFICALLY, THE LICENSOR MAKES NO WARRANTIES THAT THE PERFORMANCE OR FUNCTIONALITY OF THE PROGRAM WILL NOT BE AFFECTED BY DATES PRIOR TO, DURING OR AFTER THE YEAR 2000, OR THAT THE PROGRAM WILL BE CAPABLE OF CORRECTLY PROCESSING, PROVIDING, AND/OR RECEIVING DATE INFORMATION WITHIN AND BETWEEN CENTURIES, INCLUDING THE PROPER EXCHANGE OF DATE INFORMATION BETWEEN PRODUCTS OR APPLICATIONS ANY WARRANTY AGAINST INFRINGEMENT THAT MAY BE PROVIDED IN SECTION 2-312(3) OF THE UNIFORM COMMERCIAL CODE AND/OR IN ANY DISCLAIMED. The entire risk arising out of use or performance of the Program, Editor and Manual(s) remains with you, however the Licensor warrants that the media containing the Program shall be free from defects in material and workmanship under normal use and services and the Program will perform substantially in accordance with the accompanying written materials, for a period of ninety (90) days from the date of your purchase of the Program. In the event that the media proves to be defective during that time period, and upon presentation to the Licensor of proof of purchase of the defective Program, the Licensor will at its option 1) correct any defect, 2) provide you with a product of equal value, or 3) refund your money. Some states/jurisdiction do not allow limitation on duration of an implied warranty, so the above limitation may not apply to you. In case you would like to exchange the product or refund you money, notably if the product is defective, please refer to the "Technical Support Policy" here in included.</p>
+<p>8. Limitation of Liability.</p>
+<p>NEITHER THE LICENSOR , ITS PARENT, SUBSIDIARIES, AFFILIATES OR LICENSORS SHALL BE LIABLE IN ANY WAY FOR LOSS OR DAMAGE OF ANY KIND RESULTING FROM THE USE OF THE PROGRAM OR EDITOR INCLUDING, BUT NOT LIMITED TO, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES. Some countries do not allow the exclusion or limitation of incidental or consequential damages, or allow limitations on how long an implied warranty lasts, so above limitations or exclusion may not apply to you.</p>
+<p>9. Equitable Remedies.</p>
+<p>You hereby agree that the Licensor would be irreparably damaged if the terms of this License were not specifically enforced, and therefore you agree that the Licensor shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this License, in addition to such other remedies as the Licensor may otherwise have available to it under applicable laws.</p>
+<p>10. Miscellaneous.</p>
+<p>The License shall be deemed to have been made and executed in England, and any dispute arising hereunder shall be resolved in accordance with the English law. This License may be amended, altered or modified only by an instrument in writing, specifying such amendment, alteration or modification, executed by both parties. In the event that any provision of this License shall be held by a court or other tribunal of competent jurisdiction to be unenforceable, such provision will be enforced to the maximum extent permissible and the remaining portions of this License shall remain in full force and effect. The terms and conditions of a paper printed licence eventually accompanying the Program prevail on any terms and condition of a license eventually included in the Program and that could appear on screen. You hereby acknowledge that you have read and understand the foregoing License and agree that the action of installing the Program is an acknowledgement of your agreement to be bound by the terms and conditions of the License contained herein. You also acknowledge and agree that this License is the complete and exclusive statement of the agreement between the Licensor and you and that the License supersedes any prior or contemporaneous agreement, either oral or written, and any other communications between the Licensor and you including any inconsistent written license agreement or on-line help accompanying the Program .</p>
+<p></p>
+	</div>
+
+	<div id="esES" class="hidable">
+		<p>﻿DEBE LEER ATENTAMENTE EL SIGUIENTE CONTRATO DE LICENCIA PARA EL USUARIO FINAL ANTES DE INSTALAR ESTE PROGRAMA DE SOFTWARE.</p>
+<p>Este programa de software, todo material impreso, toda documentación en línea o electrónica y toda copia y trabajos derivados de este programa y material de software (el “Programa”) son propiedad de Blizzard Entertainment, Inc., sus filiales, sus empresas autorizadas y/o sus proveedores, quienes ostentan los derechos de copyright. Todo uso del programa se rige por los términos del Contrato de Licencia para el Usuario Final, el cual se proporciona abajo (“Contrato de Licencia”). El programa sólo está destinado para el uso de usuarios finales de acuerdo con los términos del Contrato de Licencia. Queda expresamente prohibido todo uso, reproducción o redistribución del Programa que no se ajuste a los términos del Contrato de Licencia.</p>
+<p>CONTRATO DE LICENCIA PARA EL USUARIO</p>
+<p>1.Licencia de uso limitado.</p>
+<p>Blizzard Entertainment, Inc., (“Blizzard Entertainment”) garantiza por el presente documento y, por lo tanto, al instalar el Programa, usted acepta una licencia limitada no exclusiva y el derecho a instalar y utilizar una (1) copia del Programa para su uso en un ordenador doméstico o portátil. No puede conectar el Programa a una red ni instalarlo o usarlo en más de un ordenador a la vez, salvo bajo autorización expresa en la documentación aplicable a la que debería remitirse en caso de que: </p>
+<p>	(a) El Programa contenga un Editor de Niveles (el “Editor”) que le permite crear niveles personalizados u otro material para su uso personal con relación al Programa (“Nuevo Material).</p>
+<p>	(b) El Programa disponga de una capacidad para multijugador. El presente es un contrato de licencia y no un contrato de compra. La licencia no le confiere ningún título o propiedad sobre el Programa.</p>
+<p>2. Propiedad.</p>
+<p>Todo título, derecho de posesión y derecho de propiedad intelectual relacionado con el Programa y de cualquier copia del mismo (incluyendo, entre otros, todo título, código de ordenador, tema, objeto, personaje, nombre de personaje, historia, diálogo, eslogan, lugar, concepto, diseño, animación, sonido, composición musical, efecto audiovisual, método de operación, derecho moral, cualquier documento relacionado y “subprograma” incorporado al Programa) son propiedad de Blizzard Entertainment o de sus empresas autorizadas. El programa está protegido por las leyes de copyright españolas, por los tratados y convenciones de copyright internacionales y por otras leyes aplicables. Todos los derechos están reservados. El Programa puede contener cierto material con licencia y las empresas autorizadas por Blizzard Entertainment pueden tomar medidas para proteger sus derechos en caso de violación del presente Contrato.</p>
+<p>3. Responsabilidades del usuario final.</p>
+<p>A. Al estar sujeto a la Garantía de Licencia arriba detallada, no puede, de forma parcial o completa, copiar, fotocopiar, reproducir, traducir, invertir la ingeniería, derivar el código de origen, modificar, desensamblar, descompilar, crear trabajos basados en el Programa ni eliminar cualquier aviso o etiqueta sobre el Programa sin el previo consentimiento por escrito de Blizzard Entertainment. B. Se le concede la licencia del Programa como producto único. No puede separar sus componenentes para su uso en más de un ordenador.</p>
+<p>C. Tiene el derecho de utilizar el Programa para su uso personal, pero carece de derecho para:</p>
+<p>	(i) Vender, conceder un interés de seguridad en el Programa o transferir reproducciones del mismo a terceros de ningún modo, ni tampoco para alquilar, arrendar, o conceder una licencia del Programa a terceros sin el previo consentimiento por escrito de Blizzard Entertainment.</p>
+<p>	(ii) Publicar y/o distribuir imágenes, sonido, archivos, fuentes, gráficos, imágenes predefinidas, animaciones, fotografías, bases de datos u otros contenidos del Programa (incluyendo, sin límite alguno, para reventa de material impreso para uso personal o de la empresa ( ej. octavillas y folletos) y en un sitio web particular o en el de una empresa); utilizar ninguna imagen del ordenador relacionada con personas o entidades identificables de un modo que pueda sugerir su asociación con o aprobación de cualquier producto o servicio.</p>
+<p>	(iii) Explotar el Programa, o alguna de sus partes, imágenes, archivos de sonido, fuentes, gráficos, imágenes predefinidas, animaciones, fotografías, bases de datos u otros contenidos del Programa, para cualquier fin comercial, incluyendo, entre otros, su uso en un cibercafé, un centro de juegos o cualquier otro establecimiento.</p>
+<p>	(iv) Albergar o proporcionar servicios de encuentros para el Programa o emular o redirigir los protocolos de comunicación empleados por Blizzard Entertainment en la función de red del Programa, a través de emulación de protocolos, tunelización, modificación o agregación de componentes al Programa, uso de un programa de utilidades o cualquier otra técnica conocida actualmente o aún por desarrollar, para cualquier fin incluyendo, entre otros, el juego en red a través de Internet, el juego en red usando redes de juego comerciales o no comerciales o como parte de redes de agregación de contenidos, sin el consentimiento previo, por escrito, de Blizzard Entertainment.</p>
+<p>4. Transferencia del Programa. Puede transferir permanentemente todos los derechos adquiridos por el presente Contrato de Licencia, a condición de que el receptor acepte los términos de esta Contrato de Licencia y de que usted acepte suprimir el Programa de su ordenador doméstico o portátil.</p>
+<p>5. Terminación. El presente Contrato de Licencia será válido hasta su terminación. Puede terminar el Contrato de Licencia cuando desee, destruyendo el Programa y cualquier Material Nuevo. Blizzard Entertainment se guarda el derecho de terminar este Contrato de Licencia en caso de que usted no cumpla los términos y condiciones que en él se especifican. En tal caso, deberá destruir inmediatamente el Programa y cualquier Material Nuevo.</p>
+<p>6. Controles de exportación.  El presente programa no puede ser reexportado, descargado o exportado a ningún país (ni a ningún súbdito o residente de dicho país) sobre el cual el gobierno de los EE.UU. haya decretado un embargo de mercancías, ni a ninguna persona que conste en la lista de Súbditos Especialmente Señalados del Ministerio de Hacienda de los EE.UU. o en la Tabla de Ordenes Denegadas del Ministerio de Comercio de los EE.UU. Al instalar el Programa, usted acepta todas estas condiciones, y afirma y garantiza que no es súbdito o residente de los países mencionados, ni está bajo el control de ninguno de ellos, ni consta en ninguna de dichas listas.</p>
+<p>7. Garantía limitada. Blizzard Entertainment RECHAZA EXPRESAMENTE TODA GARANTíA POR EL PROGRAMA, EL EDITOR Y LOS MANUALES. EL PROGRAMA, EL EDITOR Y LOS MANUALES SE PROPORCIONAN TAL Y COMO SE PRESENTAN, SIN NINGúN TIPO DE GARANTíA, EXPRESA O IMPLíCITA, INCLUYENDO, ENTRE OTRAS, LAS GARANTíAS IMPLíCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPóSITO CONCRETO O NO INCUMPLIMIENTO. ADEMáS, Blizzard Entertainment DECLINA TODA GARANTíA EN RELACIóN CON LA RESPUESTA DEL SOFTWARE AL DENOMINADO ‘EFECTO 2000’. ESPECíFICAMENTE, Blizzard Entertainment. DECLINA TODA GARANTíA EN CASO DE QUE LA EJECUCIóN Y EL FUNCIONAMIENTO DEL PROGRAMA SE VEAN AFECTADOS POR FECHAS ANTERIORES, DURANTE O POSTERIORES AL AÑO 2000, O QUE EL PROGRAMA SEA INCAPAZ DE PROCESAR, DISTRIBUIR Y/O RECIBIR INFORMACIóN DE FECHAS CORRECTAMENTE DENTRO Y DURANTE EL CAMBIO DE SIGLO, INCLUYENDO EL INTERCAMBIO ADECUADO DE INFORMACIóN DE FECHAS ENTRE PRODUCTOS O APLICACIONES, CUALQUIER GARANTíA CONTRA EL INCUMPLIMIENTO QUE PUEDA APARECER EN LA SECCIóN 2-312(3) DEL CóDIGO COMERCIAL UNIFORME Y/O EN CUALQUIERA RECHAZADA. Todo riesgo proveniente del uso o ejecución del Programa, del Editor y de los Manuales recae bajo su responsabilidad. Sin embargo, Blizzard Entertainment garantiza que los medios que contienen el Programa están libres de defectos de material y fabricación bajo un uso normal y que los servicios y el Programa funcionarán sustancialmente conforme al material escrito adjunto durante un período de noventa (90) días a partir de la fecha de compra del Programa En caso de que los medios resulten defectuosos, durante este período de tiempo, y bajo presentación de la prueba de compra del Programa defectuoso a Blizzard Entertainment ésta optará libremente por: 1) corregir cualquier defecto, 2) proporcionarle un producto de igual valor o 3) devolverle su dinero. Alguno(a)s estados / jurisdicciones no permiten que se establezcan límites a la duración de la garantía implícita; por lo tanto, puede que la limitación mencionada arriba no sea aplicable a su caso. En caso de que quiera cambiar el producto o recuperar el importe correspondiente, sobretodo en caso de que el producto esté defectuoso, refiérase a la “Política de Soporte Técnico” detallada más abajo</p>
+<p>8.Limitación de responsabilidad. NI Blizzard Entertainment LA EMPRESA A LA QUE PERTENCE, LOS FILIALES, AFILIADOS O EMPRESAS AUTORIZADAS SERáN RESPONSABLES BAJO NINGúN CONCEPTO DE NINGUNA PÉRDIDA O DAÑO DE NINGúN TIPO QUE PUEDA RESULTAR DEL USO DEL PROGRAMA O EL EDITOR, INCLUYENDO, ENTRE OTROS, PÉRDIDA DE CLIENTELA, PÉRDIDA DE TRABAJO, FALLOS O MAL FUNCIONAMIENTO DE ORDENADORES NI NINGúN OTRO DAÑO O PÉRDIDA COMERCIAL. Algunos países no permiten la exclusión o la limitación de daños fortuitos o consiguientes, ni permiten establecer limites a la
+duración de una garantía implícita, por lo que las limitaciones mencionadas arriba pueden no ser aplicables en su caso. </p>
+<p>9. Recursos equitativos. Por el presente documento acepta que Blizzard Entertainment sufriría daños irreparables si no se hicieran cumplir específicamente los términos de este Contrato de Licencia, por lo que usted acepta que Blizzard Entertainment tendrá derecho, sin ningún vínculo ni seguridad ni prueba de daños, a recursos equitativos apropiados con respecto al incumplimiento de este Contrato de Licencia, además de a otros recursos de los que de otra forma pueda disponer Blizzard Entertainment bajo las leyes aplicables.</p>
+<p>10. Otros. Este Contrato de Licencia se considerará que se ha realizado y ejecutado en Inglaterra y cualquier litigio que surja en un futuro se resolverá de acuerdo con las leyes españolas. Este Contrato de Licencia sólo puede ser corregido, alterado o modificado por un instrumento por escrito, especificando dicha corrección, alteración o modificación por ambas partes. En el caso de que alguna disposición de este Contrato de Licencia sea declarada sin vigor por una magistratura o tribunal de justicia competente, dicha disposición se aplicará en la máxima extensión permisible y las partes restantes de este Contrato de Licencia continuarán con todo su vigor y efecto. Los términos y condiciones de un Contrato de Licencia impreso en papel que puedan acompañar el Programa prevalecen sobre todos los términos y condiciones de un Contrato de Licencia que puedan estar incluidos en el Programa y que puedan aparecer en la pantalla. Por el presente documento declara que ha leído y comprende el Contrato de Licencia detallado arriba y que acepta que la acción de instalar un Programa es un reconocimiento de su disposición a quedar sujeto a los términos y condiciones del Contrato de Licencia contenidos en el mismo. También declara y acepta que el presente Contrato de Licencia es la declaración completa y exclusiva del acuerdo entre Blizzard Entertainment y usted, y que el Contrato de Licencia sustituye a cualquier acuerdo previo o contemporáneo, verbal o escrito, y a cualquier otra comunicación entre Blizzard Entertainment y usted, incluyendo cualquier acuerdo de Contrato de Licencia escrito sin consistencia o cualquier ayuda en línea que acompañe el Programa. Con independencia de las garantías dadas por Blizzard Entertainment, Vivendi Games España S.L. como distribuidora oficial del producto, da todas las garantías determinadas por la ley en los plazos y condiciones determinados por ésta.
+</p>
+	</div>
+
+	<div id="frFR" class="hidable">
+		<p>﻿VEUILLEZ LIRE ATTENTIVEMENT CE CONTRAT DE LICENCE DESTINE A L'UTILISATEUR FINAL AVANT D'INSTALLER CE PROGRAMME INFORMATIQUE.</p>
+<p>Ce programme informatique, tout document imprimé, toute documentation en-ligne ou électronique et toute copie et tout produit dérivé de ce programme et de ces documents (le « Programme ») sont la propriété de Blizzard Entertainment, de ses filiales, de ses concédants et/ou de ses fournisseurs. Toute utilisation de ce Programme est régie par les termes du Contrat de licence de l'utilisateur final présenté ci-dessous (la « Licence »). Toute utilisation, reproduction, représentation ; redistribution du Programme non conforme aux termes de la Licence est strictement interdite.</p>
+<p>CONTRAT DE LICENCE DE L'UTILISATEUR FINAL</p>
+<p>1. Licence d'utilisation limitée</p>
+<p>Blizzard Entertainment, Inc., (« le Concédant ») vous accorde par le présent contrat une licence et un droit  limités et non exclusifs pour utiliser une (1) copie du Programme sur un ordinateur domestique ou portable, licence et droit que vous acceptez en installant ce Programme. Vous ne devez pas mettre le Programme en réseau ni l'installer ou l'utiliser sur plus d'un ordinateur à la fois, sauf indication contraire expresse dans la documentation applicable à laquelle vous devez vous référer si :</p>
+<p>	(a) le Programme contient un Editeur de niveaux (« Editeur ») vous permettant de créer des niveaux personnalisés ou autres éléments destinés à votre usage personnel en relation avec le Programme (« Nouveaux éléments »).</p>
+<p>	(b) le Programme dispose d'une fonction multijoueur. Ce Programme est fourni sous licence, il n'est pas vendu. Votre licence ne vous confère aucun titre ni droit de propriété sur ce Programme.</p>
+<p>2. Droits de propriété
+Tous les titres, droits de propriété et droits de propriété intellectuelle de ce Programme et des éléments contenus dans ce Programme et toute copie de ce Programme (y compris, mais pas seulement, tout titre, code informatique, thème, objet, personnage, nom de personnage, histoire, dialogue, expression, lieu, concept, ouvrage artistique, animation, son, composition musicale, effet sonore ou visuel, mode  opérationnel, droit moral, toute documentation relative et tout « module indépendant » inclus dans le Programme) sont la propriété du Concédant ou de ses concédants. Ce Programme est protégé par les lois relatives aux droits d'auteur applicables en France, les conventions et les traités internationaux relatifs aux droits d'auteur et toute autre loi applicable. Tous les droits sont réservés. Le Programme peut contenir des éléments sous licence et les concédants du Concédant peuvent prendre des mesures pour protéger leurs droits dans le cas où le présent Contrat serait enfreint.</p>
+<p>3. Responsabilités de l'utilisateur final</p>
+<p>A. En vertu du présent contrat de licence, vous n’êtes pas autorisé à, en tout ou partie, copier, photocopier, reproduire, traduire, procéder à des opérations de rétro-ingénierie, extraire le code source, modifier, désassembler, décompiler, créer des produits dérivés inspirés du Programme ni supprimer aucune identification du nom du propriétaire sur le Programme sans l'autorisation écrite préalable du Concédant.</p>
+<p>B. Le Programme vous est concédé sous licence en tant que produit unique. Il est interdit de séparer ses divers composants pour une utilisation sur plusieurs ordinateurs.</p>
+<p>C. Vous êtes autorisé à utiliser le Programme pour votre usage personnel mais vous n'avez pas le droit :</p>
+<p>	(i) de vendre, octroyer une part d'intérêt ou transférer des reproductions du Programme à des tiers de quelque manière que ce soit, ni de donner le Programme en location en crédit-bail ou en sous-licence à des tiers sans l'autorisation écrite préalable du Concédant ;</p>
+<p>	(ii) de publier et/ou distribuer les images informatiques, sons, fichiers, polices, graphismes, cliparts, animations, photographies, bases de données ou tout autre élément contenu du Programme (y compris, mais pas seulement, pour la revente de documents imprimés pour votre usage personnel ou professionnel [prospectus et brochures, par exemple] et sur vos sites web professionnels et personnels) ; d'utiliser toute image informatique ayant un lien avec des personnes ou des entités identifiables d'une manière laissant suggérer leur association ou leur adhésion avec un produit ou un service, quel qu'il soit ;</p>
+<p>	(iii) d'exploiter le Programme ou n'importe lequel de ses composants, images informatiques, fichiers sons, polices, graphismes, cliparts, animations, photographies, bases de donnée ou tout autre élément contenu dans le Programme, à des fins commerciales, notamment l'utiliser dans un cybercafé, un centre de jeux vidéo, ou tout autre lieu public ;</p>
+<p>	(iv) d’héberger ou fournir des services de mise en relation pour le Programme ou émuler ou rediriger les protocoles de communication utilisés par le Concédant pour la fonction réseau du Programme, à travers l'émulation de protocole, la suppression, la modification ou l'ajout de composants au Programme, l'usage d'un programme utilitaire ou tout autre technique connue actuellement ou qui sera développée plus tard, pour tout usage, y compris, mais pas seulement, le jeu en réseau via Internet, le jeu en réseau sur des réseaux de jeux commerciaux ou non commerciaux ou faisant partie de réseaux collectifs sans l'autorisation écrite préalale du Concédant.</p>
+<p>4. Transfert du Programme
+Vous êtes autorisé à transférer définitivement tous les droits que vous confère cette Licence, à condition que le bénéficiaire accepte les termes de cette Licence et que vous supprimiez le Programme de votre ordinateur domestique ou portable. </p>
+<p>5. Résiliation
+Cette Licence est valable jusqu'à sa résiliation. Vous pouvez résilier la Licence à tout moment en détruisant le Programme et tout Nouvel élément. Le Concédant peut, à sa discrétion, résilier la Licence en cas de non respect, de votre part, des termes et conditions contenus dans ce contrat. Dans ce cas, vous devez immédiatement détruire le Programme et tout Nouvel Elément.</p>
+<p>6. Contrôles à l'exportation
+Il est interdit de ré-exporter, de télécharger ou d'exporter le programme, de quelque manière que ce soit, à destination d'un pays (ni d'un ressortissant ou d'un résident d'un tel pays) sur lequel les Etats-Unis ont imposé un embargo commercial, ou de toute personne figurant sur la liste des Specially Designated National ou de la Table of Denial Orders du ministère des finances américain (U.S. Treasury Department). En installant ce Programme, vous acceptez la disposition qui précède et vous signalez et certifiez que vous ne résidez pas ou que vous ne dépendez pas d'un tel pays et que vous n'êtes pas un ressortissant ni un résident d'un tel pays ou figurant sur une telle liste.</p>
+<p>7. Garantie limitée
+LE CONCEDANT REFUTE EXPRESSEMENT TOUTE GARANTIE POUR LE PROGRAMME, L'EDITEUR ET LE(S) MANUEL(S). LE PROGRAMME, L'EDITEUR ET LE(S) MANUEL(S) SONT FOURNIS « EN L'ETAT » SANS AUCUNE GARANTIE, EXPLICITE OU IMPLICITE, Y COMPRIS LES GARANTIES IMPLICITES DE QUALITE MARCHANDE, D'ADEQUATION A UN BESOIN OU UN USAGE PARTICULIER, OU D'ABSENCE DE CONTREFAÇON. LE CONCEDANT REFUTE EGALEMENT TOUTES LES GARANTIES LIEES A LA CONFORMITE DES LOGICIELS AVEC L'AN 2000. EN PARTICULIER, LE CONCEDANT NE GARANTIT EN AUCUNE MANIERE QUE LES PERFORMANCES ET LES FONCTIONNALITES DU PROGRAMME NE SERONT PAS AFFECTEES PAR DES DATES AVANT, PENDANT ET APRES L'AN 2000, NI QUE LE PROGRAMME SERA EN MESURE DE TRAITER, FOURNIR ET/OU RECEVOIR DES INFORMATIONS DE DATE CORRECTEMENT
+A L'INTERIEUR DE CHAQUE SIECLE ET ENTRE LES SIECLES, Y COMPRIS L'ECHANGE D'INFORMATIONS DE DATE ENTRE LES PRODUITS OU LES APPLICATIONS, TOUTE GARANTIE D'ABSENCE DE CONTREFAÇON FIGURANT DANS LA SECTION 2-31253° DU CODE COMMERCIAL UNIFORME DES ETATSUNIS ET/OU DANS TOUTE AUTRE CODE ETANT REFUTEE. Tous les risques liés à l'utilisation ou aux performances du Programme, de l'Editeur et des Manuels relèvent de votre responsabilité. Toutefois, le Concédant garantit que le support qui contient le Programme est exempt de défauts de matériel et d'assemblage pendant une durée de quatre-vingt dix jours (90) à dater de l'achat du Programme. Dans le cas où le support se révèlerait défecteux pendant cette période et sur présentation d'une preuve d'achat du Programme défectueux, le Concédant pourra choisir 1) de corriger tout défaut, 2) de vous fournir un produit de valeur équivalente, ou 3) de vous rembourser. Certains états/juridictions n'autorisent pas la limitation de durée d'une garantie implicite. La limitation ci-dessus peut donc ne pas s'appliquer à votre situation. La présente limitation de garantie ne fait pas obstacle aux éventuelles garanties légalement prévues et notamment à la garantie des vices caches prévue aux articles 1641 et suivants du code civil français. Dans le cas où vous souhaitez effectuer un échange du produit ou vous faire rembourser, notamment si le produit est défectueux, merci de bien vouloir vous référer à la « Procédure Support Technique » jointe à la présente licence.</p>
+<p>8. Limitation de responsabilité
+LE CONCEDANT, SES PARENTS, SES FILIALES, SES AFFILIES, NI SES CONCEDANTS NE SAURAIENT EN AUCUN CAS ETRE TENUS RESPONSABLES POUR LES PERTES ET LES DOMMAGES, DE QUELQUE NATURE QU'ILS SOIENT, RESULTANT DE L'UTILISATION DU PROGRAMME OU DE L'EDITEUR, NOTAMMENT LES PERTES DE PROFIT, LES INTERRUPTIONS DE TRAVAIL, LES ECHECS ET DYSFONCTIONNEMENTS INFORMATIQUES ET TOUT AUTRE DOMMAGES OU PERTES DE NATURE COMMERCIALE. Certains pays n'autorisent pas l'exclusion ou la limitation des dommages accessoires ou consécutifs ou autorisent des limitations sur la durée d'une
+garantie implicite. Les limitations ou exclusions ci-dessus peuvent donc ne pas s'appliquer à votre situation.</p>
+<p>9. Mesures équitables
+Par la présente, vous acceptez que le non respect des termes de la Licence entraînerait un préjudice irrémédiable pour le Concédant et en conséquence, vous acceptez que le Concédant soit habilité, sans obligation, garantie ou preuve de dommages, à mettre en oeuvre les mesures équitables autorisées aux termes des clauses de rupture de la Licence, en plus des autres lois auxquelles le Concédant peut avoir recours.</p>
+<p>10. Divers
+La Licence sera réputée avoir été faite et exécutée en France et tout conflit en relevant devra être résolu conformément au droit français. Cette Licence ne peut être amendée, altérée ou modifiée que par un document écrit spécifiant l'amendement, l'altération ou la modification, exécuté par les deux parties.
+Dans le cas où l'une des dispositions de la Licence serait jugée non exécutoire par une cour ou un autre tribunal d'une juridiction compétente, cette disposition sera appliquée dans la mesure autorisée par la loi et les autres dispositions de la Licence resteront entièrement applicables. Les termes et conditions d'une licence imprimée sur papier fournie avec le Programme prévalent sur les termes et conditions d'une licence incluse dans le Programme et pouvant être affichée sur l'écran d'un ordinateur. Par la présente, vous reconnaissez avoir lu et compris la présente Licence et vous acceptez que le fait d'installer le Programme implique que vous acceptez d'être lié par les termes et conditions de la présente Licence. Vous reconnaissez et acceptez également que la présente Licence constitue l'accord entier et exclusif passé entre le Concédant et vous et qu'elle remplace tout accord antérieur ou contemporain, qu'il soit oral ou écrit, et toute autre communication entre le Concédant et vous, y compris tout contrat de licence écrit ou aide en ligne contradictoire accompagnant le Programme.</p>
+<p></p>
+	</div>
+
+	<div id="itIT" class="hidable">
+		<p>﻿LEGGETE CON ATTENZIONE IL SEGUENTE ACCORDO DI LICENZA PRIMA DI INSTALLARE IL PROGRAMMA SOFTWARE.</p>
+<p>Questo programma software, tutta la documentazione cartacea o elettronica e tutte le copie o i lavori derivati di questo programma (da qui in avanti "Programma") e dei suoi materiali sono protetti da copyright di Blizzard Entertainment, Inc., delle sue concessionarie o dei suoi fornitori. L'uso del programma è regolato dai termini del seguente accordo di licenza ("Accordo di Licenza").
+Il programma è esclusivamente per vostro uso personale, entro i termini dell'accordo di licenza: qualsiasi utilizzo, riproduzione, o ridistribuzione del programma all'infuori dei termini di detto accordo è espressamente proibito.
+</p>
+<h1>ACCORDO DI LICENZA</h1>
+<p> D'USO</p>
+<p>1. Licenza d'uso limitata.</p>
+<p>Blizzard Entertainment, Inc. ("Licenziatario"), vi concede una licenza d'uso limitata e non esclusiva, che voi accettate installando il programma, per l'installazione e l'uso di una (1) copia del programma per vostro uso personale, su un PC o su un computer portatile. Non potete inserire in rete il programma o installarlo o utilizzarlo in altro modo su più di un computer, a meno che ciò non sia espressamente previsto nella documentazione di riferimento:</p>
+<p>	(a) Il Programma contiene un editor di livelli ("Editor") che vi consente di creare livelli personalizzati e altro materiale per vostro uso personale in congiunzione col Programma ("Nuovi materiali").</p>
+<p>	(b) Il programma dispone di una funzionalità multigiocatore.</p>
+<p>Il Programma viene concesso in licenza, non venduto. La vostra licenza non vi garantisce alcun titolo di proprietà sul Programma.</p>
+<p>2. Proprietà.</p>
+<p>Tutti i titoli, i diritti di proprietà e quelli di proprietà intellettuale del programma e di tutte le sue copie ed elementi (inclusi, ma non limitati ad altri titoli, codici per computer, temi, oggetti, personaggi, nomi dei personaggi, storie, dialoghi, frasi, locazioni, concetti, grafica, animazioni, audio, composizioni musicali, effetti audio-video, metodi operativi, diritti morali, documentazione allegata e qualsiasi applicazione inclusa nel programma) restano di proprietà del Licenziatario e dei suoi concessionari. Il programma è protetto dalle leggi sul copyright degli Stati Uniti, dai trattati internazionali sul copyright e da convenzioni e altre leggi. Tutti i diritti riservati. Il programma contiene materiali concessi in licenza; i licenziatari del Licenziatario possono proteggere i propri diritti in caso di violazione di questo accordo.</p>
+<p>3. Responsabilità dell'utente finale.</p>
+<p>A. In quanto soggetti ai termini dell'accordo di licenza sopra riportato, non potete, in toto o in parte, copiare, fotocopiare, riprodurre, tradurre, decompilare, derivare, modificare, disassemblare o creare lavori derivati basati sul programma, o rimuovere qualsiasi avviso di proprietà o etichetta presente nel programma, senza il previo permesso scritto del Licenziatario.</p>
+<p>B. Il programma vi è concesso in licenza come singolo prodotto. Le sue varie parti non possono essere separate per l'uso su più di un computer.</p>
+<p>C. Potete usare il programma per vostro uso personale, ma vi rimane vietato:</p>
+<p>	(i) vendere, ricavare interessi o trasferire riproduzioni del programma a terzi, in qualsiasi maniera, come noleggiare, prestare o concedere il programma in licenza ad altri, senza il previo consenso scritto del Licenziatario;</p>
+<p>	(ii) pubblicare e/o distribuire immagini grafiche, suoni, file, font, grafica, simboli, animazioni, fotografie, database o altro contenuto del Programma (per uso personale oppure commerciale, come in volantini e pieghevoli, come pure su vostri siti web personali o commerciali); utilizzare immagini prelevate da computer per identificare individui o entità in modo che si crei la sensazione di una loro associazione con uno dei nostri prodotti o servizi;</p>
+<p>	(iii) utilizzare il Programma o una qualsiasi sua parte, immagini, file audio, font, grafica, simboli, animazioni, fotografie, database o altro contenuto per uno scopo commerciale, incluso ma non solo l'uso in un cyber café, in un centro di giochi per computer o in qualsiasi struttura di questo tipo;</p>
+<p>	(iv) la creazione o la fornitura di servizi di gioco per il programma o l'emulazione o l'utilizzo dei protocolli di comunicazione del Licenziatario nelle funzioni in rete del Programma, attraverso emulazione del protocollo, tunneling, modifiche o aggiunte a componenti del programma, uso di altri applicativi o di qualsiasi altra tecnica non ancora nota o sviluppata, per qualsiasi fine, incluso, ma non solo, il gioco in rete su Internet, il gioco in rete su servizi commerciali o non-commerciali, o come parte di reti di aggregazione, senza il previo consenso scritto del Licenziatario</p>
+<p>4. Trasferimento del programma.</p>
+<p>Potete trasferire in via permanente tutti i diritti concessivi da questo accordo di licenza, posto che il destinatario del trasferimento accetti di sottostare ai suoi termini e che voi rimuoviate il programma dal vostro PC o computer portatile.</p>
+<p>5. Termine dell'accordo.</p>
+<p>Questo accordo di licenza rimane in vigore fino a quando non viene terminato. Potete terminare l'accordo di licenza in qualsiasi momento, tramite la distruzione del programma e dei nuovi materiali con esso creati. Il Licenziatario può, a sua totale discrezione, mettere fine a questo accordo di licenza qualora voi non rispettiate i termini e le condizioni in esso contenuti. In tal caso, siete obbligati a distruggere immediatamente il Programma e qualsiasi Nuovo materiale.</p>
+<p>6. Controlli sull'esportazione.</p>
+<p>Questo programma non può essere esportato, scaricato o trasferito in altro modo in una delle nazioni colpite da embargo commerciale da parte degli U.S.A., né ai loro cittadini, come pure in stati compresi nella U.S. Treasury Department's list of Specially Designated Nationals, oppure negli U.S. Commerce Department's Table of Denial Orders. Installando questo programma, accettate queste condizioni e garantite di non trovarvi in, oppure di non essere sotto il controllo di, una tale situazione né un cittadino di uno stato compreso in tali elenchi.</p>
+<p>7. Garanzia limitata.</p>
+<p>IL LICENZIATARIO DISCONOSCE QUALSIASI GARANZIA RELATIVA AL SOFTWARE, AL MANUALE E ALL'EDITOR. IL PROGRAMMA, IL MANUALE E L'EDITOR SONO FORNITI "COSÌ COME SONO", SENZA ALCUNA GARANZIA NÉ IMPLICITA, NÉ ESPLICITA, COMPRESE, MA NON SOLO, LE GARANZIE IMPLICITE DI COMMERCIABILITÀ, RISPONDENZA A UN PARTICOLARE SCOPO E NON INFRAZIONE. IL LICENZIATARIO DISCONOSCE INOLTRE QUALSIASI GARANZIA RELATIVA AL FUNZIONAMENTO DI QUESTO SOFTWARE DOPO L'ANNO 2000. IN PARTICOLARE, IL LICENZIATARIO NON GARANTISCE CHE LE PRESTAZIONI E LA FUNZIONALITÀ DEL PROGRAMMA NON SARANNO INFLUENZATE DA UNA DATAZIONE ANTECEDENTE, COINCIDENTE O SUCCESSIVA L'ANNO 2000, OPPURE CHE IL PROGRAMMA SARÀ IN GRADO DI FUNZIONARE CORRETTAMENTE, FORNENDO E/O RICEVENDO INFORMAZIONI CON DATE A CAVALLO DEI DUE SECOLI, COMPRESO IL CORRETTO SCAMBIO DI INFORMAZIONI SULLA DATA FRA PRODOTTI O APPLICAZIONI. QUALSIASI GARANZIA CONTRO LA VIOLAZIONE CHE PUÒ ESSERE FORNITA NELLA SEZIONE 2-312(3) DELL'UNIFORM COMMERCIAL CODE O IN QUALSIASI ALTRO STATUTO STATALE COMPARABILE È ESPRESSAMENTE NEGATA. L'intero rischio derivante dall'uso o dalle prestazioni del Programma, del manuale o dell'editor è a vostro completo carico. Il licenziatario, comunque, fornisce un periodo di garanzia di 12 mesi a partire dalla data d'acquisto del programma, per quanto riguarda il fatto che il supporto che lo contiene resterà privo da difetti nei materiali o di lavorazione.  Durante questo periodo di tempo, il prodotto, se difettoso, sarà sostituito gratuitamente dietro presentazione della copia originale difettosa, unitamente a un documento che ne comprovi l'acquisto (scontrino), presso il punto vendita dove è avvenuto l'acquisto.</p>
+<p>8. Limitazione di responsabilità.</p>
+<p>IL LICENZIATARIO E I SUOI CONCESSIONARI O ASSOCIATI NON POTRANNO IN ALCUN CASO ESSERE RITENUTI RESPONSABILI IN QUALSIASI MISURA PER PERDITE DI PROFITTO DI QUALUNQUE TIPO PROVOCATE DALL'UTILIZZO DEL PROGRAMMA O DELL'EDITOR, INCLUSI, MA NON SOLO, LA PERDITA DI VANTAGGI, LA SOSPENSIONE DI LAVORO, IL BLOCCO O IL MALFUNZIONAMENTO DI COMPUTER, COME NON SARANNO RESPONSABILI DI QUALSIASI ALTRO DANNO O PERDITA COMMERCIALE. Alcuni stati non consentono l'esclusione o la limitazione dei danni incidentali o consequenziali, oppure permettono limitazioni alla durata delle garanzie implicite, per cui le limitazioni sopra esposte potrebbero non essere applicabili al vostro caso.</p>
+<p>9. Rimedi appropriati.</p>
+<p>Riconoscete qui il fatto che il Licenziatario sarebbe irrimediabilmente danneggiato qualora i termini di questo accordo di licenza non fossero rispettati, pertanto accordate al Licenziatario il diritto, senza alcun limite, di avvalersi di rimedi applicati in rispetto a quanto contemplato da questo accordo di licenza, oltre a tutta una serie di altri rimedi che potrebbero essere comunque a disposizione del Licenziatario secondo le leggi in vigore.</p>
+<p>10. Varie.</p>
+<p>Questo accordo di licenza è stato concepito ed è in vigore secondo le leggi inglesi e qualsiasi disputa a esso relativo sarà risolta in accordo con le leggi dello stato italiano. Questa licenza può essere emendata, modificata o alterata solamente in forma scritta e posto che entrambe le parti accettino l'emendamento, la modifica o l'alterazione proposta. Qualora una qualsiasi parte di questo accordo sia ritenuta non applicabile, essa sarà applicata al massimo grado consentito dalla legge e l'intera parte restante di questo accordo resterà pienamente in vigore. I termini e le condizioni di una licenza stampata che accompagna eventualmente il Programma sono preminenti rispetto a qualsiasi termine o condizione di licenza eventualmente presenti nel Programma o che compaiano su schermo. Affermate di aver letto e compreso tutto l'accordo di licenza soprastante e di essere a conoscenza del fatto che, installando il programma, accettate di sottoporvi alle limitazioni e ai termini di detto accordo. Riconoscete anche che l'accordo di licenza rappresenta l'unico ed esclusivo accordo tra voi e il Licenziatario e che esso sostituisce qualsiasi altro accordo preesistente o contemporaneo, sia esso orale o scritto, e qualsiasi altra comunicazione intercorsa tra voi e il Licenziatario, compresi accordi parziali scritti oppure licenze contenute nell'aiuto on-line che accompagna il Programma.</p>
+<p></p>
+	</div>
+
+	<div id="jaJP" class="hidable">
+		<p>﻿返送先：大阪市中央区内平野町３－１－３
+株式会社 カプコン ユ－ザーサポートセンター</p>
+<p>本プログラムとそれに関連したあらゆる印刷物、オンラインもしくは電
+子文書、それらの複製物と派生物は、カプコンが といいます。）から許
+諾され、販売しているものであり、本プログラムの著作権は、の一部門である
+Blizzard（以下「Blizzard」といいます。）、その子会社、またはBlizzard
+への許諾者（以下「ライセンサー」といいます。）供給先が有しています。本プログラムの使用は、以下に述べられ</p>
+<h1>使用者同意書</h1>
+<p>の条項に基づくものとします。本プ
+ログラムはこの同意書の条項に従って、お客様が使用するためだけの ものです。この同意書の条項に基づかない使用、複製や再分配は 明示的に禁止されています。</p>
+<p>使用者同意書</p>
+<p>1. 制限付き使用許可 Blizzardはお客様がお客様自身の使用のた
+めに、自宅か仕事場のコンピュータ、またはポータブルコンピュータの
+いずれか単一のコンピュータに本プログラムをインストールして使用す
+る制限付き非独占的許可及び権利を認めます。お客様は本プログ
+ラムをインストールすることによってこの「使用者同意書」の全文に同
+意したことになります。また、本プログラムは複数のプレイヤーによって
+使用することが可能で、使用者はBlizzardのオンライン ゲーム・ネット
+ワークであるBattle.net（以下「Battle.net」といいます。）を通じてイ
+ンターネット上で本プログラムを使用することができます。本プログラム
+をBattle.netで使用するときにはBattle.netの本同意書の条項に従
+う必要があります。BlizzardはいかなるときにもBattle.netの本同意
+書の条項をアップデート、または改変する権利を有しています。</p>
+<p>2. 所有権本プログラムとそれについての複写（例：あらゆるタイトル、
+コンピュータ・コード、テーマ、対象物、登場人物とその名前、ストーリ
+ー、会話、キャッチ・フレーズ、場所設定、概念、美術、アニメ、音響、
+作曲、視覚効果、作動方法、倫理道徳権、あらゆる関連書類とプ
+ログラムに含まれている「アプレット」等）はBlizzard、もしくはライセンス
+所有者に所有されています。本プログラムは著作権法、国際著作
+権条約と協定によって保護されています。なお、本プログラムにはライ
+センサーの知的財産権も含まれます。お客様が同意書に従わず、こ
+れらの知的財産権を侵害した場合、これらの知的財産権の所有者
+は権利を守るために必要な措置をとることができます。</p>
+<p>3. 使用者の責任</p>
+<p>Ａ：お客様はここに述べられた本同意書に従うものとし、Blizzardの事
+前の書面による許諾を得ず、プログラムの全部又は一部を、コピー、
+写真撮影、複製、翻訳、リバースエンジニア、コードの抽出、改造、
+逆アセンブル、逆コンパイル、派生物の作成、本プログラムの独占権
+表示やラベルを剥がす行為を行ってはならないものとします。</p>
+<p>Ｂ：本プログラムは単一の商品として使用が許可されています。本プ
+ログラムの構成部分を分離して２台以上のコンピューターで使用する
+ことはできません。</p>
+<p>Ｃ：お客様ご自身で本プログラムを使用することは許諾されています
+が、以下のような行為はすることができません。</p>
+<p>（ア）いかなる方法であれ、本プログラムの権利を第三者に売ったり、
+許諾したり、また本プログラムの複製を第三者に譲渡すること。また、
+本プログラムをBlizzardからの事前の書面での許可なくして、第三者
+に賃貸したり使用を許可したりすること。</p>
+<p>（イ）本プログラムやその一部を、例えばインターネットカフェやゲームセ
+ンターやその他の場所において商業目的で利用すること。</p>
+<p>（ウ）Blizzardからの事前の書面での許諾なくして、本プログラムを使
+っての対戦サービスを主催提供すること。または、Blizzardがプログラ
+ム中のネットワーク機能として使用している通信プロトコルを流用した
+りエミュレーションしたりすること。いかなる目的（例：インターネット上で
+のネットワークプレイ、商業的また非商業的なゲーム・ネットワークを
+用いてのネットワークプレイ、また集団ネットワークの一部として）のた
+めであれ、プロトコルのエミュレーション、トンネリング、コンポーネント
+の追加、ユーティリティプログラムの使用、既知もしくはこれから開発さ
+れる技術を用いること。</p>
+<p>（エ）いかなる状況においても、Battle.netに同時に２つ以上の接続
+をしようとしたり維持したりすること。本プログラムでなされたものであれ、
+他のツールでなされたものであれ、Battle.netへの接続はBlizzardに
+よって明確に認められた方法と手段を通じてのみなされねばなりませ
+ん。いかなる状況においても、Blizzardが公の使用のために提供して
+いるインターフェイス以外の、私用のBattle.net・バイナリー・インター
+フェイスに接続したり、接続を可能とするツールを作ったりしてはなりま
+せん。</p>
+<p>(オ) Battle.netにおいて、通信の遅さ、接続ラグ、プログラムのエラー、
+その他いかなる手段を用いてでも、「デュプリケイト（複製）されたキャ
+ラクター」や「デュプリケイト（複製）されたアイテム」（武器、アーマー、
+リング、護符、石、杖など）を意図的に作成すること。またそれを使用
+したり他者に渡したりすること。もし、あなたがBattle.netでそうしたキャ
+ラクターやアイテムを利用していると見なされた場合、Blizzardは独自
+の判断においてそれらのキャラクターやアイテムを削除する権利を有し、
+あなたはそれに同意し承認するものとします。
+4. プログラムの譲渡 受取人がこの本同意書の条項に同意し、かつ
+お客様がこのプログラムを自宅、仕事場またはポータブルのコンピュー
+ターから完全に消去することに同意する場合に限り、お客様は本同
+意書に基づいて、すべての権利を永久的に譲渡できます。</p>
+<p>5. 確認事項 お客様は、以下の条項を確認し同意するものとします。
+ (i) Battle.netを通じてプレイされるゲームを利用するには、ある種の
+電子的ファイル（プレイヤーキャラクター、アカウント、ステイタス、ユー
+ザープロフィール、武器、防具、マップ、クエストなどを含むがそれに限
+定されず、以下「オンラインデータ」という）がBattle.netに保管されて
+いる必要がありますが、このオンラインデータの一部または全部が消
+失または破損した場合、その原因がいかなるものであっても（サーバ
+ーの停止、あらゆる種類の通信回線切断、プログラムのバグ、ウィル
+スその他の有害なコンポーネント、Blizzardまたはその親会社、子会
+社、関連会社の怠慢や失策を含むがそれに限定されない）、B
+lizzardは責任を負わないものとし、お客様はこれに同意し承認する
+ものとします。 (ii) お客様が作成したあらゆるHardcore(TM)キャラク
+ターは完全にお客様の責任下にあるものとします。いかなる理由によ
+るものであれ（Battle.netサービスの中断、ラグ、バグ、通信エラー、
+インターネット・プロバイダの障害などを含むがそれに限定されない）、
+Blizzardはそれらのキャラクターの恒久的な死にいっさい責任を負わ
+ず、復旧する義務もないものとします。</p>
+<p>6. 終了 この契約は終了されるまで有効です。お客様はプログラムを
+破棄することによっていつでもこの契約を終了することができます。B
+lizzardは、お客様が万一ここに述べられている条項と条件に従わな
+かった場合、この同意書を終了することができます。その場合には、
+お客様は直ちに本プログラムを破棄せねばなりません。</p>
+<p>7. 輸出規制お客様は、日本国、米国及びその他の国のすべての
+法律・規則を遵守するものとし、本プログラムを日本国外国為替及
+び外国貿易管理法及び輸出貿易管理令に日本国及びアメリカ合
+衆国が通商停止をしているいかなる国（またその国籍をもつ人や居
+住者）に対して、再輸出、ダウンロードその他の方法で輸出しないも
+のとします。本プログラムをインストールすることで、お客様は上記条
+項に同意し、また自分がそのような国の国籍を有していたり居住者で
+あったりその支配下にあったたりしないことを保証したものとします。</p>
+<p>8. 限定つきの保証 Blizzardは本プログラムとマニュアルに対してのい
+かなる保証もいたしません。本プログラムとマニュアルは、その形のまま
+提供され、明示的であれ黙示的であれいかなる保証（例：売れると
+いうことをほのめかす保証、ある目的に適合しているという保証、版
+権の侵害をしていないという保証書等）もいたしません。本プログラム
+とマニュアルの使用から生じるあらゆるリスクは使用者が負うものとしま
+す。ただし、お買い上げの日から９０日以内に限り、本プログラムに含
+まれているメディアに製造上の欠陥がないことをカプコンが保証します。
+万一この期間中にメディアに欠陥があることがわかった場合、カプコン
+に欠陥プログラムを購入したという証明を提示すれば、カプコンは、１
+）その欠陥を改善する、２）同等かそれ以下の価値をもつ他の製品
+に交換する、３）返金する、のいずれかを選択するものとします。</p>
+<p>N 9. 責任の限界 Blizzardその親会社、子会社、系列
+会社は本プログラムの使用やBlizzardのBattle.netの使用から生じ
+るいかなる損害（例：信用の喪失、業務の停止、コンピュータの異常
+や故障、その他のあらゆる商業上の損害等）に対しての責任を負わ
+ないものとします。さらにBlizzardはいかなる方法であれ、Battle.net
+に載せられた使用者の銀行口座、統計やプロフィール情報
+が損害を受けた場合の責任を負いません。お客様は、BlizzardがB
+attle.netのサービスの不具合（一例としてＩＳＰ回線不具合やハード
+ウェアの故障、データの喪失やサービスの中断に至るようなその他の
+できごと）に対する責任を負わないことを理解し、認めます。</p>
+<p>10. 公正な救済策 お客様はこの本同意書の条項が正しく施行され
+ない場合、Blizzard及びカプコンに甚大な損害を与えるということをこ
+こに認めます。そしてBlizzardがいかなる拘束、保証、損害の証明な
+しに、この本同意書への違反に関しての公正な救済策を、またその
+他の適切な法のもとでの救済を、請求する権利があることを認めま
+す。この同意書に関して万一訴訟が起こされた場合、勝訴した側が
+敗訴した側からあらゆる費用、弁護士費用、その他の支出を支払
+われるものとします。</p>
+<p>11. 許可の限界 本同意書はお客様が本プログラムのコピーや派生
+物の作成、または作成を認めたりすることを妨げるものではありません。
+しかし、１）それらのコピーや派生物はこの同意書に基づいてお客様
+がプログラムを使用する必要な第一歩としてのみ作られるものであり、
+それ以外の目的のために作ることはできません。２）それらのコピーや
+改造版は記録保管のためだけに作られ、お客様が本プログラムを譲
+渡するとき、本同意書を終了するとき、またはお客様のプログラムの
+継続使用が正当性をもたないあらゆる状況下では、コピーをすべて
+破棄しなければなりません。</p>
+<p>12. その他 本同意書により生ずるいかなる紛争についても、大阪地
+方裁判所のみを専属的に第一審の管轄裁判所とします。本同意
+書は原告側被告側双方の認めた書面で修正、変更、修飾され得
+ます。もし本同意書のどの条項でも法廷かその他の司法によって実
+施できないと認められた場合、その条項は許されるかぎり最大に施
+行され、本同意書のその他の部分はそのままの効力をもつものとしま
+す。この同意書には双方にとってのあらゆる同意事項が含まれており、
+これ以前のあらゆる口頭また書面での同意に取って代るものです。</p>
+<p>お客様は本同意書を読み理解し、本プログラムをインストールする行
+為は本同意書で述べられた条項と条件に従うことを示すものである
+ことをここに認めます。お客様はまた、本同意書はお客様とB
+lizzard及びカプコンとの完全な独占的な同意であることを認め、また
+本同意書はこれ以前また現在の口頭、書面による他のいかなる同
+意にも、お客様とBlizzard及びカプコンとの他のいかなるコミュニケー
+ションにも取って代るものであることを認めます。</p>
+<p></p>
+	</div>
+
+	<div id="koKR" class="hidable">
+		<p>﻿YOU SHOULD CAREFULLY READ THE FOLLOWING END USER LICENSE AGREEMENT BEFORE INSTALLING THIS SOFTWARE PROGRAM. BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PROGRAM, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, PROMPTLY RETURN THE UNUSED SOFTWARE PROGRAM TO THE PLACE OF PURCHASE OR CONTACT BLIZZARD ENTERTAINMENT CUSTOMER SERVICE AT (949) 955-1382 FOR A FULL REFUND OF THE PURCHASE PRICE WITHIN THIRTY (30) DAYS OF THE ORIGINAL PURCHASE.</p>
+<p>This software program (the "Program"), any printed materials, any on-line or electronic documentation, and any and all copies and derivative works of such software program and materials are the copyrighted work of Blizzard Entertainment, Inc., a Delaware corporation. All use of the Program is governed by the terms of the End User License Agreement which is provided below ("License Agreement"). The Program is solely for use by end users according to the terms of the License Agreement. Any use, reproduction or redistribution of the Program not in accordance with the terms of the License Agreement is expressly prohibited.
+</p>
+<h1>END USER LICENSE AGREEMENT</h1>
+<p>1. Limited Use License. Blizzard Entertainment, Inc. ("Blizzard") hereby grants, and by installing the Program you thereby accept, a limited, non-exclusive license and right to install and use one (1) copy of the Program for your use on either a home, business or portable computer. In addition, the Program has a multi-player capability that allows users to utilize the Program over the Internet via Blizzard Entertainment's online game network Battle.net. Use of the Program over Battle.net is subject to your acceptance of Battle.net's Terms of Use Agreement. Blizzard Entertainment reserves the right to update, modify or change the Battle.net Terms of Use Agreement at any time. </p>
+<p>2. Ownership. All title, ownership rights and intellectual property rights in and to the Program and any and all copies thereof (including but not limited to any titles, computer code, themes, objects, characters, character names, stories, dialog, catch phrases, locations, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, any related documentation, and "applets" incorporated into the Program) are owned by Blizzard Entertainment or its licensors. The Program is protected by the copyright laws of the United States, international copyright treaties and conventions and other laws. All rights are reserved. The Program contains certain licensed materials and Blizzard's licensors may protect their rights in the event of any violation of this Agreement.</p>
+<p>3. Responsibilities of End User.
+	A. Subject to the Grant of License hereinabove, you may not, in whole or in part, copy, photocopy, reproduce, translate, reverse engineer, derive source code, modify, disassemble, decompile, create derivative works based on the Program, or remove any proprietary notices or labels on the Program without the prior consent, in writing, of Blizzard.
+	B. The Program is licensed to you as a single product. Its component parts may not be separated for use on more than one computer. 
+	C. You are entitled to use the Program for your own use, but you are not entitled to:
+		(i) sell or grant a security interest in or transfer reproductions of the Program to other parties in any way, nor to rent, lease or license the Program to others without the prior written consent of Blizzard.
+		(ii) exploit the Program or any of its parts for any commercial purpose including, but not limited to, use at a cyber café, computer gaming center or any other location-based site. Blizzard may offer a separate Site License Agreement to permit you to make the Program available for commercial use; contact Blizzard for details;
+		(iii) host or provide matchmaking services for the Program or emulate or redirect the communication protocols used by Blizzard in the network feature of the Program, through protocol emulation, tunneling, modifying or adding components to the Program, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to network play over the Internet, network play utilizing commercial or non-commercial gaming networks or as part of content aggregation networks without the prior written consent of Blizzard; 
+		(iv) create or maintain, under any circumstance, more than one simultaneous connection to Battle.net. All such connections to Battle.net, whether created by the Program or by other tools and utilities, may only be made through methods and means expressly approved by Blizzard Entertainment. Under no circumstances may you connect, or create tools that allow you to connect to Battle.net's private binary interface or interfaces other than those explicitly provided by Blizzard Entertainment for public use.</p>
+<p>4. Program Transfer. You may permanently transfer all of your rights under this License Agreement, provided the recipient agrees to the terms of this License Agreement and you agree to remove the Program from your home, business or portable computer.</p>
+<p>5. Termination. This License Agreement is effective until terminated. You may terminate the License Agreement at any time by destroying the Program. Blizzard may, at its discretion, terminate this License Agreement in the event that you fail to comply with the terms and conditions contained herein. In such event, you must immediately destroy the Program. </p>
+<p>6. Export Controls. The Program may not be re-exported, downloaded or otherwise exported into (or to a national or resident of) any country to which the U.S. has embargoed goods, or to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Commerce Department's Table of Denial Orders. By installing the Program, you are agreeing to the foregoing and you are representing and warranting that you are not located in, under the control of, or a national or resident of any such country or on any such list.</p>
+<p>7. Limited Warranty. Blizzard expressly disclaims any warranty for the Program and Manual(s). The Program and Manual(s) are provided "as is" without warranty of any kind, either express or implied, including, without limitation, the implied warranties of merchantability, fitness for a particular purpose, or noninfringement. The entire risk arising out of use or performance of the Program and Manual(s) remains with the User, however Blizzard warrants up to and including 90 days from the date of your purchase of the Program that the media containing the Program shall be free from defects in material and workmanship. In the event that the media proves to be defective during that time period, and upon presentation to Blizzard of proof of purchase of the defective Program, Blizzard will at its option 1) correct any defect, 2) provide you with a product of equal or lesser value, or 3) refund your money. Some states do not allow the exclusion or limitation of implied warranties or liability for incidental damages, so the above limitations may not apply to you.</p>
+<p>8. Limitation of Liability. NEITHER BLIZZARD, ITS PARENT, SUBSIDIARIES OR AFFILIATES SHALL BE LIABLE IN ANY WAY FOR LOSS OR DAMAGE OF ANY KIND RESULTING FROM THE USE OF THE PROGRAM OR USE OF BLIZZARD'S ONLINE GAME NETWORK, BATTLE.NET INCLUDING, BUT NOT LIMITED TO, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES. BLIZZARD FURTHER DISCLAIMS ALL WARRANTIES WITH REGARD TO YEAR 2000 COMPLIANCE OF THE SOFTWARE. SPECIFICALLY, BLIZZARD MAKES NO WARRANTIES THAT THE PERFORMANCE OR FUNCTIONALITY OF THE PROGRAM WILL NOT BE AFFECTED BY DATES PRIOR TO, DURING OR AFTER THE YEAR 2000, OR THAT THE PROGRAM WILL BE CAPABLE OF CORRECTLY PROCESSING, PROVIDING, AND/OR RECEIVING DATE INFORMATION WITHIN AND BETWEEN CENTURIES, INCLUDING THE PROPER EXCHANGE OF DATE INFORMATION BETWEEN PRODUCTS OR APPLICATIONS. ANY WARRANTY AGAINST INFRINGEMENT THAT MAY BE PROVIDED IN SECTION 2-312(3) OF THE UNIFORM COMMERCIAL CODE AND/OR IN ANY OTHER COMPARABLE STATE STATUTE IS EXPRESSLY DISCLAIMED. FURTHER, BLIZZARD ENTERTAINMENT SHALL NOT BE LIABLE IN ANY WAY FOR THE LOSS OR DAMAGE TO PLAYER CHARACTERS, ACCOUNTS, STATISTICS OR USER PROFILE INFORMATION STORED ON BATTLE.NET. I UNDERSTAND AND ACKNOWLEDGE THAT BLIZZARD ENTERTAINMENT CANNOT AND WILL NOT BE RESPONSIBLE FOR ANY INTERRUPTIONS OF SERVICE ON BATTLE.NET INCLUDING, BUT NOT LIMITED TO ISP DISRUPTIONS, SOFTWARE OR HARDWARE FAILURES OR ANY OTHER EVENT WHICH MAY RESULT IN A LOSS OF DATA OR DISRUPTION OF SERVICE. Some states do not allow the exclusion or limitation of incidental or consequential damages, or allow limitations on how long an implied warranty lasts, so the above limitations may not apply.</p>
+<p>9. Equitable Remedies. You hereby agree that Blizzard would be irreparably damaged if the terms of this License Agreement were not specifically enforced, and therefore you agree that Blizzard shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this License Agreement, in addition to such other remedies as Blizzard may otherwise have available to it under applicable laws. In the event any litigation is brought by either party in connection with this License Agreement, the prevailing party in such litigation shall be entitled to recover from the other party all the costs, attorneys' fees and other expenses incurred by such prevailing party in the litigation.</p>
+<p>10. Limitations on License. Nothing in this License Agreement shall preclude you from making or authorizing the making of another copy or adaptation of the Program provided, however, that (1) such new copy or adaptation is created as an essential step in your utilization of the Program in accordance with the terms of this License Agreement and for NO OTHER PURPOSE; or (2) such new copy or adaptation is for archival purposes ONLY and all archival copies are destroyed in the event of your Transfer of the Program, the Termination of this License Agreement or other circumstances under which your continued use of the Program ceases to be rightful. </p>
+<p>11.  Miscellaneous. This License Agreement shall be deemed to have been made and executed in the State of California and any dispute arising hereunder shall be resolved in accordance with the law of California. You agree that any claim asserted in any legal proceeding by one of the parties against the other shall be commenced and maintained in any state or federal court located in the State of California, County of Los Angeles, having subject matter jurisdiction with respect to the dispute between the parties. This License Agreement may be amended, altered or modified only by an instrument in writing, specifying such amendment, alteration or modification, executed by both parties. In the event that any provision of this License Agreement shall be held by a court or other tribunal of competent jurisdiction to be unenforceable, such provision will be enforced to the maximum extent permissible and the remaining portions of this License Agreement shall remain in full force and effect. This License Agreement constitutes and contains the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior oral or written agreements.</p>
+<p>I hereby acknowledge that I have read and understand the foregoing License Agreement and agree that the action of installing the Program is an acknowledgment of my agreement to be bound by the terms and conditions of the License Agreement contained herein. I also acknowledge and agree that this License Agreement is the complete and exclusive statement of the agreement between Blizzard and I and that the License Agreement supersedes any prior or contemporaneous agreement, either oral or written, and any other communications between Blizzard and myself.</p>
+<p></p>
+	</div>
+
+	<div id="plPL" class="hidable">
+		<p>﻿YOU SHOULD CAREFULLY READ THE FOLLOWING END USER LICENSE AGREEMENT BEFORE INSTALLING THIS SOFTWARE PROGRAM.</p>
+<p>This software program, any printed materials, any on-line or electronic documentation, and any and all copies and derivative works of such software program and materials (the "Program") are the copyrighted work of Blizzard Entertainment, Inc., its subsidiaries, licensors and/or its suppliers. .All use of the Program is governed by the terms of the End User License Agreement which is provided below ("License").The Program is solely for use by end users according to the terms of the License. Any use, reproduction or redistribution of the Program not in accordance with the terms of the License is expressly prohibited.
+</p>
+<h1>END USER LICENSE AGREEMENT</h1>
+<p>1. Limited Use License.</p>
+<p>Blizzard Entertainment, ("the Licensor") hereby grants, and by installing the Program you thereby accept, a limited, non-exclusive license and right to install and use one (1) copy of the Program for your use on either a home or portable computer. You may not network the Program or otherwise install it or use it on more than one computer at a time, except if expressly authorised otherwise in the applicable documentation which you should refer to if:</p>
+<p>(a) The Program contains a Level Editor ("Editor") that allows you to create custom levels or other materials for your personal use in connection with the Program ("New Materials").</p>
+<p>(b) The Program has a multi-player capability</p>
+<p>The Program is licensed not sold. Your license confers no title or ownership in the Program .</p>
+<p>2. Ownership.</p>
+<p>All title, ownership rights and intellectual property rights in and to the Program and any and all copies thereof (including but not limited to any titles, computer code, themes, objects, characters, character names, stories, dialog, catch phrases, locations, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, any related documentation, and "applets" incorporated into the Program) are owned by the Licensor or its licensors. The Program is protected by the English copyright laws, international copyright treaties and conventions and any other applicable laws. All rights are reserved. The Program may contain certain licensed materials and the Licensor's licensors may act to protect their rights in the event of any violation of this Agreement.</p>
+<p>3. Responsibilities of End User.</p>
+<p>A. Subject to the Grant of License herein above, you may not, in whole or in part, copy, photocopy, reproduce, translate, reverse engineer, derive source code, modify, disassemble, decompile, create derivative works based on the Program, or remove any proprietary notices or labels on the Program without the prior consent, in writing, of the Licensor.</p>
+<p>B. The Program is licensed to you as a single product. Its component parts may not be separated for use on more than one computer.</p>
+<p>C. You are entitled to use the Program for your own use, but you are not be entitled to:</p>
+<p>(i) sell, grant a security interest in or transfer reproductions of the Program to other parties in any way, nor to rent, lease or license the Program to others without the Licensor prior written consent ;</p>
+<p>(ii) publish and/or distribute the computer images, sound, files, fonts, graphics, clipart, animations, photographs, databases or other content of the Program (including without limitation, for resale printed materials for your personal or business use (e.g., flyers and bro c h u res) and on your personal and business website); use any of the computer images related to identifiable individuals or entities in a manner which suggests their association with or endorsement of any product or services;</p>
+<p>(iii) exploit the Program or any of its parts, computer images, sound files, fonts, graphics, clipart, animations, photographs, databases or other
+content in the Program, for any commercial purpose including, but not limited to, use at a cyber café, computer gaming centre or any other location-based site.</p>
+<p>(iv) host or provide matchmaking services for the Program or emulate or redirect the communication protocols used by the Licensor in the network feature of the Program, through protocol emulation, tunnelling, modifying or adding components to the Program, use of a utility program or any other techniques now known or hereafter developed, for any purpose including, but not limited to network play over the Internet, network play utilising commercial or non-commercial gaming networks or as part of content aggregation networks without the Licensor prior written consent .</p>
+<p>4. Program Transfer.</p>
+<p>You may permanently transfer all of your rights under this License, provided the recipient agrees to the terms of this License and you agree to remove the
+Program from you home or portable computer.</p>
+<p>5. Termination.</p>
+<p>This License is effective until terminated. You may terminate the License at any time by destroying the Program and any New Material. The Licensor may, at its discretion, terminate this License in the event that you fail to comply with the terms and conditions contained herein. In such event, you must immediately destroy the Program and any New Material.</p>
+<p>6. Export Controls .</p>
+<p>The Program may not be re-exported, download or otherwise exported into (or to a national or resident of) any country to which the U.S. has embargoed goods, or anyone on the U.S. Treasury Department’s list of Specially Designated National or the U.S. Treasury Department ’s Table of Denial Orders. By installing the Program, you are agreeing to the foregoing and you are re p resenting and warranting that you are not located in, under the control of, or a national or resident of any such country or on any such list.</p>
+<p>7. Limited Warranty.</p>
+<p>THE LICENSOR EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE PROGRAM, EDITOR, AND MANUAL(S). THE PROGRAM, EDITOR AND MANUAL(S) ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTA BILITY, FITNESS FOR A PA RTICULAR PURPOSE, OR NON-INFRINGEMENT. THE LICENSOR FURTHER DISCLAIMS ALL WARRANTIES WITH REGARD TO YEAR 2000 COMPLIANCE OF THE SOFTWARE. SPECIFICALLY, THE LICENSOR MAKES NO WARRANTIES THAT THE PERFORMANCE OR FUNCTIONALITY OF THE PROGRAM WILL NOT BE AFFECTED BY DATES PRIOR TO, DURING OR AFTER THE YEAR 2000, OR THAT THE PROGRAM WILL BE CAPABLE OF CORRECTLY PROCESSING, PROVIDING, AND/OR RECEIVING DATE INFORMATION WITHIN AND BETWEEN CENTURIES, INCLUDING THE PROPER EXCHANGE OF DATE INFORMATION BETWEEN PRODUCTS OR APPLICATIONS ANY WARRANTY AGAINST INFRINGEMENT THAT MAY BE PROVIDED IN SECTION 2-312(3) OF THE UNIFORM COMMERCIAL CODE AND/OR IN ANY DISCLAIMED. The entire risk arising out of use or performance of the Program, Editor and Manual(s) remains with you, however the Licensor warrants that the media containing the Program shall be free from defects in material and workmanship under normal use and services and the Program will perform substantially in accordance with the accompanying written materials, for a period of ninety (90) days from the date of your purchase of the Program. In the event that the media proves to be defective during that time period, and upon presentation to the Licensor of proof of purchase of the defective Program, the Licensor will at its option 1) correct any defect, 2) provide you with a product of equal value, or 3) refund your money. Some states/jurisdiction do not allow limitation on duration of an implied warranty, so the above limitation may not apply to you. In case you would like to exchange the product or refund you money, notably if the product is defective, please refer to the "Technical Support Policy" here in included.</p>
+<p>8. Limitation of Liability.</p>
+<p>NEITHER THE LICENSOR , ITS PARENT, SUBSIDIARIES, AFFILIATES OR LICENSORS SHALL BE LIABLE IN ANY WAY FOR LOSS OR DAMAGE OF ANY KIND RESULTING FROM THE USE OF THE PROGRAM OR EDITOR INCLUDING, BUT NOT LIMITED TO, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES. Some countries do not allow the exclusion or limitation of incidental or consequential damages, or allow limitations on how long an implied warranty lasts, so above limitations or exclusion may not apply to you.</p>
+<p>9. Equitable Remedies.</p>
+<p>You hereby agree that the Licensor would be irreparably damaged if the terms of this License were not specifically enforced, and therefore you agree that the Licensor shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this License, in addition to such other remedies as the Licensor may otherwise have available to it under applicable laws.</p>
+<p>10. Miscellaneous.</p>
+<p>The License shall be deemed to have been made and executed in England, and any dispute arising hereunder shall be resolved in accordance with the English law. This License may be amended, altered or modified only by an instrument in writing, specifying such amendment, alteration or modification, executed by both parties. In the event that any provision of this License shall be held by a court or other tribunal of competent jurisdiction to be unenforceable, such provision will be enforced to the maximum extent permissible and the remaining portions of this License shall remain in full force and effect. The terms and conditions of a paper printed licence eventually accompanying the Program prevail on any terms and condition of a license eventually included in the Program and that could appear on screen. You hereby acknowledge that you have read and understand the foregoing License and agree that the action of installing the Program is an acknowledgement of your agreement to be bound by the terms and conditions of the License contained herein. You also acknowledge and agree that this License is the complete and exclusive statement of the agreement between the Licensor and you and that the License supersedes any prior or contemporaneous agreement, either oral or written, and any other communications between the Licensor and you including any inconsistent written license agreement or on-line help accompanying the Program .</p>
+<p></p>
+	</div>
+
+	<div id="zhCN" class="hidable">
+<p>最终用户授权协议</p>
+<p>在您安装本软件程序之前，请仔细阅读下列最终用户授权协议。在您安装、复制或以任何方式使用本软件程序的同时，您同意受本协议条款的约束。如果您不同意本协议的条款，请立即将未使用过的软件程序退还至您购买的地方。在购买三十（30）天内退还，您才能获得购买价格的全额退款。</p>
+<p>本软件程序（下称“本软件”）、有关本程序的软件的任何印刷品、在线或电子文档及任何且所有的复制品和衍生产品均属美国暴雪娱乐股份有限公司，一家特拉华州的公司版权所有。所有对本软件的使用均受以下最终用户授权协议（“授权协议”）的约束。根据授权协议所规定的条件，本软件仅供最终用户使用。违反本授权协议而使用、复制或在销售本软件是被禁止的。</p>
+<h1>最终用户授权协议</h1>
+<p>1. 使用许可限制：美国暴雪娱乐股份有限公司，一家德拉华的公司（下称“暴雪”）在此授予您有限的、非排他的许可和权利，在您的家用、商用或便携式电脑上安装和使用一（1）套本软件，安装本软件即代表接受该授权与权利。此外，本软件具有多人联机功能，可让用户在互联网上通过暴雪的在线游戏网络Battle.net使用本软件。通过Battle.net使用本软件必须遵守Battle.net的使用条款协议。暴雪保留在任何时候更新、改动或修改Battle.net使用条款协议的权利。</p>
+<p>2. 权利归属：本软件以及其所有的复制品（包括但不限于任何名称、电脑程序代码、主题、客体、人物、任务名称、故事、对话、妙句、地点、概念、图形、动画、声音、音乐编曲、影音特效、操作方式、人格权利、任何相关文档以及本软件内嵌的小应用程序）的所有的权利、所有权和知识产权均为暴雪或其许可方所有。本软件受美国版权法、国际版权条约协定及其他法律保护。保留所有的权利。本软件包含一些授权材料，暴雪的许可方将于违反本协议时保障其权利。</p>
+<p>3. 最终用户责任：</p>
+<p>A. 根据上述授权许可，您不得对本软件进行完整或部分地拷贝、影印、复制、翻译、逆向工程、获取源代码、修改、拆分、反编译、制作本软件的衍生作品或在未获得暴雪书面同意下移除本软件上的任何著作或商标标示。</p>
+<p>B. 本软件仅以单一产品的方式授权于您。不得将其组成部分分开于两台及两台以上电脑上使用。</p>
+<p>C. 您个人有权使用本软件，但您无权：</p>
+<p>（i） 以任何形式出售或担保或将本软件的复制品转移给他人，也不得在未事先获得暴雪书面同意下将本软件租赁、租借或许可给他人；</p>
+<p>（ii） 以商业目的利用本软件或任何其组成部分，包括但不限于在网吧、电脑游戏中心或任何其他固定地点场所使用；暴雪会提供单独的现场授权协议，许可你以商业目的使用本软件。详情请与暴雪联系；</p>
+<p>（iii） 在未获得暴雪书面同意下为本软件架设或提供组队服务，或通过协议模拟、建立通道、修改本软件或为本软件增加组建以模拟或重新定向本软件网络功能中暴雪使用的通讯协议；使用应用程序或任何其他已有或未来将研发的技术进行包括但不限于在互联网上的联机游戏、在商业化或非商业化游戏平台上的联机游戏或作为其一部分构成此类内容平台；</p>
+<p>（iv） 在任何情况下创建或维持一个以上的同Battle.net的同步连接。所有此类同Battle.net的连接，无论是由本软件所创建还是通过其他工具或应用程序所创建，只有使用暴雪明确许可的方法和方式才可以建立。除暴雪明确公开为公用的界面外，在任何情况下均不能连接或创建允许连接到Battle.net非公开的二元界面的工具;</p>
+<p>（v） 在Battle.net上使用“复制物品”，包括但不限于武器、护甲、戒指、护符、宝石及棍棒等，这些物品的出现是由慢速连接或“延时”、程序错误或任何其他能够使您在Battle.net服务中使用复制角色或道具的方式所造成。您在此承认一旦暴雪发现您在Battle.net上使用此类物品，暴雪有权独自决定删除您在Battle.net上帐号中的此类物品。</p>
+<p>4. 软件转移：您有权永久转移您在本授权协议下的所有权利，只要接受者同意本授权协议的条款，并且您同意从您的家用、商用或便携电脑上移除本软件。</p>
+<p>5. 声明： 您在此声明（i）某些在Battle.net上的游戏需要一些电子文件，包括但不限于玩家角色、账号、统计资料、用户设定、武器、护甲、人物和地图（“在线数据”）被存储在Battle.net供您使用。您在此同意并声明暴雪不对这些在线数据因任何理由的丢失而负责，包括但不限于服务器故障、任何情况的电信中断、缺陷、病毒或其他有害元件以及暴雪和/或其分支机构的失误行为；（ii） 您声明在Battle.net上创建的任何核心™角色由您承担风险，任何Battle.net服务的中断，包括但不限于ISP服务中断、网络或服务器延时、任何其他可能造成数据丢失或服务中断的软件或硬件故障可能造成上述核心角色的永久死亡，暴雪对此不负有责任。</p>
+<p>6. 协议终止。本授权协议在任一方终止协议前均为有效，您可在任何时候通过销毁本软件终止授权协议。如果您未遵守本协议条款，暴雪可根据自行判断终止本授权协议。在此情况下，您必须立即销毁本软件。</p>
+<p>7. 客户服务/技术支持：暴雪同意在本软件“发行期外”之前提供客户服务和技术支持。本软件在暴雪或所有其授权商均不再生产和/或分销本软件日期起一（1）年后被视为处于“发行期外”。本协议所包含的“客户服务”可以由暴雪代表公司通过电话和/或电子信息（电子邮件）的方式提供。“技术支持”可通过电话、电子信息（电子邮件）或在网站发布与已知技术支持问题相关的信息的方式提供。除非在本软件包装或本软件用户手册中另作说明，否则本协议任何条款均不应被解释为暴雪有义务以提供无限时长免费电话的方式提供客户服务或技术支持。</p>
+<p>8. 软件在线组建期限：本软件包含一组在线组建，允许您通过互联网应用本软件使用由暴雪维护的服务器和软件。暴雪同意提供使用本软件“在线”组建的必要服务器和软件技术，直到本软件处于上文定义的发行期外为止。其后，暴雪有权自行判断，继续提供使用本软件“在线”组建的必要服务器和软件技术，或者授权第三方提供使用本软件“在线”组建的必要服务器和软件技术。然而，本协议任何条款均不应被解释为在本软件处于发行期外，暴雪仍有义务提供使用本软件“在线”功能的必要服务器和软件技术。</p>
+<p>9. 出口管制：本软件不得再出口、下载或以其他方式出口至任何美国贸易禁运国（或出口给其国民或居民），或美国财政部特别指定国民名单及美国商业部门丹尼尔命令表中的任何人。安装本软件则视为您同意上述内容，并且保证不位于上述国家、不受上述国家控制、非上述国家国民或居民。</p>
+<p>10. 保证限制：暴雪明确声明对本软件及其手册不做任何保证。本软件及手册以现状提供，不含任何类型明示或默示的保证，包括但不限于商用性、适合特定目的或非侵权的默示保证。由本软件及其手册的使用和执行所带来的全部风险应由用户承担。但暴雪保证在购买本件软的九十天内，包含九十天，含有本软件的媒介无任何材料及做工缺失。如该段时间内发现媒介有缺失，并向暴雪出示购买缺失软件的证明，暴雪将视情况 （1） 修补任何缺失， （2） 提供同等或较低价值的产品，或 （3） 退还费用。若某些州排斥或限制有关默示保证或意外损害责任，则以上限制不适用。</p>
+<p>11. 责任限制：暴雪及其母公司、子公司或关联公司均不以任何形式负责由本软件或暴雪在线游戏网络Battle.net的使用带来的损失或损害，包括但不限于商誉损害、工作中止、电脑故障或失常或任何及所有其它商业损害或损失。并且，暴雪不以任何形式负责存储在Battle.net上玩家角色、账号、统计数据或用户设定信息的损失或损害。您理解并声明暴雪不能且不会对任何Battle.net上的服务中断负责，包括但不限于ISP中断、软件或硬件故障或任何其他能够造成数据损失或服务中断的事件。若当地法律不认可事故或间接损害的除外责任和限制，或允许有限时间的默示保证，则以上限制不适用。</p>
+<p>12. 公平补偿：您在此同意，若您未履行本授权协议的条款，暴雪将遭受无可弥补的损害，因此您同意暴雪即使没有合同、其他担保或损失的证明也可以就违反本授权协议要求适当的公平的补偿，同时还可以按照适用法律的规定请求适用的赔偿。如果任何一方就本授权协议提起诉讼，胜诉方有权要求另一方承担所有的费用、律师费和其他胜诉方在诉讼中发生的费用。</p>
+<p>13. 授权限制：除以下情形外，本授权协议未同意您复制或授权复制本软件或对其作出任何调整：（1）该新复制品或调整是根据本授权协议的条款、且无其他目的而在使用本软件时所必需进行的重要步骤；（2）该新复制品或调整仅为了存档的目的，如果你转移软件、终止本授权协议或您中止继续使用软件的，所有的存档复制品必须销毁。</p>
+<p>14. 其他：本授权协议应视为在中华人民共和国签订并履行。任何由此产生的争议应当根据中华人民共和国的法律解决。您同意本协议的任何一方所提出的任何法律程序应当在中国上海的法庭召开与进行。本授权协议经过双方同意并以书面形式记叙增补修改内容后，本授权协议才得以修改。如果法院或其它有关的司法单位认定本授权协议中的任何调库看不具有执行性时，该条款应被执行到可允许的最高程度；同事本授权协议的其他条款仍然全部有效。本授权协议构成本主题下双方之间的完整的协议，代替任何先前的书面或口头的协议。</p>
+<p>您在此声明，您已经阅读并了解上述授权协议，并同意安装软件的行为表示您接受本授权协议的条款和条件的约束。您也承认并同意本授权协议是暴雪与您之间完整、唯一的协议，且该授权协议代替任何先前或同时的书面或口头的协议和其他的沟通。</p>
+	</div>
+
+	<div id="zhTW" class="hidable">
+		<p>﻿你應該在安裝這套軟體之前，小心閱讀下列合約。在你安裝、複製或是用任何方式使
+用這套軟體的同時，你已經同意了下列條款。如果你不同意這些條結，請將未使用過
+的軟體送回你所購買的地方，或是與BLIZZARD ENTERTAINMENT客戶服務中心連繫
+。請在購買30天以內退還，才能償還您當時的貨款。</p>
+<p>本軟體產品(以下稱"本軟體"）、任何及所有由本軟體及物件所衍生出之任何印刷
+物件、任何線上或電子文件及副本均屬 之旗下部門Blizzard Entertainment, Inc., 
+之子公司或其供應商所取得並享有之商標或著作物。所有對本軟體
+之使用均受以下授權契約條件規範。（"授權契約"）。本軟體根據本契約所規定之條
+件，僅供最終使用者使用，並明確禁止任何未根據本授權契約規定條件之使用、複製
+或修改之行為。</p>
+<h1>使用者授權合約</h1>
+<p>1. 認可授權： Blizzard Entertainment, Inc.(Blizzard)在此認可，您如使用本軟體即代表接受在家 用或手提電腦上安裝並使用一(1)套本軟體之有限但非專屬之授權與使用權利。除此之
+外，本軟體具有多人連線之功能，可讓使用者透過Blizzard之線上遊戲網
+路Battle.net，在網路上利用本軟體，透過Battle.net使用本軟體須同時遵守Battle.net之使用
+者授權契約。Blizzard保留於任何時候更新、更動或修改Battle.net之使用者授權契約之
+權利。</p>
+<p>2. 著作、商標等權利之歸屬： 所有本軟體之名稱或商標專用權、智慧財產權(包括但
+不限於本軟體中之任何名稱、電腦程式碼、主題、物件、人物、人物姓名、故事、對
+話、標語、地點、概念、造形設計、動畫、聲音、音樂編曲、影音特效、操作方式、
+道德權利、所有相關文件及小型應用程式(Applets) 均為Blizzard或其授權廠
+商所有，版權所有，盜用必究。本軟體受美國版權法、國際版權協定及公約及其他法
+律所保障並保有所有一切相關之追訴權利。本軟體可能包含特定授權物件，Blizzard之
+授權廠商得於本契約遭違反、侵害時保障其權利。</p>
+<p>3. 使用者之責任：</p>
+<p>A. 根據本契約規定，您不得完全或部分拷貝、影印、複製、翻譯、模仿、拆組或分解
+任何本軟體，或於事前未獲得Blizzard之書面同意下，移除本軟體上任何著作、商標等
+權利聲明或標示。</p>
+<p>B. 本軟體僅以單一產品之方式授權予您，其組成部分不得分開於兩台及兩台以上之電
+腦使用。</p>
+<p>C. 本軟體僅供您個人使用，您不得為下列行為：</p>
+<p>(i)  為取得利益而以任何方式販售或轉移本軟體之複製品予他人，亦不得於事前未獲
+得Blizzard書面同意前將本軟體租賃他人。</p>
+<p>(ii)  利用本軟體或其組成部分作任何包括但不限於於網路咖啡、電玩中心或任何固定
+地點使用之商業用途。Blizzard 可提供另外商業用途之地點授權契約，詳情請與Blizzard 
+聯絡。</p>
+<p>(iii)  在未事先取得Blizzard之書面同意前而利用透過協定模仿、接通(tunneling)、調整或
+增加軟體元件、使用相關軟體或任何其他已知或未來發展之方式，為包括但不限於網
+路連線遊戲、利用商業或非商業遊戲網路或做為整體網路之部分內容等目的，或為任
+何Blizzard軟體主持或提供配對服務，或模仿、重導Blizzard使用做為本軟體部分之通訊
+協定。</p>
+<p>(iv)  在任何情況下創造或維持一個以上的同步連結於Battle.net上。所有該類與B
+attle.net之連結，無論是由本軟體，或由其他工具及設備所創造，均只得透過Blizzard
+所同意之方式及管道下進行。除Blizzard所同意公開使用之方 式外，於任何情況下均不得連結或創造得以連結之工具以連上Battle.net之私人雙位元 介面或其他未經核准之介面。</p>
+<p>(v) 使用"Duplicated Characters"且/或"Duplicated Items"，包含但不限於武器、裝備、指環
+、護身符、石頭、棍棒等。這些藉由慢速的連線狀況或"lag"、程式錯誤或任何允許您
+在Battle利用"Duplicated Characters"且/或"Duplicated Items"服務，您在此承認Blizzard可以獨 自處理、刪除這些您在Battle.net上的帳號所衍生的人物及/或物品。</p>
+<p>4. 軟體移轉：您得在本授權契約規範下永久移轉所有有關您的權利。只要受讓者同意
+承受本授權契約之規定，並且您同意從您家中、辦公室或手提電腦上移除本軟體。</p>
+<p>5. 承認書： 您在此承認 (i) 某些在Battle.net上的遊戲需要許多電子檔案，包含但不限於
+玩加的人物、帳號、統計資料、使用者設定檔、武器、裝備、任務和地圖("Online
+Data")，當您在Battle.net上進行線上遊戲時，儲存於Battle.net為您所使用，您在此同意並
+承認Blizzard不對您保證這些資料因為任何理由消失，包含但不限於伺服器失效、任何
+一種電信中斷、缺陷、病毒或其他傷害性元件，與Blizzard及/或其成員造成的失誤。
+(ii) 您在Battle.netg上所創造的任何HardcoreTM人物由您自己承擔風險，且Blizzard不輕易
+擔保前述的HardcoreTM人物在任何情況下會死亡，包含但不限於Battle.net取消服務、l
+ag、軟體或硬體缺陷、錯誤或ISP中斷服務。</p>
+<p>6. . 終止： 本契約直到任一方終止契約前均為有效，您可以藉由銷毀本軟體以終止本
+契約。惟一旦根據Blizzard判斷您並未遵守本契約之條件，Blizzard即得片面終止本契約
+；惟如契約因此被終止則您必須立即銷毀本軟體。</p>
+<p>7. 出口管制：本軟體不得重新出口、下載如下： A.以其他方式出口至任何美國貿易禁
+運國(或到其國民或居民手中)。 B.或予任何美國國庫特別指定國民之名單中。 C.或美
+國商務部之禁制令表列當中之對象。 一旦您下載或使用本軟體，則視同並保證您不
+位在前述地點或未受前列國家控制、或非屬前述名單中國家之國民或居民。</p>
+<p>8. 保證限制： Blizzard明白聲明對本軟體及手冊不負任何保證，本軟體及手冊提供之物
+件僅限於其本身且不含任何明示或暗示之保證；包括但不限於適合銷售性、適合特定
+目的及非侵權之保證。但Blizzard保證您於購買本軟體之九十天內，本軟體內所含之媒
+體於材質上應無任何缺失。如於該段期間內發現媒體有任何瑕疵，即得向Blizzard 出
+示瑕疵產品之購買證明，此時Blizzard 將視情況為(1)修補任何瑕疵，或(2)提供您同等
+或較低價值之產品，或(3)退還費用。惟在當地法律不承認意外損氦之責任或保證限制
+之地區，則以上之限制即不適用。台灣地區之保證限制請參照中文遊戲手冊後之客戶
+須知。</p>
+<p>9. 責任限制： 一切有關BLIZZARD,之母公司或子公司或 分支機構均不負責賠償下列包括但不限於因其使用BLIZZARD 之BATTLE.NET線上遊戲網路所導致原因之損害： A.商譽之損害、工作中止、電腦當機或 故障或任何及所有其他商業損失。 B.BLIZZARD 在此不做所有與公元兩千年軟體適用
+性相關之保證；亦即BLIZZARD 不保證本軟體之功能或執行不受公元兩千年之前、當
+中或之後之日期所影響。 C.或關於本軟體可以正確處理、提供，及/或接受世紀交替
+間之資訊；包括產品或應用程式間之正確日期交換等保證。 D.或任何規定於統一商業
+法規(Uniform Commercial Code)之第2-312(3)節，及/或任何其他相關法規之侵權保證。 E.
+此外Blizzard亦不應負責賠償任何因儲存於Battle.net上遊戲人物、資料、統
+計數據或使用者檔案遺失或損毀之損失。 我了解並認可Blizzard無法亦將
+不會為任何Battle.net之服務中斷負責，包括但不限於網路服務提供商(ISP)之中斷，軟
+體或硬體問題或任何可能導致服務中斷或資料遺失之事件；惟對於在當地法律不承認
+意外損害之責任或保證限制之地區，則以上之限制即不適用之。</p>
+<p>10. 正當賠償： 您在此同意如本授權契約條款未被確實執行，Blizzard將受到不可彌補
+之損害，因此您同意Blizzard除有權適用一切相關法律規定請求賠償外，對於其他相關
+之損害保全或保障，亦得以違反本授權契約之行為採取適當之求償。在雙方因本授權
+契約問題產生之任何法律訴訟案件當中，勝訴之一方有權向對方要求支付所有相關成
+本、律師費用及其他因訴訟產生之費用。</p>
+<p>11. 授權限制： 除下列情形外，本授權契約中並無任何同意您複製或授權複製本軟體
+或作任何調整之條款： A.該新複製軟體或調整乃為符合本授權契約條款規定，而使用
+本軟體時所必須進行的重要步驟；惟其並不得供做任何其他目的之用途。 B.該新複製
+軟體或調整僅供存檔之用，且所有存檔副本於您轉移檔案、終止本授權契約或其他您
+使用本軟體之正當性終止時等情況下均須銷毀。</p>
+<p>12. 其他： 本授權契約應被視為於加州法律規範下所制定與執行，任何因而產生之爭
+議均須根據加州法律訴諸解決。您已同意本契約之任何一方所提出之訴訟等任何法律
+程序，均應以位於加州洛杉磯郡之任何州立或聯邦法庭召開與進行。本授權契約應於
+取得雙方同意並於書面詳細敘述增補修改內容之情況下，方得由雙方執行增刪修改之
+工作。如本授權契約中之任何條款被法院或其他有效司法單位判定無法執行時，則該
+條款應被執行到可允許之最高程度；同時本授權契約之其他條款仍應保有其完整性及
+有效性。本授權契約包含簽署雙方針對本主題之完整協定，其法律地位高於任何先前
+之口頭承諾或書面契約。</p>
+<p>本人在此聲明本人已詳讀並了解上述授權契約之內容，並同意於安裝本軟體之同時，
+即已表示同意本人之行為應受本授權契約條款之規範。本人也承認並同意本授權契約
+為Blizzard 與本人間完整且唯一之契約聲明，且本授權契約之法律地位高於任何之前
+或同時簽訂之口頭承諾或書面契約，及Blizzard 與本人之間之其他聯絡內容。</p>
+<p></p>
+	</div>
+
+	</body>
+</html>

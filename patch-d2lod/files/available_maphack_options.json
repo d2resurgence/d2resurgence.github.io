@@ -1,0 +1,21 @@
+{
+  "game_servers": [
+      "GS1 - New York",
+      "GS2 - Los Angeles",
+      "GS3 - Amsterdam"
+  ],
+  "rune_designs": [
+	"Cosmic Rainbow",
+	"Classic"
+  ],
+  "filter_blocks": [
+  "Leveling",
+	"Amazon",
+	"Assassin",
+	"Barbarian",
+	"Druid",
+	"Necromancer",
+	"Paladin",
+	"Sorceress"
+  ]
+}
