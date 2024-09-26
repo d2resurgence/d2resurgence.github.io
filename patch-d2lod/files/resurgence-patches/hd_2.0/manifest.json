@@ -3,7 +3,7 @@
         {
             "name": "SlashDiabloHD.mpq",
             "crc": "e7950159",
-            "last_modified": "2024-09-25T23:56:21.023132Z",
+            "last_modified": "2024-09-26T01:58:50.689803Z",
             "content_length": 667029,
             "ignore_crc": false,
             "deprecated": false
@@ -11,7 +11,7 @@
         {
             "name": "Game.exe",
             "crc": "ca843b4d",
-            "last_modified": "2024-09-25T23:56:21.018132Z",
+            "last_modified": "2024-09-26T01:58:50.684803Z",
             "content_length": 69632,
             "ignore_crc": false,
             "deprecated": false
@@ -19,7 +19,7 @@
         {
             "name": "D2HD.dll",
             "crc": "49bf800a",
-            "last_modified": "2024-09-25T23:56:21.017132Z",
+            "last_modified": "2024-09-26T01:58:50.683803Z",
             "content_length": 1368064,
             "ignore_crc": false,
             "deprecated": false
