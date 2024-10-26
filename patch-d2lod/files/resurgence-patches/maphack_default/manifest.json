@@ -1,33 +1,9 @@
 {
     "files": [
         {
-            "name": "BH.dll",
-            "crc": "39f6c119",
-            "last_modified": "2024-10-05T00:46:58.234095Z",
-            "content_length": 1340928,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "buffs.mpq",
-            "crc": "b8d9dfdf",
-            "last_modified": "2024-10-05T00:46:58.235095Z",
-            "content_length": 85377,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "BH_build_lines.txt",
-            "crc": "ebdda494",
-            "last_modified": "2024-10-05T00:46:58.235095Z",
-            "content_length": 36473,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
             "name": "BH.cfg",
             "crc": "",
-            "last_modified": "2024-10-05T00:46:58.228095Z",
+            "last_modified": "2024-10-26T07:16:55.477440Z",
             "content_length": 681905,
             "ignore_crc": true,
             "deprecated": false
@@ -35,9 +11,33 @@
         {
             "name": "BH_settings.cfg",
             "crc": "",
-            "last_modified": "2024-10-05T00:46:58.235095Z",
+            "last_modified": "2024-10-26T07:16:55.485440Z",
             "content_length": 11984,
             "ignore_crc": true,
+            "deprecated": false
+        },
+        {
+            "name": "BH.dll",
+            "crc": "39f6c119",
+            "last_modified": "2024-10-26T07:16:55.485440Z",
+            "content_length": 1340928,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "BH_build_lines.txt",
+            "crc": "ebdda494",
+            "last_modified": "2024-10-26T07:16:55.485440Z",
+            "content_length": 36473,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "buffs.mpq",
+            "crc": "b8d9dfdf",
+            "last_modified": "2024-10-26T07:16:55.485440Z",
+            "content_length": 85377,
+            "ignore_crc": false,
             "deprecated": false
         }
     ]

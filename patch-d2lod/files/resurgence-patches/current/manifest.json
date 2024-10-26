@@ -1,129 +1,57 @@
 {
     "files": [
         {
-            "name": "StormLib.dll",
-            "crc": "3baa95a0",
-            "last_modified": "2024-10-05T00:46:58.086092Z",
-            "content_length": 1251840,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
             "name": "Storm.dll",
             "crc": "5711a8b4",
-            "last_modified": "2024-10-05T00:46:58.081092Z",
+            "last_modified": "2024-10-26T07:16:55.309440Z",
             "content_length": 372736,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "d2fps.ini",
-            "crc": "",
-            "last_modified": "2024-10-05T00:46:58.089092Z",
-            "content_length": 1765,
-            "ignore_crc": true,
-            "deprecated": false
-        },
-        {
-            "name": "Fog.dll",
-            "crc": "f2c02543",
-            "last_modified": "2024-10-05T00:46:57.985091Z",
-            "content_length": 212992,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "d2gl.ini",
-            "crc": "",
-            "last_modified": "2024-10-05T00:46:58.089092Z",
-            "content_length": 2831,
-            "ignore_crc": true,
-            "deprecated": false
-        },
-        {
-            "name": "D2Win.dll",
-            "crc": "c1bd836d",
-            "last_modified": "2024-10-05T00:46:57.985091Z",
-            "content_length": 147456,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "d2gl.mpq",
-            "crc": "4bebe9ac",
-            "last_modified": "2024-10-05T00:46:58.182094Z",
-            "content_length": 65115804,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "d2fps.dll",
-            "crc": "6c898e53",
-            "last_modified": "2024-10-05T00:46:58.088093Z",
-            "content_length": 316416,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "RELEASES.md",
             "crc": "157d077b",
-            "last_modified": "2024-10-05T00:46:58.081092Z",
+            "last_modified": "2024-10-26T07:16:55.309440Z",
             "content_length": 1110,
             "ignore_crc": false,
             "deprecated": false
         },
         {
-            "name": "Credits.txt",
-            "crc": "481cd6c5",
-            "last_modified": "2024-10-05T00:46:57.982091Z",
-            "content_length": 1170,
+            "name": "d2gl.ini",
+            "crc": "",
+            "last_modified": "2024-10-26T07:16:55.317440Z",
+            "content_length": 2831,
+            "ignore_crc": true,
+            "deprecated": false
+        },
+        {
+            "name": "d2gl.mpq",
+            "crc": "4bebe9ac",
+            "last_modified": "2024-10-26T07:16:55.429440Z",
+            "content_length": 65115804,
             "ignore_crc": false,
             "deprecated": false
         },
         {
-            "name": "D2Resurgence.dll",
-            "crc": "52954c2e",
-            "last_modified": "2024-10-05T00:46:57.984091Z",
-            "content_length": 13824,
+            "name": "Fog.dll",
+            "crc": "f2c02543",
+            "last_modified": "2024-10-26T07:16:55.209439Z",
+            "content_length": 212992,
             "ignore_crc": false,
             "deprecated": false
         },
         {
-            "name": "THIRD_PARTY_LICENSES.md",
-            "crc": "9bc12385",
-            "last_modified": "2024-10-05T00:46:58.087092Z",
-            "content_length": 113379,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "LICENSE.md",
-            "crc": "74300ddc",
-            "last_modified": "2024-10-05T00:46:57.985091Z",
-            "content_length": 35100,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "ddraw.dll",
-            "crc": "2dc70e06",
-            "last_modified": "2024-10-05T00:46:58.197094Z",
-            "content_length": 2771968,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "README.md",
-            "crc": "f9b93231",
-            "last_modified": "2024-10-05T00:46:58.081092Z",
-            "content_length": 1828,
+            "name": "StormLib.dll",
+            "crc": "3baa95a0",
+            "last_modified": "2024-10-26T07:16:55.313440Z",
+            "content_length": 1251840,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "glide3x.dll",
             "crc": "8f4224b6",
-            "last_modified": "2024-10-05T00:46:58.211094Z",
+            "last_modified": "2024-10-26T07:16:55.461440Z",
             "content_length": 2836992,
             "ignore_crc": false,
             "deprecated": false
@@ -131,32 +59,104 @@
         {
             "name": "D2gfx.dll",
             "crc": "f1e0baf6",
-            "last_modified": "2024-10-05T00:46:57.985091Z",
+            "last_modified": "2024-10-26T07:16:55.209439Z",
             "content_length": 77824,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "README.md",
+            "crc": "f9b93231",
+            "last_modified": "2024-10-26T07:16:55.309440Z",
+            "content_length": 1828,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "d2fps.ini",
+            "crc": "",
+            "last_modified": "2024-10-26T07:16:55.317440Z",
+            "content_length": 1765,
+            "ignore_crc": true,
+            "deprecated": false
+        },
+        {
+            "name": "LICENSE.md",
+            "crc": "74300ddc",
+            "last_modified": "2024-10-26T07:16:55.209439Z",
+            "content_length": 35100,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "THIRD_PARTY_LICENSES.md",
+            "crc": "9bc12385",
+            "last_modified": "2024-10-26T07:16:55.317440Z",
+            "content_length": 113379,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "D2Game.dll",
             "crc": "b39b311a",
-            "last_modified": "2024-10-05T00:46:57.982091Z",
+            "last_modified": "2024-10-26T07:16:55.205439Z",
             "content_length": 1138688,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "d2fps.dll",
+            "crc": "6c898e53",
+            "last_modified": "2024-10-26T07:16:55.317440Z",
+            "content_length": 316416,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "D2Win.dll",
+            "crc": "c1bd836d",
+            "last_modified": "2024-10-26T07:16:55.209439Z",
+            "content_length": 147456,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "D2Resurgence.dll",
+            "crc": "52954c2e",
+            "last_modified": "2024-10-26T07:16:55.209439Z",
+            "content_length": 13824,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "Credits.txt",
+            "crc": "481cd6c5",
+            "last_modified": "2024-10-26T07:16:55.205439Z",
+            "content_length": 1170,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "ddraw.dll",
+            "crc": "2dc70e06",
+            "last_modified": "2024-10-26T07:16:55.445440Z",
+            "content_length": 2771968,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "D2Glide.dll",
             "crc": "385dc521",
-            "last_modified": "2024-10-05T00:46:57.984091Z",
+            "last_modified": "2024-10-26T07:16:55.205439Z",
             "content_length": 98304,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2.mpq",
-            "crc": "0b591633",
-            "last_modified": "2024-10-05T00:46:58.078092Z",
-            "content_length": 20022768,
+            "crc": "c7e6550b",
+            "last_modified": "2024-10-26T07:16:55.305439Z",
+            "content_length": 20028700,
             "ignore_crc": false,
             "deprecated": false
         }
