@@ -1,5 +1,5 @@
 # Resurgence
-A mod for Diablo II: Lord of Destruction and Diablo II: Resurrected. This repository hosts the patch files for the latest release.
+A mod for Diablo II: Lord of Destruction (since 2013) and Diablo II: Resurrected (since 2022). This repository hosts the patch files for the latest release.
 
 Visit [the main page](https://d2resurgence.github.io/) for general information on the mod. Our [Discord](https://discord.gg/SrbNuxyTEb) can also be a great source of knowledge. 
 
@@ -9,26 +9,14 @@ The Legacy version can be installed and played online by using [our launcher](ht
 ## Diablo II: Resurrected
 The Resurrected version is currently in Beta and updates are infrequent, but it is playable. Unlike Legacy Resurgence, there is no multiplayer. Visit the [Nexus Mods page](https://www.nexusmods.com/diablo2resurrected/mods/128/) for details and installation information. 
 
-``` REWRITE
 
-Currently just half-assing this by stealing the welcome post stickied on the subreddit. Will update properly later.
+## Credits and acknowledgements
+* Mir Drualga (for SGD2FreeRes and dozens of other things)
+* planqi and all the others that have put work into keeping BH updated
+* whist (D2Template)
+* bayaraa (D2GL)
+* nokka (launcher)
 
-IAmTrial (Mir Drualga) the madman who does D2HD + other crazy stuff.
-planqi is the best for keeping BH updated.
-AlphA for being cool and making things that look cool.
+Resurgence isn't possible without the vast amount of information available at the Phrozen Keep. Special acknowledgements for: whist, Paul Siramy, Nefarius, volf, Necrolis, Kingpin, AlphA, Brother Laz, devurandom, dav92, cla$$is and Ric Faith.
 
---------------
-Credits
-
-This patch wouldn't be possible without the vast amount of information available at the Phrozen Keep. Important acknowledgements for: Kingpin, volf, Nefarius, Paul Siramy, Necrolis, Brother Laz, whist, devurandom, dav92. Credits for majority of new art to Ric Faith, fishynsmelly, JBouley, Shadowtalon, cla$$is, Taara, Inertias, Eimernase. Some item art is shamelessly stolen from Path of Exile, Two Worlds, Titan Quest and Grim Dawn (go check out these games!).
-
-Huge thanks to /u/AlvinsH0TJuicebox
- from vastnet for hosting our server from day one. We would've been gone a long time ago without him, great service provider so do check them out if you're in the market :)
-
-Props to all contributors to Resurgence Wiki (player edited).
-
-------------
-Addendum
-This mod was previously been known as SlashDiablo Events (/r/slashdiabloevents) which started in 2013.
-
-```
+Special thanks to /u/AlvinsH0TJuicebox from [vastnet](http://vastnet.net/) for hosting our little server from day one. Definitely wouldn't have kept going without this help and solid provider.
