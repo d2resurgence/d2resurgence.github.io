@@ -1,43 +1,43 @@
 {
     "files": [
         {
-            "name": "BH_settings.cfg",
-            "crc": "",
-            "last_modified": "2025-04-22T17:40:11.380236Z",
-            "content_length": 11984,
-            "ignore_crc": true,
-            "deprecated": false
-        },
-        {
-            "name": "BH.dll",
-            "crc": "7c43ccb3",
-            "last_modified": "2025-04-22T17:40:11.379236Z",
-            "content_length": 1341952,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
             "name": "BH_build_lines.txt",
             "crc": "ebdda494",
-            "last_modified": "2025-04-22T17:40:11.380236Z",
+            "last_modified": "2025-04-24T23:21:38.670464Z",
             "content_length": 36473,
             "ignore_crc": false,
             "deprecated": false
         },
         {
-            "name": "BH.cfg",
-            "crc": "",
-            "last_modified": "2025-04-22T17:40:11.374236Z",
-            "content_length": 681905,
-            "ignore_crc": true,
+            "name": "BH.dll",
+            "crc": "33adaaa0",
+            "last_modified": "2025-04-24T23:21:38.669464Z",
+            "content_length": 1342464,
+            "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "buffs.mpq",
             "crc": "3625e1ae",
-            "last_modified": "2025-04-22T17:40:11.380236Z",
+            "last_modified": "2025-04-24T23:21:38.671464Z",
             "content_length": 123036,
             "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "BH_settings.cfg",
+            "crc": "",
+            "last_modified": "2025-04-24T23:21:38.670464Z",
+            "content_length": 11984,
+            "ignore_crc": true,
+            "deprecated": false
+        },
+        {
+            "name": "BH.cfg",
+            "crc": "",
+            "last_modified": "2025-04-24T23:21:38.664464Z",
+            "content_length": 681905,
+            "ignore_crc": true,
             "deprecated": false
         }
     ]
