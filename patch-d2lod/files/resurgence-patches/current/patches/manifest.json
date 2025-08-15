@@ -1,0 +1,28 @@
+{
+    "files": [
+        {
+            "name": "Patch_D2_Stony_Field.mpq",
+            "crc": "fbfaa0f9",
+            "last_modified": "2025-08-15T23:38:54.500319Z",
+            "content_length": 25760864,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "Patch_D2_Ancient_Tunnels.mpq",
+            "crc": "fbfaa0f9",
+            "last_modified": "2025-08-15T23:38:54.311317Z",
+            "content_length": 25760864,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "Patch_D2_Den_Of_Evil.mpq",
+            "crc": "fbfaa0f9",
+            "last_modified": "2025-08-15T23:38:54.405318Z",
+            "content_length": 25760864,
+            "ignore_crc": false,
+            "deprecated": false
+        }
+    ]
+}
