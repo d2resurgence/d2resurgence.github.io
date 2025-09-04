@@ -3,55 +3,31 @@
         {
             "name": "Patch_D2_R_1_17f_3.mpq",
             "crc": "ff22ab43",
-            "last_modified": "2025-09-04T15:49:59.675801Z",
+            "last_modified": "2025-09-04T19:35:48.855591Z",
             "content_length": 25340048,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_Den_Of_Evil.mpq",
-            "crc": "fbfaa0f9",
-            "last_modified": "2025-09-04T15:49:59.613798Z",
-            "content_length": 25760864,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17f_2.mpq",
             "crc": "59f5184b",
-            "last_modified": "2025-09-04T15:49:59.654800Z",
+            "last_modified": "2025-09-04T19:35:48.837590Z",
             "content_length": 25340133,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_Stony_Field.mpq",
-            "crc": "fbfaa0f9",
-            "last_modified": "2025-09-04T15:49:59.715803Z",
-            "content_length": 25760864,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17f_4.mpq",
             "crc": "8afadf03",
-            "last_modified": "2025-09-04T15:49:59.695802Z",
+            "last_modified": "2025-09-04T19:35:48.875592Z",
             "content_length": 25339821,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_Ancient_Tunnels.mpq",
-            "crc": "fbfaa0f9",
-            "last_modified": "2025-09-04T15:49:59.590797Z",
-            "content_length": 25760864,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17f_1.mpq",
             "crc": "cec341e7",
-            "last_modified": "2025-09-04T15:49:59.634799Z",
+            "last_modified": "2025-09-04T19:35:48.818589Z",
             "content_length": 25340268,
             "ignore_crc": false,
             "deprecated": false
