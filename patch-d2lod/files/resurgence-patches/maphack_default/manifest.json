@@ -1,33 +1,9 @@
 {
     "files": [
         {
-            "name": "BH_build_lines.txt",
-            "crc": "ebdda494",
-            "last_modified": "2025-05-01T14:41:26.293759Z",
-            "content_length": 36473,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "BH.dll",
-            "crc": "06214511",
-            "last_modified": "2025-05-01T14:41:26.292759Z",
-            "content_length": 1342464,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "buffs.mpq",
-            "crc": "3625e1ae",
-            "last_modified": "2025-05-01T14:41:26.293759Z",
-            "content_length": 123036,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
             "name": "BH_settings.cfg",
             "crc": "",
-            "last_modified": "2025-05-01T14:41:26.293759Z",
+            "last_modified": "2025-09-03T23:05:38.830369Z",
             "content_length": 11984,
             "ignore_crc": true,
             "deprecated": false
@@ -35,9 +11,33 @@
         {
             "name": "BH.cfg",
             "crc": "",
-            "last_modified": "2025-05-01T14:41:26.286759Z",
+            "last_modified": "2025-09-03T23:05:38.823369Z",
             "content_length": 681905,
             "ignore_crc": true,
+            "deprecated": false
+        },
+        {
+            "name": "buffs.mpq",
+            "crc": "3625e1ae",
+            "last_modified": "2025-09-03T23:05:38.830369Z",
+            "content_length": 123036,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "BH_build_lines.txt",
+            "crc": "ebdda494",
+            "last_modified": "2025-09-03T23:05:38.830369Z",
+            "content_length": 36473,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "BH.dll",
+            "crc": "06214511",
+            "last_modified": "2025-09-03T23:05:38.829369Z",
+            "content_length": 1342464,
+            "ignore_crc": false,
             "deprecated": false
         }
     ]
