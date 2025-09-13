@@ -1,33 +1,17 @@
 {
     "files": [
         {
-            "name": "Patch_D2_R_1_17i.2_Stony-Tombs--Ancient-Tunnels--Arachnid-Lair.mpq",
-            "crc": "8cdea700",
-            "last_modified": "2025-09-13T05:44:22.765636Z",
-            "content_length": 24493434,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
             "name": "Patch_D2_R_1_17i_2_Arachnid-Lair--Lower-Kurast--City-of-Damned.mpq",
             "crc": "fd1838ef",
-            "last_modified": "2025-09-13T05:44:22.893635Z",
+            "last_modified": "2025-09-13T06:38:58.598479Z",
             "content_length": 24493403,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_The-Hole--Halls-of-the-Dead--Lower-Kurast.mpq",
-            "crc": "e9e6eddb",
-            "last_modified": "2025-09-13T05:44:22.820636Z",
-            "content_length": 24493391,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17i_2_Ancient-Tunnels--Halls-of-the-Dead--Rocky-Waste.mpq",
             "crc": "f3e01183",
-            "last_modified": "2025-09-13T05:44:22.875635Z",
+            "last_modified": "2025-09-13T06:38:58.579479Z",
             "content_length": 24493374,
             "ignore_crc": false,
             "deprecated": false
@@ -35,7 +19,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_All-Zones.mpq",
             "crc": "4761f29f",
-            "last_modified": "2025-09-13T05:44:22.857635Z",
+            "last_modified": "2025-09-13T06:38:58.560478Z",
             "content_length": 24493867,
             "ignore_crc": false,
             "deprecated": false
@@ -43,7 +27,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_unterrorized.mpq",
             "crc": "b20f994d",
-            "last_modified": "2025-09-13T05:44:23.056635Z",
+            "last_modified": "2025-09-13T06:38:58.764481Z",
             "content_length": 24493233,
             "ignore_crc": false,
             "deprecated": false
@@ -51,7 +35,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_The-Hole--Rocky-Waste--Arcane-Sanctuary.mpq",
             "crc": "939c224d",
-            "last_modified": "2025-09-13T05:44:23.038635Z",
+            "last_modified": "2025-09-13T06:38:58.745481Z",
             "content_length": 24493334,
             "ignore_crc": false,
             "deprecated": false
@@ -59,31 +43,15 @@
         {
             "name": "Patch_D2_R_1_17i_2_Stony-Tombs--Ancient-Tunnels--Blood-Moor.mpq",
             "crc": "61f07847",
-            "last_modified": "2025-09-13T05:44:22.967635Z",
+            "last_modified": "2025-09-13T06:38:58.673480Z",
             "content_length": 24493454,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_Stony-Tombs--The-Hole--Tamoe-Highland.mpq",
-            "crc": "29d11234",
-            "last_modified": "2025-09-13T05:44:22.783636Z",
-            "content_length": 24493418,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_Blood-Moor--Arcane-Sanctuary--Outer-Steppes.mpq",
-            "crc": "67a6d948",
-            "last_modified": "2025-09-13T05:44:22.746636Z",
-            "content_length": 24493315,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17i_2_Blood-Moor--Arcane-Sanctuary--Outer-Steppes.mpq",
             "crc": "67a6d948",
-            "last_modified": "2025-09-13T05:44:22.911635Z",
+            "last_modified": "2025-09-13T06:38:58.616479Z",
             "content_length": 24493315,
             "ignore_crc": false,
             "deprecated": false
@@ -91,7 +59,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_Stony-Tombs--The-Hole--Tamoe-Highland.mpq",
             "crc": "29d11234",
-            "last_modified": "2025-09-13T05:44:22.985635Z",
+            "last_modified": "2025-09-13T06:38:58.691480Z",
             "content_length": 24493418,
             "ignore_crc": false,
             "deprecated": false
@@ -99,7 +67,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_Tamoe-Highland--Rocky-Waste--City-of-Damned.mpq",
             "crc": "39c14297",
-            "last_modified": "2025-09-13T05:44:23.003635Z",
+            "last_modified": "2025-09-13T06:38:58.710480Z",
             "content_length": 24493361,
             "ignore_crc": false,
             "deprecated": false
@@ -107,7 +75,7 @@
         {
             "name": "Patch_D2_R_1_17i_2_Stony-Tombs--Ancient-Tunnels--Arachnid-Lair.mpq",
             "crc": "8cdea700",
-            "last_modified": "2025-09-13T05:44:22.948635Z",
+            "last_modified": "2025-09-13T06:38:58.654480Z",
             "content_length": 24493434,
             "ignore_crc": false,
             "deprecated": false
@@ -115,40 +83,16 @@
         {
             "name": "Patch_D2_R_1_17i_2_Halls-of-the-Dead--City-of-Damned--Outer-Steppes.mpq",
             "crc": "1c7fc2bd",
-            "last_modified": "2025-09-13T05:44:22.930635Z",
+            "last_modified": "2025-09-13T06:38:58.635479Z",
             "content_length": 24493422,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_unterrorized.mpq",
-            "crc": "b20f994d",
-            "last_modified": "2025-09-13T05:44:22.838635Z",
-            "content_length": 24493233,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "Patch_D2_R_1_17i_2_The-Hole--Halls-of-the-Dead--Lower-Kurast.mpq",
             "crc": "e9e6eddb",
-            "last_modified": "2025-09-13T05:44:23.022635Z",
+            "last_modified": "2025-09-13T06:38:58.729481Z",
             "content_length": 24493391,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_Tamoe-Highland--Rocky-Waste--City-of-Damned.mpq",
-            "crc": "39c14297",
-            "last_modified": "2025-09-13T05:44:22.801636Z",
-            "content_length": 24493361,
-            "ignore_crc": false,
-            "deprecated": false
-        },
-        {
-            "name": "Patch_D2_R_1_17i.2_Ancient-Tunnels--Halls-of-the-Dead--Rocky-Waste.mpq",
-            "crc": "f3e01183",
-            "last_modified": "2025-09-13T05:44:22.728636Z",
-            "content_length": 24493374,
             "ignore_crc": false,
             "deprecated": false
         }
