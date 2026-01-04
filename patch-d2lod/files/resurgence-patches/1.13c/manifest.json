@@ -3,7 +3,7 @@
         {
             "name": "D2Launch.dll",
             "crc": "d3b564f0",
-            "last_modified": "2026-01-02T13:48:12.561957Z",
+            "last_modified": "2026-01-04T22:19:42.227684Z",
             "content_length": 167936,
             "ignore_crc": false,
             "deprecated": false
@@ -11,7 +11,7 @@
         {
             "name": "SmackW32.dll",
             "crc": "614a9406",
-            "last_modified": "2026-01-02T13:48:12.612957Z",
+            "last_modified": "2026-01-04T22:19:42.279685Z",
             "content_length": 95232,
             "ignore_crc": false,
             "deprecated": false
@@ -19,7 +19,7 @@
         {
             "name": "D2Win.dll",
             "crc": "c1bd836d",
-            "last_modified": "2026-01-02T13:48:12.564957Z",
+            "last_modified": "2026-01-04T22:19:42.231684Z",
             "content_length": 147456,
             "ignore_crc": false,
             "deprecated": false
@@ -27,7 +27,7 @@
         {
             "name": "D2Client.dll",
             "crc": "e07177d4",
-            "last_modified": "2026-01-02T13:48:12.547957Z",
+            "last_modified": "2026-01-04T22:19:42.213684Z",
             "content_length": 1093632,
             "ignore_crc": false,
             "deprecated": false
@@ -35,7 +35,7 @@
         {
             "name": "D2Lang.dll",
             "crc": "1d5e3144",
-            "last_modified": "2026-01-02T13:48:12.560957Z",
+            "last_modified": "2026-01-04T22:19:42.227684Z",
             "content_length": 77824,
             "ignore_crc": false,
             "deprecated": false
@@ -43,7 +43,7 @@
         {
             "name": "binkw32.dll",
             "crc": "5934b4a7",
-            "last_modified": "2026-01-02T13:48:12.612957Z",
+            "last_modified": "2026-01-04T22:19:42.279685Z",
             "content_length": 200704,
             "ignore_crc": false,
             "deprecated": false
@@ -51,7 +51,7 @@
         {
             "name": "D2VidTst.exe",
             "crc": "5ccab009",
-            "last_modified": "2026-01-02T13:48:12.563957Z",
+            "last_modified": "2026-01-04T22:19:42.230684Z",
             "content_length": 184320,
             "ignore_crc": false,
             "deprecated": false
@@ -59,7 +59,7 @@
         {
             "name": "D2Gdi.dll",
             "crc": "e080e0d9",
-            "last_modified": "2026-01-02T13:48:12.559957Z",
+            "last_modified": "2026-01-04T22:19:42.226684Z",
             "content_length": 53248,
             "ignore_crc": false,
             "deprecated": false
@@ -67,7 +67,7 @@
         {
             "name": "BNUpdate.exe",
             "crc": "aeef06d9",
-            "last_modified": "2026-01-02T13:48:12.540957Z",
+            "last_modified": "2026-01-04T22:19:42.206684Z",
             "content_length": 237568,
             "ignore_crc": false,
             "deprecated": false
@@ -75,7 +75,7 @@
         {
             "name": "D2DDraw.dll",
             "crc": "320947a3",
-            "last_modified": "2026-01-02T13:48:12.551957Z",
+            "last_modified": "2026-01-04T22:19:42.217684Z",
             "content_length": 69632,
             "ignore_crc": false,
             "deprecated": false
@@ -83,7 +83,7 @@
         {
             "name": "Fog.dll",
             "crc": "0a17388d",
-            "last_modified": "2026-01-02T13:48:12.567957Z",
+            "last_modified": "2026-01-04T22:19:42.233684Z",
             "content_length": 212992,
             "ignore_crc": false,
             "deprecated": false
@@ -91,7 +91,7 @@
         {
             "name": "Game.exe",
             "crc": "ea2f0e6e",
-            "last_modified": "2026-01-02T13:48:12.568957Z",
+            "last_modified": "2026-01-04T22:19:42.234684Z",
             "content_length": 61440,
             "ignore_crc": false,
             "deprecated": false
@@ -99,7 +99,7 @@
         {
             "name": "D2Multi.dll",
             "crc": "2631b2db",
-            "last_modified": "2026-01-02T13:48:12.562957Z",
+            "last_modified": "2026-01-04T22:19:42.229684Z",
             "content_length": 126976,
             "ignore_crc": false,
             "deprecated": false
@@ -107,7 +107,7 @@
         {
             "name": "D2Net.dll",
             "crc": "d0940c0f",
-            "last_modified": "2026-01-02T13:48:12.563957Z",
+            "last_modified": "2026-01-04T22:19:42.229684Z",
             "content_length": 49152,
             "ignore_crc": false,
             "deprecated": false
@@ -115,7 +115,7 @@
         {
             "name": "D2CMP.dll",
             "crc": "e999ac9d",
-            "last_modified": "2026-01-02T13:48:12.542957Z",
+            "last_modified": "2026-01-04T22:19:42.208684Z",
             "content_length": 163840,
             "ignore_crc": false,
             "deprecated": false
@@ -123,7 +123,7 @@
         {
             "name": "ijl11.dll",
             "crc": "c00fe21d",
-            "last_modified": "2026-01-02T13:48:12.613957Z",
+            "last_modified": "2026-01-04T22:19:42.280685Z",
             "content_length": 180224,
             "ignore_crc": false,
             "deprecated": false
@@ -131,7 +131,7 @@
         {
             "name": "Patch.txt",
             "crc": "955c6c24",
-            "last_modified": "2026-01-02T13:48:12.569957Z",
+            "last_modified": "2026-01-04T22:19:42.235684Z",
             "content_length": 96306,
             "ignore_crc": false,
             "deprecated": false
@@ -139,7 +139,7 @@
         {
             "name": "D2gfx.dll",
             "crc": "f1e0baf6",
-            "last_modified": "2026-01-02T13:48:12.564957Z",
+            "last_modified": "2026-01-04T22:19:42.231684Z",
             "content_length": 77824,
             "ignore_crc": false,
             "deprecated": false
@@ -147,7 +147,7 @@
         {
             "name": "D2.LNG",
             "crc": "b1e8e528",
-            "last_modified": "2026-01-02T13:48:12.541957Z",
+            "last_modified": "2026-01-04T22:19:42.207684Z",
             "content_length": 1536,
             "ignore_crc": false,
             "deprecated": false
@@ -155,7 +155,7 @@
         {
             "name": "Bnclient.dll",
             "crc": "a4cd6743",
-            "last_modified": "2026-01-02T13:48:12.541957Z",
+            "last_modified": "2026-01-04T22:19:42.207684Z",
             "content_length": 139264,
             "ignore_crc": false,
             "deprecated": false
@@ -163,7 +163,7 @@
         {
             "name": "Patch_D2.mpq",
             "crc": "30fc25bc",
-            "last_modified": "2026-01-02T13:48:12.610957Z",
+            "last_modified": "2026-01-04T22:19:42.277685Z",
             "content_length": 10445319,
             "ignore_crc": false,
             "deprecated": false
@@ -171,7 +171,7 @@
         {
             "name": "D2sound.dll",
             "crc": "a1c34b29",
-            "last_modified": "2026-01-02T13:48:12.564957Z",
+            "last_modified": "2026-01-04T22:19:42.231684Z",
             "content_length": 98304,
             "ignore_crc": false,
             "deprecated": false
@@ -179,7 +179,7 @@
         {
             "name": "License.html",
             "crc": "7efacd54",
-            "last_modified": "2026-01-02T13:48:12.568957Z",
+            "last_modified": "2026-01-04T22:19:42.234684Z",
             "content_length": 136745,
             "ignore_crc": false,
             "deprecated": false
@@ -187,7 +187,7 @@
         {
             "name": "D2Direct3D.dll",
             "crc": "64ad16a0",
-            "last_modified": "2026-01-02T13:48:12.551957Z",
+            "last_modified": "2026-01-04T22:19:42.218684Z",
             "content_length": 110592,
             "ignore_crc": false,
             "deprecated": false
@@ -195,7 +195,7 @@
         {
             "name": "D2Glide.dll",
             "crc": "385dc521",
-            "last_modified": "2026-01-02T13:48:12.560957Z",
+            "last_modified": "2026-01-04T22:19:42.226684Z",
             "content_length": 98304,
             "ignore_crc": false,
             "deprecated": false
@@ -203,7 +203,7 @@
         {
             "name": "D2Common.dll",
             "crc": "34f3b1f6",
-            "last_modified": "2026-01-02T13:48:12.550957Z",
+            "last_modified": "2026-01-04T22:19:42.216684Z",
             "content_length": 679936,
             "ignore_crc": false,
             "deprecated": false
@@ -211,7 +211,7 @@
         {
             "name": "D2Game.dll",
             "crc": "abb59ee3",
-            "last_modified": "2026-01-02T13:48:12.557957Z",
+            "last_modified": "2026-01-04T22:19:42.223684Z",
             "content_length": 1138688,
             "ignore_crc": false,
             "deprecated": false
@@ -219,7 +219,7 @@
         {
             "name": "Diablo II.exe",
             "crc": "33d0d3ee",
-            "last_modified": "2026-01-02T13:48:12.565957Z",
+            "last_modified": "2026-01-04T22:19:42.232684Z",
             "content_length": 36864,
             "ignore_crc": false,
             "deprecated": false
@@ -227,7 +227,7 @@
         {
             "name": "D2MCPClient.dll",
             "crc": "480a9856",
-            "last_modified": "2026-01-02T13:48:12.562957Z",
+            "last_modified": "2026-01-04T22:19:42.228684Z",
             "content_length": 49152,
             "ignore_crc": false,
             "deprecated": false
