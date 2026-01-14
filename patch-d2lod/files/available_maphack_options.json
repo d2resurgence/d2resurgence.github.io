@@ -9,6 +9,10 @@
 	"Cosmic Rainbow",
 	"Classic"
   ],
+  "item_names": [
+	"Default",
+	"Cosmic Info"
+  ],
   "filter_blocks": [
   "Leveling",
 	"Amazon",
