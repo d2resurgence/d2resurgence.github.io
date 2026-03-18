@@ -11,12 +11,5 @@ The Resurrected version is currently in Beta and updates are infrequent, but it 
 
 
 ## Credits and acknowledgements
-* Mir Drualga (for SGD2FreeRes and dozens of other things)
-* planqi and all the others that have put work into keeping BH updated
-* whist (D2Template)
-* bayaraa (D2GL)
-* nokka (launcher)
 
-Resurgence isn't possible without the vast amount of information available at the Phrozen Keep. Special acknowledgements for: whist, Paul Siramy, Nefarius, volf, Necrolis, Kingpin, AlphA, Brother Laz, devurandom, dav92, cla$$is and Ric Faith.
-
-Special thanks to /u/AlvinsH0TJuicebox from [vastnet](http://vastnet.net/) for hosting our little server from day one. Definitely wouldn't have kept going without this help and solid provider.
+See [Credits.md](Credits.md).
