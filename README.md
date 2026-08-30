@@ -8,9 +8,13 @@ The Legacy version can be installed and played online by using [our launcher](ht
 
 ### Manual Installation
 
-For manual installation, version 1.13c for Diablo II: Lord of Destruction is required. Mod files are found in the following folder of this repository:
+For manual installation, version 1.13c for Diablo II: Lord of Destruction is needed. Required files are found in the following folders of this repository:
 
-[patch-d2lod/files/resurgence-patches/current/](https://github.com/d2resurgence/d2resurgence.github.io/tree/main/patch-d2lod/files/resurgence-patches/current)
+[Mod: patch-d2lod/files/resurgence-patches/current/](https://github.com/d2resurgence/d2resurgence.github.io/tree/main/patch-d2lod/files/resurgence-patches/current)
+
+[BH: patch-d2lod/files/resurgence-patches/maphack_default/](https://github.com/d2resurgence/d2resurgence.github.io/tree/main/patch-d2lod/files/resurgence-patches/maphack_default)
+
+[SGD2FreeRes: patch-d2lod/files/resurgence-patches/hd_3.0/](https://github.com/d2resurgence/d2resurgence.github.io/tree/main/patch-d2lod/files/resurgence-patches/hd_3.0)
 
 ## Diablo II: Resurrected
 The Resurrected version is currently in Beta and updates are infrequent, but it is playable. Unlike Legacy Resurgence, there is no multiplayer. Visit the [Nexus Mods page](https://www.nexusmods.com/diablo2resurrected/mods/128/) for details and installation information. 
