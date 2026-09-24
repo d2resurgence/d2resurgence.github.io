@@ -1,3 +1,28 @@
 {
-    "files": []
+    "files": [
+        {
+            "name": "D2Resurgence.dll",
+            "crc": "9b584c47",
+            "last_modified": "2026-09-24T19:06:59.367244Z",
+            "content_length": 39424,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "Patch_D2_9248PM.mpq",
+            "crc": "9f84ee68",
+            "last_modified": "2026-09-24T19:06:59.374244Z",
+            "content_length": 21880048,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "D2ResurgenceServer.dll",
+            "crc": "7b9eb779",
+            "last_modified": "2026-09-24T19:06:59.368244Z",
+            "content_length": 38912,
+            "ignore_crc": false,
+            "deprecated": false
+        }
+    ]
 }
