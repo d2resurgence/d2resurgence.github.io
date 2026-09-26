@@ -3,7 +3,7 @@
         {
             "name": "buffs.mpq",
             "crc": "b61f5dda",
-            "last_modified": "2026-09-25T13:40:35.628527Z",
+            "last_modified": "2026-09-26T22:32:19.949415Z",
             "content_length": 96632,
             "ignore_crc": false,
             "deprecated": false
@@ -11,23 +11,23 @@
         {
             "name": "BH_settings.cfg",
             "crc": "",
-            "last_modified": "2026-09-25T13:40:35.628527Z",
+            "last_modified": "2026-09-26T22:32:19.949415Z",
             "content_length": 11984,
             "ignore_crc": true,
             "deprecated": false
         },
         {
             "name": "BH.dll",
-            "crc": "ae3c101d",
-            "last_modified": "2026-09-25T13:40:35.628527Z",
-            "content_length": 1492992,
+            "crc": "76b43814",
+            "last_modified": "2026-09-26T22:32:19.949415Z",
+            "content_length": 1492480,
             "ignore_crc": false,
             "deprecated": false
         },
         {
             "name": "BH_build_lines.txt",
             "crc": "ebdda494",
-            "last_modified": "2026-09-25T13:40:35.628527Z",
+            "last_modified": "2026-09-26T22:32:19.949415Z",
             "content_length": 36473,
             "ignore_crc": false,
             "deprecated": false
@@ -35,7 +35,7 @@
         {
             "name": "BH.cfg",
             "crc": "",
-            "last_modified": "2026-09-25T13:40:35.622527Z",
+            "last_modified": "2026-09-26T22:32:19.943415Z",
             "content_length": 681905,
             "ignore_crc": true,
             "deprecated": false
