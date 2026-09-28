@@ -1,3 +1,20 @@
 {
-    "files": []
+    "files": [
+        {
+            "name": "D2Resurgence.dll",
+            "crc": "53479799",
+            "last_modified": "2026-09-28T23:25:03.246876Z",
+            "content_length": 39424,
+            "ignore_crc": false,
+            "deprecated": false
+        },
+        {
+            "name": "D2ResurgenceServer.dll",
+            "crc": "22d63726",
+            "last_modified": "2026-09-28T23:25:03.248496Z",
+            "content_length": 38912,
+            "ignore_crc": false,
+            "deprecated": false
+        }
+    ]
 }
